@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "PAGE TITLE"
+title: "TEST"
 permalink: /test/
 ---
 
@@ -8,4 +8,6 @@ permalink: /test/
 
 This is a meaningless test site!
 
-![image-20200818191833619](test.assets/image-20200818191833619.png)
+
+
+![image-20200818192147648](test.assets/image-20200818192147648.png)
