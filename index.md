@@ -21,14 +21,14 @@ I wish I could devote myself to the research and education of computer science i
 - **Formalization of Completeness Proof of Propositional Dynamic Logic in Coq**
 - **Supervisor Control of Timed Discrete-Event Systems**
 
-See details in [Projects](/project/)
+See details in [Projects](/project/) .
 
 
 
 # **Publication**
 
-- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.
+- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020. [[PDF]]()
 
 
 
-# Other Projects
+# **Other Projects**
