@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Publication"
+title: "Publications"
 permalink: /publication/
+published: false
 ---
 
 
