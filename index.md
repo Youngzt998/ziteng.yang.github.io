@@ -39,9 +39,9 @@ See details in [Projects](/project/) .
 
 
 - **SimPL Interpreter**: an interpreter for a simple programming language called *SimPL*, implemented in 2020.
-- **Naive-Airdrop**: a safe application for file synchronization between PC and Android, implemented in 2019. (My first project using Java.)
-- **In The Garden**: a mini puzzle game (Chinese version only), created in 2018. (My first mini-project for game design.)
-- **Re-implementation of deque and map in STL**: Re-implement the data structure *deque* (using Block List) and *map* (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in 2018.
+- **Naive-Airdrop**: an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in 2019.  (Both my first project using Java and first practical project for life.)
+- **In The Garden**: a mini puzzle game (Chinese version only), created in 2018, with other two partner. (My first mini-project of game design.)
+- **Re-implementation of deque and map in STL**: Re-implement the data structure *deque* (using Block List) and *map* (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in 2018. (My first project of programming.)
 
 
 
