@@ -24,7 +24,7 @@ I wish I could devote myself to the research and education of computer science i
 
 - **Verification-aided Compiler Optimization**
 
-  We implement a new method of program optimization of C programs with annotation that contains the verification information of the program.  A conditional definition of "forward simulation" and "backward simulation"  for compile correctness was proposed with crucial properties proved formally in Coq. The new methods was being realizing based on [CompCert](http://compcert.inria.fr/) compiler. We also implemented a translation path for annotated CompCert C source language to annotated RTL intermediate language. Further details are confidential.
+  We implement a new method of program optimization of C programs with annotation that contains the verification information of the program.  A conditional definition of "forward simulation" and "backward simulation"  for compile correctness was proposed with crucial properties proved formally in Coq. The new methods was being realized based on [CompCert](http://compcert.inria.fr/) compiler. We also implemented a translation path for annotated CompCert C source language to annotated RTL intermediate language. Further details are confidential.
 
 - **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**
 
