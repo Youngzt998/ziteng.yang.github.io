@@ -13,7 +13,7 @@
 <meta property="og:url" content="/project/" />
 <meta property="og:site_name" content="Ziteng Yang (杨子腾)" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"/project/","headline":"Projects","description":"Department of Computer Science and Engineering, Shanghai Jiao Tong University","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Projects","url":"/project/","description":"Department of Computer Science and Engineering, Shanghai Jiao Tong University","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Ziteng Yang (杨子腾)" /></head>
 <body><header class="site-header" role="banner">
@@ -33,34 +33,126 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <div class="home"><h1 class="page-heading">Projects</h1><h1 id="research-projects"><strong>Research Projects</strong></h1>
 
-  <header class="post-header">
-    <h1 class="post-title">Projects</h1>
-  </header>
+<h2 id="verification-aided-compiler-optimization"><strong>Verification-aided Compiler Optimization</strong></h2>
 
-  <div class="post-content">
-    <p>[This page is still under construction…]</p>
+<p>We are considering a new method of program optimization for C programs with annotation that contains the verification information of the program.  A conditional definition of “forward simulation” and “backward simulation”  for compiler correctness was proposed with crucial properties proved formally in Coq. The new methods was being realized based on <a href="http://compcert.inria.fr/">CompCert</a> compiler. We also implemented a translation path from annotated CompCert C source language to annotated RTL intermediate language.</p>
 
-<h2 id="research-projects"><strong>Research Projects</strong></h2>
+<p>Further details are confidential currently.</p>
+
+<h2 id="formalization-of-completeness-proof-of-propositional-dynamic-logic-in-coq-">**Formalization of Completeness Proof of Propositional Dynamic Logic in Coq **</h2>
+
+<p><a href="https://github.com/QinxiangCao/UnifySL">UnifySL</a> is a library of the proof assistant <a href="https://coq.inria.fr/">Coq</a> for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were realized using Coq’s type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.</p>
+
+<p>My work aimed to investigate the finite model methods, starting the exploration from the formalizing of propositional dynamic logic (PDL), including the proof theories, semantic definitions, the proof of its soundness and  the proof of its weak completeness, making the best of framework and tools in UnifySL. Currently the completeness proof was finished, and we expect to extract a new framework of high-order abstraction for finite model methods in the future.</p>
+
+<p>During my work, a lot of useful lemmas was also proved as a supplementary of the UnifySL library.</p>
+
+<p>The following are the critical definitions and lemmas:</p>
 
 <ul>
   <li>
-    <p><strong>Verification-aided Compiler Optimization</strong></p>
+    <p>The abstract type class of PDL</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Class Program : Type:={
+  program: Type;
+}.
+  
+Class PropositionalDynamicLanguage (L:Language)(Pro: Program):Type:={
+  boxp: program -&gt; expr -&gt; expr
+}.
+  
+Class ProgramOperation (L:Language)(Pro:Program):Type:= {
+  choice: program -&gt; program -&gt; program;
+  composition: program -&gt; program -&gt; program;
+  iteration: program -&gt; program;
+  test: expr -&gt; program
+}.
+</code></pre></div>    </div>
   </li>
   <li>
-    <p><strong>Formalization of Completeness Proof of Propositional Dynamic Logic in Coq</strong></p>
+    <p>The deep-embedded syntax of PDL</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Inductive program {Sigma: PropositionalVariables}{ProV: ProgramVariables}: Type :=
+  | choice: program -&gt; program -&gt; program
+  | composition: program -&gt; program -&gt; program
+  | iteration: program -&gt; program
+  | test: expr -&gt; program
+  | basep: BaseP -&gt; program
+with
+ expr {Sigma: PropositionalVariables} {ProV: ProgramVariables}: Type :=
+  | impp : expr -&gt; expr -&gt; expr
+  | orp : expr -&gt; expr -&gt; expr
+  | andp: expr -&gt; expr -&gt; expr
+  | falsep : expr
+  | boxp: program -&gt; expr -&gt; expr
+  | varp : Var -&gt; expr
+.
+</code></pre></div>    </div>
   </li>
   <li>
-    <p><strong>Supervisor Control of Timed Discrete-Event Systems</strong></p>
+    <p>The <em>Truth Lemma</em> and <em>Existence Lemma</em> (two mutually inductive lemmas):</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lemma TRUTH_LEMMA:
+  forall (psi x: exp) m Phi,
+    rel psi m Phi -&gt; 
+      FL_closure_construction psi x -&gt;
+        (KRIPKE: canonical_Kmodel psi, m |= x &lt;-&gt; proj1_sig Phi x)
+with EXISTENCE_LEMMA:
+  forall (pi: prog)(psi x: exp)(m : Kworlds (canonical_Kmodel psi)),
+    FL_Atom psi (proj1_sig m) -&gt; 
+      FL_closure_construction psi ([pi]x) -&gt;
+        (proj1_sig m ([pi]x) &lt;-&gt; forall n, R_D pi m n -&gt; proj1_sig n x).
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>The <em>Weak Completeness</em> Theorem</p>
   </li>
 </ul>
 
-<h2 id="other-projects"><strong>Other Projects</strong></h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Theorem complete_weakly: weakly_complete GP SM (KripkeModelClass _ kMC).
+</code></pre></div></div>
 
-  </div>
+<h2 id="supervisor-control-of-timed-discrete-event-systems-">**Supervisor Control of Timed Discrete-Event Systems **</h2>
 
-</article>
+<p>The supervisory control theory of Discrete Event Systems (DES) is a formal framework for the synthesis of control logic for complex automated systems. We investigate the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event. The design objective is to synthesize a maximally-permissive supervisor to restrict the behavior of the system such that the closed-loop language is within a safe specification language. Relevant paper was accepted by <a href="https://www.ifac2020.org/">IFAC2020</a>,  see Publications.
+We also hope to investigate the non-blocking problem employing nondeterministic control method in the future.</p>
+
+<p><img src="./papers/IFAC2020/example.png" alt="avatar" /></p>
+
+<h1 id="other-projects"><strong>Other Projects</strong></h1>
+
+<ul>
+  <li>
+    <p><strong>SimPL Interpreter</strong>: an interpreter for a simple programming language called <em>SimPL</em>, implemented in <strong>2020</strong>.</p>
+  </li>
+  <li>
+    <p><strong>Naive-Airdrop</strong>: an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in <strong>2019</strong>.</p>
+
+    <p>(Both my first project using Java and first practical project for real life.)</p>
+  </li>
+  <li>
+    <p><strong>In The Garden</strong>: a mini puzzle game (Chinese version only), created in <strong>2018</strong>, with other two partner.</p>
+
+    <p>(My first mini-project of game design.)</p>
+  </li>
+  <li>
+    <p><strong>Re-implementation of <em>deque</em> and <em>map</em> of  C++ Standard Template Library (STL)</strong>: Re-implement the data structure <em>deque</em> (using Block List) and <em>map</em> (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in <strong>2018</strong>.</p>
+
+    <p>(My first project of programming.)</p>
+  </li>
+</ul>
+
+<h2 class="post-list-heading">Posts</h2>
+    <ul class="post-list"><li><span class="post-meta">Aug 18, 2020</span>
+        <h3>
+          <a class="post-link" href="/test/2020/08/18/welcome.html">
+            Welcome to Ziteng Yang&#39;s 
+          </a>
+        </h3></li></ul>
+
+    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
 
       </div>
     </main><footer class="site-footer h-card">
@@ -76,7 +168,7 @@
           <li class="p-name">Ziteng Yang (杨子腾)</li><li><a class="u-email" href="mailto:youngster@sjtu.edu.cn">youngster@sjtu.edu.cn</a></li></ul>
       </div>
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/Youngzt998"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">Youngzt998</span></a></li><li><a href="https://www.twitter.com/Youngster38324"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">Youngster38324</span></a></li></ul>
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/Youngzt998"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">Youngzt998</span></a></li><li><a href="https://www.twitter.com/Ziteng__Yang"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">Ziteng__Yang</span></a></li></ul>
 </div>
 
       <div class="footer-col footer-col-3">

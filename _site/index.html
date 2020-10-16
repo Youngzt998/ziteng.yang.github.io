@@ -13,7 +13,7 @@
 <meta property="og:url" content="/" />
 <meta property="og:site_name" content="Ziteng Yang (杨子腾)" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"/","headline":"Ziteng Yang (杨子腾)","name":"Ziteng Yang (杨子腾)","description":"Department of Computer Science and Engineering, Shanghai Jiao Tong University","@context":"https://schema.org"}</script>
+{"@type":"WebSite","headline":"Ziteng Yang (杨子腾)","url":"/","name":"Ziteng Yang (杨子腾)","description":"Department of Computer Science and Engineering, Shanghai Jiao Tong University","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Ziteng Yang (杨子腾)" /></head>
 <body><header class="site-header" role="banner">
@@ -45,37 +45,24 @@
 
 <h1 id="research-projects"><strong>Research Projects</strong></h1>
 
+<p>See more details in <a href="/project/">Projects</a> .</p>
+
 <p><strong>Currently：</strong></p>
 
 <ul>
   <li>
-    <p><strong>Verification-aided Compiler Optimization</strong></p>
-
-    <p>We implement a new method of program optimization for C programs with annotation that contains the verification information of the program.  A conditional definition of “forward simulation” and “backward simulation”  for compile correctness was proposed with crucial properties proved formally in Coq. The new methods was being realized based on <a href="http://compcert.inria.fr/">CompCert</a> compiler. We also implemented a translation path from annotated CompCert C source language to annotated RTL intermediate language. Further details are confidential.</p>
+    <p><strong>Verification-aided Compiler Optimization</strong>: An expedition to support compiler optimization aided by verification information carried by programs</p>
   </li>
   <li>
-    <p><strong>Finite Canonical Model for Completeness Theory in Coq Based on UnifySL</strong></p>
-
-    <p><a href="https://github.com/QinxiangCao/UnifySL">UnifySL</a> is a library of the proof assistant <a href="https://coq.inria.fr/">Coq</a> for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were realized using Coq’s type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.</p>
-
-    <p>My work aimed to investigate the finite model methods, starting from the formalizing of propositional dynamic logic (PDL), including the proof theories, semantic definitions, the proof of its soundness and  the proof of its weak completeness, making the best of framework and tools in UnifySL. Currently the completeness proof was finished, and we are extracting a new framework of high-order abstraction for finite model methods.</p>
-
-    <p>During my work, a lot of useful lemmas was also proved as a supplementary of the UnifySL library.</p>
+    <p><strong>Finite Canonical Model for Completeness Theory in Coq Based on UnifySL</strong>: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  <a href="https://github.com/QinxiangCao/UnifySL"><em>UnifySL</em></a> in <a href="https://coq.inria.fr/"><em>Coq</em></a> proof assistant.</p>
   </li>
 </ul>
 
 <p><strong>Previously:</strong></p>
 
 <ul>
-  <li>
-    <p><strong>Supervisor Control of Timed Discrete-Event Systems</strong></p>
-
-    <p>The supervisory control theory of Discrete Event Systems (DES) is a formal framework for the synthesis of control logic for complex automated systems. We investigate the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event. The design objective is to synthesize a maximally-permissive supervisor to restrict the behavior of the system such that the closed-loop language is within a safe specification language. Relevant paper was accepted by <a href="https://www.ifac2020.org/">IFAC2020</a>,  see Publications.
-We also hope to investigate the non-blocking problem employing nondeterministic control method in the future.</p>
-  </li>
+  <li><strong>Supervisor Control of Timed Discrete-Event Systems</strong></li>
 </ul>
-
-<p>See more details in <a href="/project/">Projects</a> .</p>
 
 <h1 id="publication"><strong>Publication</strong></h1>
 
@@ -100,18 +87,21 @@ We also hope to investigate the non-blocking problem employing nondeterministic 
   </li>
 </ul>
 
-<h1 id="other-projects-nonacademic"><strong>Other Projects</strong> (Nonacademic)</h1>
+<h1 id="other-projects"><strong>Other Projects</strong></h1>
 
 <p>The following projects are selected either from course work or my entertainment during spare time:</p>
 
 <ul>
   <li>
-    <p><strong>SimPL Interpreter</strong>: an interpreter for a simple programming language called <em>SimPL</em>, implemented in <strong>2020</strong>.</p>
+    <p><a href="https://github.com/Youngzt998/SimPL-Interpreter"><strong>SimPL Interpreter</strong></a>: an interpreter for a simple programming language called <em>SimPL</em>, implemented in <strong>2020</strong>.</p>
   </li>
   <li>
-    <p><strong>Naive-Airdrop</strong>: an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in <strong>2019</strong>.</p>
+    <p><a href="https://github.com/Youngzt998/Naive-Airdrop"><strong>Naive-Airdrop</strong></a>: an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in <strong>2019</strong>.</p>
 
     <p>(Both my first project using Java and first practical project for real life.)</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/Youngzt998/Operating-System-Projects/blob/master/2/Report-as-an-Instruction.pdf"><strong>Linux (Android) Memory Management</strong></a>: Replacement of the original page replacement algorithm with a new one in a given specification, implemented in <strong>2018</strong>.</p>
   </li>
   <li>
     <p><strong>In The Garden</strong>: a mini puzzle game (Chinese version only), created in <strong>2018</strong>, with other two partner.</p>
@@ -119,7 +109,7 @@ We also hope to investigate the non-blocking problem employing nondeterministic 
     <p>(My first mini-project of game design.)</p>
   </li>
   <li>
-    <p><strong>Re-implementation of <em>deque</em> and <em>map</em> of  C++ Standard Template Library (STL)</strong>: Re-implement the data structure <em>deque</em> (using Block List) and <em>map</em> (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in <strong>2018</strong>.</p>
+    <p><a href="https://github.com/Youngzt998/Re-implementation-of-deque-and-map"><strong>Re-implementation of <em>deque</em> and <em>map</em> of  C++ Standard Template Library (STL)</strong>:</a> Re-implement the data structure <em>deque</em> (using Block List) and <em>map</em> (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in <strong>2018</strong>.</p>
 
     <p>(My first project of programming.)</p>
   </li>
@@ -178,7 +168,7 @@ We also hope to investigate the non-blocking problem employing nondeterministic 
           <li class="p-name">Ziteng Yang (杨子腾)</li><li><a class="u-email" href="mailto:youngster@sjtu.edu.cn">youngster@sjtu.edu.cn</a></li></ul>
       </div>
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/Youngzt998"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">Youngzt998</span></a></li><li><a href="https://www.twitter.com/Youngster38324"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">Youngster38324</span></a></li></ul>
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/Youngzt998"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">Youngzt998</span></a></li><li><a href="https://www.twitter.com/Ziteng__Yang"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">Ziteng__Yang</span></a></li></ul>
 </div>
 
       <div class="footer-col footer-col-3">

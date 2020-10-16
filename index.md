@@ -18,34 +18,19 @@ Here is my [CV](./cv/CV_ZitengYang_EN.pdf).
 
 # **Research Projects**
 
+See more details in [Projects](/project/) .
+
 **Currently：**
 
-- **Verification-aided Compiler Optimization**
+- **Verification-aided Compiler Optimization**: An expedition to support compiler optimization aided by verification information carried by programs 
 
-  We implement a new method of program optimization for C programs with annotation that contains the verification information of the program.  A conditional definition of "forward simulation" and "backward simulation"  for compile correctness was proposed with crucial properties proved formally in Coq. The new methods was being realized based on [CompCert](http://compcert.inria.fr/) compiler. We also implemented a translation path from annotated CompCert C source language to annotated RTL intermediate language. Further details are confidential.
-
-- **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**
-
-  [UnifySL](https://github.com/QinxiangCao/UnifySL) is a library of the proof assistant [Coq](https://coq.inria.fr/) for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were realized using Coq's type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.
-
-  My work aimed to investigate the finite model methods, starting from the formalizing of propositional dynamic logic (PDL), including the proof theories, semantic definitions, the proof of its soundness and  the proof of its weak completeness, making the best of framework and tools in UnifySL. Currently the completeness proof was finished, and we are extracting a new framework of high-order abstraction for finite model methods. 
-
-  During my work, a lot of useful lemmas was also proved as a supplementary of the UnifySL library. 
-
-
+- **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) in [*Coq*](https://coq.inria.fr/) proof assistant.
 
 **Previously:**
 
 - **Supervisor Control of Timed Discrete-Event Systems** 
 
-  The supervisory control theory of Discrete Event Systems (DES) is a formal framework for the synthesis of control logic for complex automated systems. We investigate the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event. The design objective is to synthesize a maximally-permissive supervisor to restrict the behavior of the system such that the closed-loop language is within a safe specification language. Relevant paper was accepted by [IFAC2020](https://www.ifac2020.org/),  see Publications.
-  We also hope to investigate the non-blocking problem employing nondeterministic control method in the future.
-
   
-
-See more details in [Projects](/project/) .
-
-
 
 # **Publication**
 
@@ -66,21 +51,23 @@ See more details in [Projects](/project/) .
 
 
 
-# **Other Projects** (Nonacademic)
+# **Other Projects**
 
 The following projects are selected either from course work or my entertainment during spare time:
 
-- **SimPL Interpreter**: an interpreter for a simple programming language called *SimPL*, implemented in **2020**.
+- [**SimPL Interpreter**](https://github.com/Youngzt998/SimPL-Interpreter): an interpreter for a simple programming language called *SimPL*, implemented in **2020**.
 
-- **Naive-Airdrop**: an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in **2019**.  
+- [**Naive-Airdrop**](https://github.com/Youngzt998/Naive-Airdrop): an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in **2019**.  
 
   (Both my first project using Java and first practical project for real life.)
+
+- [**Linux (Android) Memory Management**](https://github.com/Youngzt998/Operating-System-Projects/blob/master/2/Report-as-an-Instruction.pdf): Replacement of the original page replacement algorithm with a new one in a given specification, implemented in **2018**.
 
 - **In The Garden**: a mini puzzle game (Chinese version only), created in **2018**, with other two partner. 
 
   (My first mini-project of game design.)
 
-- **Re-implementation of *deque* and *map* of  C++ Standard Template Library (STL)**: Re-implement the data structure *deque* (using Block List) and *map* (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in **2018**. 
+- [**Re-implementation of *deque* and *map* of  C++ Standard Template Library (STL)**:](https://github.com/Youngzt998/Re-implementation-of-deque-and-map) Re-implement the data structure *deque* (using Block List) and *map* (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in **2018**. 
 
   (My first project of programming.)
 
