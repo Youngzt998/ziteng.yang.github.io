@@ -8,15 +8,13 @@ title: ""
 
 # **About**
 
-I'm currently a senior year undergraduate student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), major in Computer Science and Technology. 
+I'm currently a senior year undergraduate student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/). 
 
 My research interests currently lies in formal methods, especially formal verification  and formalization of mathematical theorems. As an undergraduate students, I'm learning about more amazing research fields. I was advised by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) at present, before which I studied in [Xiang Yin's](http://xiangyin.sjtu.edu.cn/) group.
 
-Here is my [CV](./cv/CV_ZitengYang_EN.pdf).
-
 I wish I could devote myself to the research and education of computer science in the future, so I am seeking a place to pursue Ph. D. degree.
 
-
+Here is my [CV](./cv/CV_ZitengYang_EN.pdf).
 
 # **Research Projects**
 
@@ -24,7 +22,7 @@ I wish I could devote myself to the research and education of computer science i
 
 - **Verification-aided Compiler Optimization**
 
-  We implement a new method of program optimization of C programs with annotation that contains the verification information of the program.  A conditional definition of "forward simulation" and "backward simulation"  for compile correctness was proposed with crucial properties proved formally in Coq. The new methods was being realized based on [CompCert](http://compcert.inria.fr/) compiler. We also implemented a translation path for annotated CompCert C source language to annotated RTL intermediate language. Further details are confidential.
+  We implement a new method of program optimization for C programs with annotation that contains the verification information of the program.  A conditional definition of "forward simulation" and "backward simulation"  for compile correctness was proposed with crucial properties proved formally in Coq. The new methods was being realized based on [CompCert](http://compcert.inria.fr/) compiler. We also implemented a translation path from annotated CompCert C source language to annotated RTL intermediate language. Further details are confidential.
 
 - **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**
 
@@ -38,7 +36,7 @@ I wish I could devote myself to the research and education of computer science i
 
 **Previously:**
 
-- **Supervisor Control of Timed Discrete-Event Systems**
+- **Supervisor Control of Timed Discrete-Event Systems** 
 
   The supervisory control theory of Discrete Event Systems (DES) is a formal framework for the synthesis of control logic for complex automated systems. We investigate the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event. The design objective is to synthesize a maximally-permissive supervisor to restrict the behavior of the system such that the closed-loop language is within a safe specification language. Relevant paper was accepted by [IFAC2020](https://www.ifac2020.org/),  see Publications.
   We also hope to investigate the non-blocking problem employing nondeterministic control method in the future.
@@ -96,9 +94,20 @@ See more details in [Projects](/project/) .
 
 # **Miscellany**
 
-## Sentences Teaches Me A Lot
+## Sentences Teach Me a Lot
 
 - "Talk is cheap. Show me the code." --- Linus Torvalds
+
+
+
+
+
+## Current Future Plans
+
+- Find a place to pursue a doctoral degree;
+- Graduate successfully;
+- Learn more things in Logics, Mathematics and Computer Science (especially System and Theory);
+- Raise a cat within 5 years; Run a "Cat Café"  and do research there after graduation;
 
 
 
@@ -109,13 +118,4 @@ See more details in [Projects](/project/) .
 - Movies: *Interstellar* (the favorite one), *The Dark Knight*,  movies from *Marvel* Cinematic Universe and *DC* Extended Universe, etc.
 - Games: *Red Dead Redemption 2* (the favorite one), *Life is Strange*, *Plants VS. Zombies*.
 - Animals: Cats, dogs, hamsters.
-
-
-
-## Current Future Plans
-
-- Find a place to pursue a doctoral degree;
-- Graduate successfully;
-- Learn more things in Logics, Mathematics and Computer Science (especially System and Theory);
-- Raise a cat within 5 years; Run a "Cat Café"  and do research there after graduation;
 
