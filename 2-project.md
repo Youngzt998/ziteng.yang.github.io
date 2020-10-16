@@ -7,6 +7,8 @@ permalink: /project/
 
 
 
+
+
 # **Research Projects**
 
 ## **Verification-aided Compiler Optimization**
@@ -19,7 +21,7 @@ Further details are confidential currently.
 
 
 
-## **Formalization of Completeness Proof of Propositional Dynamic Logic in Coq **
+## **Formalization of Completeness Proof of Propositional Dynamic Logic in Coq**
 
 [UnifySL](https://github.com/QinxiangCao/UnifySL) is a library of the proof assistant [Coq](https://coq.inria.fr/) for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were realized using Coq's type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.
 
@@ -33,7 +35,7 @@ The following are the critical definitions and lemmas:
 
 - The abstract type class of PDL
 
-  ```
+  ```ocaml
   Class Program : Type:={
     program: Type;
   }.
@@ -52,7 +54,7 @@ The following are the critical definitions and lemmas:
 
 - The deep-embedded syntax of PDL
 
-  ```
+  ```ocaml
   Inductive program {Sigma: PropositionalVariables}{ProV: ProgramVariables}: Type :=
     | choice: program -> program -> program
     | composition: program -> program -> program
@@ -72,9 +74,9 @@ The following are the critical definitions and lemmas:
 
   
 
-- The *Truth Lemma* and *Existence Lemma* (two mutually inductive lemmas):
+- The *Truth Lemma* and *Existence Lemma* (mutually inductively):
 
-  ```
+  ```ocaml
   Lemma TRUTH_LEMMA:
     forall (psi x: exp) m Phi,
       rel psi m Phi -> 
@@ -91,7 +93,7 @@ The following are the critical definitions and lemmas:
 
 -  The *Weak Completeness* Theorem
 
-  ```
+  ```ocaml
   Theorem complete_weakly: weakly_complete GP SM (KripkeModelClass _ kMC).
   ```
 
@@ -102,32 +104,100 @@ The following are the critical definitions and lemmas:
 
 
 
-## **Supervisor Control of Timed Discrete-Event Systems **
+## **Supervisor Control of Timed Discrete-Event Systems**
 
-The supervisory control theory of Discrete Event Systems (DES) is a formal framework for the synthesis of control logic for complex automated systems. We investigate the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event. The design objective is to synthesize a maximally-permissive supervisor to restrict the behavior of the system such that the closed-loop language is within a safe specification language. Relevant paper was accepted by [IFAC2020](https://www.ifac2020.org/),  see Publications.
+The supervisory control theory of Discrete Event Systems (DES) is a formal framework for the synthesis of control logic for complex automated systems. We investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event. The design objective is to synthesize a maximally-permissive supervisor to restrict the behavior of the system such that the closed-loop language is within a safe specification language. Relevant paper was accepted by [21st IFAC World Congress, 2020](https://www.ifac2020.org/).
 We also hope to investigate the non-blocking problem employing nondeterministic control method in the future.
+
+
+
+The following figure illustrates our main process of synthesizing such safe and maximally permissive supervisory.
 
 ![avatar](./papers/IFAC2020/example.png)
 
+Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://www.ifac2020.org/).
+
+<video src="https://youtu.be/GtbxR_OKfXU" controls="controls" width="500" height="300">You browser dose not support this video! </video>
 
 
 
 
 
+---
 
-# **Other Projects**
 
-- **SimPL Interpreter**: an interpreter for a simple programming language called *SimPL*, implemented in **2020**.
 
-- **Naive-Airdrop**: an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in **2019**.  
+# **Other Projects** 
 
-  (Both my first project using Java and first practical project for real life.)
+[**SimPL Interpreter**](https://github.com/Youngzt998/SimPL-Interpreter): an interpreter for a simple programming language called *SimPL*,  a simplified dialect of *ML*, including *type checking* (including let-polymorphism) and *evaluation*.
 
-- **In The Garden**: a mini puzzle game (Chinese version only), created in **2018**, with other two partner. 
+- Examples of  SimPL
 
-  (My first mini-project of game design.)
+  - Recursive combinator:
 
-- **Re-implementation of *deque* and *map* of  C++ Standard Template Library (STL)**: Re-implement the data structure *deque* (using Block List) and *map* (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in **2018**. 
+    ```ocaml
+    let gcd = rec g => fn a => fn b =>
+                if b=0 then a else g b (a % b)
+    in  gcd 34986 3087
+    end
+    (* ==> 1029 *)
+    ```
 
-  (My first project of programming.)
+  - Let-polymorphism: 
+
+    ```ocaml
+  let a = fn x => x in 
+        let b = a 1 in 
+            let c = a false in 
+                if c then b else 0
+            end
+        end
+    end
+    (* ==> 0 *)
+    ```
+  
+- Structure of Principle Data Structures for Implementation:
+  
+
+<img src="2-project.assets/structure.png" alt="avatar" style="zoom:50%;" />
+
+​    
+
+---
+
+[**Naive-Airdrop**](https://github.com/Youngzt998/Naive-Airdrop) 
+
+- An application for encrypted file synchronization between PC and Android under the same wi-fi.  
+- Features: auto connection, changes detecting of the observed files on client devices, encryption in transfer, both auto transmission and manual transmission etc.
+
+
+
+
+
+---
+
+[**Linux (Android) Memory Management**](https://github.com/Youngzt998/Operating-System-Projects/tree/master/2)  
+
+- Replacement of the original page replacement algorithm with a new one in a given specification.
+-  See a detailed instruction (also a report) for beginner of (Linux) Operating System kernel investigation [here](./projects/os-prj-linuxmm/Instruction.pdf).
+
+
+
+
+
+---
+
+[**In The Garden**](https://youtu.be/2D67W584gpU) 
+
+- A mini puzzle game (Chinese version only). 
+
+- See the video record of the whole game on [Youtube](https://youtu.be/2D67W584gpU)
+
+
+
+---
+
+[**Re-implementation of *deque* and *map* of  C++ Standard Template Library (STL)**:](https://github.com/Youngzt998/Re-implementation-of-deque-and-map) Re-implement the data structure *deque* (using Block List) and *map* (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions. 
+
+
 

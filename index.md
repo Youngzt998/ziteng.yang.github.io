@@ -24,17 +24,17 @@ See more details in [Projects](/project/) .
 
 - **Verification-aided Compiler Optimization**: An expedition to support compiler optimization aided by verification information carried by programs 
 
-- **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) in [*Coq*](https://coq.inria.fr/) proof assistant.
+- **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
 
 **Previously:**
 
-- **Supervisor Control of Timed Discrete-Event Systems** 
+- **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
 
   
 
 # **Publication**
 
-- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [ [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report](./papers/IFAC2020/IFAC2020-Video.mp4) ]. 
+- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [ [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
 
 
 
@@ -42,10 +42,10 @@ See more details in [Projects](/project/) .
 
 - Teaching Assistant  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
   - Courses for the *IEEE Honor Class (an honor class for elite students in EECS) at SJTU* 
-  - Duties: holding office hour
+  - Duties: office hours holding, Q&A writing
 - Teaching Assistant for  *MA239@SJTU: Discrete Mathematics (Honor)*, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
   - Courses for the  *[Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/index.php) (a program for top students in Engineering related majors) at SJTU*;
-  - Duties: holding tutorials for exercises, office hour, grading
+  - Duties: exercise grading, tutorials (for exercises) teaching, office hours holding and Q&A writing
 
 
 
@@ -61,9 +61,9 @@ The following projects are selected either from course work or my entertainment 
 
   (Both my first project using Java and first practical project for real life.)
 
-- [**Linux (Android) Memory Management**](https://github.com/Youngzt998/Operating-System-Projects/blob/master/2/Report-as-an-Instruction.pdf): Replacement of the original page replacement algorithm with a new one in a given specification, implemented in **2018**.
+- [**Linux (Android) Memory Management**](https://github.com/Youngzt998/Operating-System-Projects/blob/master/2/Report-as-an-Instruction.pdf): Replacement of the original page replacement algorithm with a new one in a given specification, implemented in **2019**.
 
-- **In The Garden**: a mini puzzle game (Chinese version only), created in **2018**, with other two partner. 
+- [**In The Garden**](https://youtu.be/2D67W584gpU): a mini puzzle game (Chinese version only), created in **2018**, with other two partner. 
 
   (My first mini-project of game design.)
 
@@ -82,8 +82,6 @@ See more details in [Projects](/project/) .
 ## Sentences Teach Me a Lot
 
 - "Talk is cheap. Show me the code." --- Linus Torvalds
-
-
 
 
 

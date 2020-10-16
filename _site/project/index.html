@@ -13,7 +13,7 @@
 <meta property="og:url" content="/project/" />
 <meta property="og:site_name" content="Ziteng Yang (杨子腾)" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Projects","url":"/project/","description":"Department of Computer Science and Engineering, Shanghai Jiao Tong University","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/project/","headline":"Projects","description":"Department of Computer Science and Engineering, Shanghai Jiao Tong University","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Ziteng Yang (杨子腾)" /></head>
 <body><header class="site-header" role="banner">
@@ -41,7 +41,7 @@
 
 <p>Further details are confidential currently.</p>
 
-<h2 id="formalization-of-completeness-proof-of-propositional-dynamic-logic-in-coq-">**Formalization of Completeness Proof of Propositional Dynamic Logic in Coq **</h2>
+<h2 id="formalization-of-completeness-proof-of-propositional-dynamic-logic-in-coq"><strong>Formalization of Completeness Proof of Propositional Dynamic Logic in Coq</strong></h2>
 
 <p><a href="https://github.com/QinxiangCao/UnifySL">UnifySL</a> is a library of the proof assistant <a href="https://coq.inria.fr/">Coq</a> for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were realized using Coq’s type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.</p>
 
@@ -55,55 +55,55 @@
   <li>
     <p>The abstract type class of PDL</p>
 
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Class Program : Type:={
-  program: Type;
-}.
+    <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Class</span> <span class="nc">Program</span> <span class="o">:</span> <span class="nc">Type</span><span class="o">:=</span><span class="p">{</span>
+  <span class="n">program</span><span class="o">:</span> <span class="nc">Type</span><span class="p">;</span>
+<span class="p">}</span><span class="o">.</span>
   
-Class PropositionalDynamicLanguage (L:Language)(Pro: Program):Type:={
-  boxp: program -&gt; expr -&gt; expr
-}.
+<span class="nc">Class</span> <span class="nc">PropositionalDynamicLanguage</span> <span class="p">(</span><span class="nc">L</span><span class="o">:</span><span class="nc">Language</span><span class="p">)(</span><span class="nc">Pro</span><span class="o">:</span> <span class="nc">Program</span><span class="p">)</span><span class="o">:</span><span class="nc">Type</span><span class="o">:=</span><span class="p">{</span>
+  <span class="n">boxp</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
+<span class="p">}</span><span class="o">.</span>
   
-Class ProgramOperation (L:Language)(Pro:Program):Type:= {
-  choice: program -&gt; program -&gt; program;
-  composition: program -&gt; program -&gt; program;
-  iteration: program -&gt; program;
-  test: expr -&gt; program
-}.
+<span class="nc">Class</span> <span class="nc">ProgramOperation</span> <span class="p">(</span><span class="nc">L</span><span class="o">:</span><span class="nc">Language</span><span class="p">)(</span><span class="nc">Pro</span><span class="o">:</span><span class="nc">Program</span><span class="p">)</span><span class="o">:</span><span class="nc">Type</span><span class="o">:=</span> <span class="p">{</span>
+  <span class="n">choice</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span><span class="p">;</span>
+  <span class="n">composition</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span><span class="p">;</span>
+  <span class="n">iteration</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span><span class="p">;</span>
+  <span class="n">test</span><span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">program</span>
+<span class="p">}</span><span class="o">.</span>
 </code></pre></div>    </div>
   </li>
   <li>
     <p>The deep-embedded syntax of PDL</p>
 
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Inductive program {Sigma: PropositionalVariables}{ProV: ProgramVariables}: Type :=
-  | choice: program -&gt; program -&gt; program
-  | composition: program -&gt; program -&gt; program
-  | iteration: program -&gt; program
-  | test: expr -&gt; program
-  | basep: BaseP -&gt; program
-with
- expr {Sigma: PropositionalVariables} {ProV: ProgramVariables}: Type :=
-  | impp : expr -&gt; expr -&gt; expr
-  | orp : expr -&gt; expr -&gt; expr
-  | andp: expr -&gt; expr -&gt; expr
-  | falsep : expr
-  | boxp: program -&gt; expr -&gt; expr
-  | varp : Var -&gt; expr
-.
+    <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Inductive</span> <span class="n">program</span> <span class="p">{</span><span class="nc">Sigma</span><span class="o">:</span> <span class="nc">PropositionalVariables</span><span class="p">}{</span><span class="nc">ProV</span><span class="o">:</span> <span class="nc">ProgramVariables</span><span class="p">}</span><span class="o">:</span> <span class="nc">Type</span> <span class="o">:=</span>
+  <span class="o">|</span> <span class="n">choice</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span>
+  <span class="o">|</span> <span class="n">composition</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span>
+  <span class="o">|</span> <span class="n">iteration</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span>
+  <span class="o">|</span> <span class="n">test</span><span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">program</span>
+  <span class="o">|</span> <span class="n">basep</span><span class="o">:</span> <span class="nc">BaseP</span> <span class="o">-&gt;</span> <span class="n">program</span>
+<span class="k">with</span>
+ <span class="n">expr</span> <span class="p">{</span><span class="nc">Sigma</span><span class="o">:</span> <span class="nc">PropositionalVariables</span><span class="p">}</span> <span class="p">{</span><span class="nc">ProV</span><span class="o">:</span> <span class="nc">ProgramVariables</span><span class="p">}</span><span class="o">:</span> <span class="nc">Type</span> <span class="o">:=</span>
+  <span class="o">|</span> <span class="n">impp</span> <span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
+  <span class="o">|</span> <span class="n">orp</span> <span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
+  <span class="o">|</span> <span class="n">andp</span><span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
+  <span class="o">|</span> <span class="bp">false</span><span class="n">p</span> <span class="o">:</span> <span class="n">expr</span>
+  <span class="o">|</span> <span class="n">boxp</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
+  <span class="o">|</span> <span class="n">varp</span> <span class="o">:</span> <span class="nc">Var</span> <span class="o">-&gt;</span> <span class="n">expr</span>
+<span class="o">.</span>
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>The <em>Truth Lemma</em> and <em>Existence Lemma</em> (two mutually inductive lemmas):</p>
+    <p>The <em>Truth Lemma</em> and <em>Existence Lemma</em> (mutually inductively):</p>
 
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lemma TRUTH_LEMMA:
-  forall (psi x: exp) m Phi,
-    rel psi m Phi -&gt; 
-      FL_closure_construction psi x -&gt;
-        (KRIPKE: canonical_Kmodel psi, m |= x &lt;-&gt; proj1_sig Phi x)
-with EXISTENCE_LEMMA:
-  forall (pi: prog)(psi x: exp)(m : Kworlds (canonical_Kmodel psi)),
-    FL_Atom psi (proj1_sig m) -&gt; 
-      FL_closure_construction psi ([pi]x) -&gt;
-        (proj1_sig m ([pi]x) &lt;-&gt; forall n, R_D pi m n -&gt; proj1_sig n x).
+    <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Lemma</span> <span class="nc">TRUTH_LEMMA</span><span class="o">:</span>
+  <span class="n">forall</span> <span class="p">(</span><span class="n">psi</span> <span class="n">x</span><span class="o">:</span> <span class="n">exp</span><span class="p">)</span> <span class="n">m</span> <span class="nc">Phi</span><span class="o">,</span>
+    <span class="n">rel</span> <span class="n">psi</span> <span class="n">m</span> <span class="nc">Phi</span> <span class="o">-&gt;</span> 
+      <span class="nc">FL_closure_construction</span> <span class="n">psi</span> <span class="n">x</span> <span class="o">-&gt;</span>
+        <span class="p">(</span><span class="nc">KRIPKE</span><span class="o">:</span> <span class="n">canonical_Kmodel</span> <span class="n">psi</span><span class="o">,</span> <span class="n">m</span> <span class="o">|=</span> <span class="n">x</span> <span class="o">&lt;-&gt;</span> <span class="n">proj1_sig</span> <span class="nc">Phi</span> <span class="n">x</span><span class="p">)</span>
+<span class="k">with</span> <span class="nc">EXISTENCE_LEMMA</span><span class="o">:</span>
+  <span class="n">forall</span> <span class="p">(</span><span class="n">pi</span><span class="o">:</span> <span class="n">prog</span><span class="p">)(</span><span class="n">psi</span> <span class="n">x</span><span class="o">:</span> <span class="n">exp</span><span class="p">)(</span><span class="n">m</span> <span class="o">:</span> <span class="nc">Kworlds</span> <span class="p">(</span><span class="n">canonical_Kmodel</span> <span class="n">psi</span><span class="p">))</span><span class="o">,</span>
+    <span class="nc">FL_Atom</span> <span class="n">psi</span> <span class="p">(</span><span class="n">proj1_sig</span> <span class="n">m</span><span class="p">)</span> <span class="o">-&gt;</span> 
+      <span class="nc">FL_closure_construction</span> <span class="n">psi</span> <span class="p">([</span><span class="n">pi</span><span class="p">]</span><span class="n">x</span><span class="p">)</span> <span class="o">-&gt;</span>
+        <span class="p">(</span><span class="n">proj1_sig</span> <span class="n">m</span> <span class="p">([</span><span class="n">pi</span><span class="p">]</span><span class="n">x</span><span class="p">)</span> <span class="o">&lt;-&gt;</span> <span class="n">forall</span> <span class="n">n</span><span class="o">,</span> <span class="nc">R_D</span> <span class="n">pi</span> <span class="n">m</span> <span class="n">n</span> <span class="o">-&gt;</span> <span class="n">proj1_sig</span> <span class="n">n</span> <span class="n">x</span><span class="p">)</span><span class="o">.</span>
 </code></pre></div>    </div>
   </li>
   <li>
@@ -111,38 +111,101 @@ with EXISTENCE_LEMMA:
   </li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Theorem complete_weakly: weakly_complete GP SM (KripkeModelClass _ kMC).
+<div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nc">Theorem</span> <span class="n">complete_weakly</span><span class="o">:</span> <span class="n">weakly_complete</span> <span class="nc">GP</span> <span class="nc">SM</span> <span class="p">(</span><span class="nc">KripkeModelClass</span> <span class="n">_</span> <span class="n">kMC</span><span class="p">)</span><span class="o">.</span>
 </code></pre></div></div>
 
-<h2 id="supervisor-control-of-timed-discrete-event-systems-">**Supervisor Control of Timed Discrete-Event Systems **</h2>
+<h2 id="supervisor-control-of-timed-discrete-event-systems"><strong>Supervisor Control of Timed Discrete-Event Systems</strong></h2>
 
-<p>The supervisory control theory of Discrete Event Systems (DES) is a formal framework for the synthesis of control logic for complex automated systems. We investigate the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event. The design objective is to synthesize a maximally-permissive supervisor to restrict the behavior of the system such that the closed-loop language is within a safe specification language. Relevant paper was accepted by <a href="https://www.ifac2020.org/">IFAC2020</a>,  see Publications.
+<p>The supervisory control theory of Discrete Event Systems (DES) is a formal framework for the synthesis of control logic for complex automated systems. We investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event. The design objective is to synthesize a maximally-permissive supervisor to restrict the behavior of the system such that the closed-loop language is within a safe specification language. Relevant paper was accepted by <a href="https://www.ifac2020.org/">21st IFAC World Congress, 2020</a>.
 We also hope to investigate the non-blocking problem employing nondeterministic control method in the future.</p>
+
+<p>The following figure illustrates our main process of synthesizing such safe and maximally permissive supervisory.</p>
 
 <p><img src="./papers/IFAC2020/example.png" alt="avatar" /></p>
 
+<p>Here is our <a href="https://youtu.be/GtbxR_OKfXU">video report</a> at <a href="https://www.ifac2020.org/">IFAC2020</a>.</p>
+
+<video src="https://youtu.be/GtbxR_OKfXU" controls="controls" width="500" height="300">You browser dose not support this video! </video>
+
+<hr />
+
 <h1 id="other-projects"><strong>Other Projects</strong></h1>
+
+<p><a href="https://github.com/Youngzt998/SimPL-Interpreter"><strong>SimPL Interpreter</strong></a>: an interpreter for a simple programming language called <em>SimPL</em>,  a simplified dialect of <em>ML</em>, including <em>type checking</em> (including let-polymorphism) and <em>evaluation</em>.</p>
 
 <ul>
   <li>
-    <p><strong>SimPL Interpreter</strong>: an interpreter for a simple programming language called <em>SimPL</em>, implemented in <strong>2020</strong>.</p>
+    <p>Examples of  SimPL</p>
+
+    <ul>
+      <li>
+        <p>Recursive combinator:</p>
+
+        <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="n">gcd</span> <span class="o">=</span> <span class="k">rec</span> <span class="n">g</span> <span class="o">=&gt;</span> <span class="n">fn</span> <span class="n">a</span> <span class="o">=&gt;</span> <span class="n">fn</span> <span class="n">b</span> <span class="o">=&gt;</span>
+            <span class="k">if</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span> <span class="k">then</span> <span class="n">a</span> <span class="k">else</span> <span class="n">g</span> <span class="n">b</span> <span class="p">(</span><span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="p">)</span>
+<span class="k">in</span>  <span class="n">gcd</span> <span class="mi">34986</span> <span class="mi">3087</span>
+<span class="k">end</span>
+<span class="c">(* ==&gt; 1029 *)</span>
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Let-polymorphism:</p>
+
+        <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="n">a</span> <span class="o">=</span> <span class="n">fn</span> <span class="n">x</span> <span class="o">=&gt;</span> <span class="n">x</span> <span class="k">in</span> 
+    <span class="k">let</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span> <span class="mi">1</span> <span class="k">in</span> 
+        <span class="k">let</span> <span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="bp">false</span> <span class="k">in</span> 
+            <span class="k">if</span> <span class="n">c</span> <span class="k">then</span> <span class="n">b</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="k">end</span>
+    <span class="k">end</span>
+<span class="k">end</span>
+<span class="c">(* ==&gt; 0 *)</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
   </li>
   <li>
-    <p><strong>Naive-Airdrop</strong>: an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in <strong>2019</strong>.</p>
-
-    <p>(Both my first project using Java and first practical project for real life.)</p>
-  </li>
-  <li>
-    <p><strong>In The Garden</strong>: a mini puzzle game (Chinese version only), created in <strong>2018</strong>, with other two partner.</p>
-
-    <p>(My first mini-project of game design.)</p>
-  </li>
-  <li>
-    <p><strong>Re-implementation of <em>deque</em> and <em>map</em> of  C++ Standard Template Library (STL)</strong>: Re-implement the data structure <em>deque</em> (using Block List) and <em>map</em> (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in <strong>2018</strong>.</p>
-
-    <p>(My first project of programming.)</p>
+    <p>Structure of Principle Data Structures for Implementation:</p>
   </li>
 </ul>
+
+<p><img src="2-project.assets/structure.png" alt="avatar" style="zoom:50%;" /></p>
+
+<p>​</p>
+
+<hr />
+
+<p><a href="https://github.com/Youngzt998/Naive-Airdrop"><strong>Naive-Airdrop</strong></a></p>
+
+<ul>
+  <li>An application for encrypted file synchronization between PC and Android under the same wi-fi.</li>
+  <li>Features: auto connection, changes detecting of the observed files on client devices, encryption in transfer, both auto transmission and manual transmission etc.</li>
+</ul>
+
+<hr />
+
+<p><a href="https://github.com/Youngzt998/Operating-System-Projects/tree/master/2"><strong>Linux (Android) Memory Management</strong></a></p>
+
+<ul>
+  <li>Replacement of the original page replacement algorithm with a new one in a given specification.</li>
+  <li>See a detailed instruction (also a report) for beginner of (Linux) Operating System kernel investigation <a href="./projects/os-prj-linuxmm/Instruction.pdf">here</a>.</li>
+</ul>
+
+<hr />
+
+<p><a href="https://youtu.be/2D67W584gpU"><strong>In The Garden</strong></a></p>
+
+<ul>
+  <li>
+    <p>A mini puzzle game (Chinese version only).</p>
+  </li>
+  <li>
+    <p>See the video record of the whole game on <a href="https://youtu.be/2D67W584gpU">Youtube</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<p><a href="https://github.com/Youngzt998/Re-implementation-of-deque-and-map"><strong>Re-implementation of <em>deque</em> and <em>map</em> of  C++ Standard Template Library (STL)</strong>:</a> Re-implement the data structure <em>deque</em> (using Block List) and <em>map</em> (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions.</p>
 
 <h2 class="post-list-heading">Posts</h2>
     <ul class="post-list"><li><span class="post-meta">Aug 18, 2020</span>
