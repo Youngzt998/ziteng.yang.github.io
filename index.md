@@ -10,7 +10,7 @@ title: ""
 
 I'm currently a senior year undergraduate student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/). 
 
-My research interests currently lies in formal methods, especially formal verification  and formalization of mathematical theorems. As an undergraduate students, I'm learning about more amazing research fields. I was advised by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) at present, before which I studied in [Xiang Yin's](http://xiangyin.sjtu.edu.cn/) group.
+My research interests currently lies in formal methods, especially formal verification  and formalization of mathematical theorems. As an undergraduate students, I'm exploring more amazing research fields. I was advised by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) at present, before which I studied in [Xiang Yin's](http://xiangyin.sjtu.edu.cn/) group.
 
 I wish I could devote myself to the research and education of computer science in the future, so I am seeking a place to pursue Ph. D. degree.
 
@@ -49,9 +49,7 @@ See more details in [Projects](/project/) .
 
 # **Publication**
 
-- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [ [PDF](./papers/IFAC2020/IFAC2020-Final.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report](./papers/IFAC2020/IFAC2020-Video.mp4) ]. 
-
-  (The proofs of all lemmas and theorems are removed after acceptance owing to word limit. Contact me to require the full version if interested.)
+- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [ [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report](./papers/IFAC2020/IFAC2020-Video.mp4) ]. 
 
 
 
