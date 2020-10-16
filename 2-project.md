@@ -155,18 +155,20 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
     ```
   
 - Structure of Principle Data Structures for Implementation:
-  
+  ![avatar](./projects/simpl/structure.png)
 
-![avatar](./projects/simpl/structure.png)
-
-​    
 
 ---
 
 [**Naive-Airdrop**](https://github.com/Youngzt998/Naive-Airdrop) 
 
 - An application for encrypted file synchronization between PC and Android under the same wi-fi.  
+
 - Features: auto connection, changes detecting of the observed files on client devices, encryption in transfer, both auto transmission and manual transmission etc.
+
+- The working logic of the Application
+
+  ![avatar](./projects/airdrop/structure.png)
 
 
 
