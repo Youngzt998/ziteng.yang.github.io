@@ -115,9 +115,7 @@ The following figure illustrates our main process of synthesizing such safe and 
 
 ![avatar](./papers/IFAC2020/example.png)
 
-Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://www.ifac2020.org/).
-
-<video src="https://youtu.be/GtbxR_OKfXU" controls="controls" width="500" height="300">You browser dose not support this video! </video>
+Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://www.ifac2020.org/) uploaded to Youtube.
 
 
 
@@ -159,7 +157,7 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
 - Structure of Principle Data Structures for Implementation:
   
 
-<img src="2-project.assets/structure.png" alt="avatar" style="zoom:50%;" />
+![avatar](./projects/simpl/structure.png)
 
 ​    
 
