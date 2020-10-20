@@ -31,7 +31,7 @@ During my work, a lot of useful lemmas was also proved as a supplementary of the
 
 
 
-The following are the critical definitions and lemmas:
+The following presented several critical definitions and lemmas:
 
 - The abstract type class of PDL
 
@@ -74,7 +74,7 @@ The following are the critical definitions and lemmas:
 
   
 
-- The *Truth Lemma* and *Existence Lemma* (mutually inductively):
+- The *Truth Lemma* and *Existence Lemma* (mutually inductive):
 
   ```ocaml
   Lemma TRUTH_LEMMA:
@@ -94,6 +94,11 @@ The following are the critical definitions and lemmas:
 -  The *Weak Completeness* Theorem
 
   ```ocaml
+  (**
+  The general abstract definition of weak completeness property:
+  Definition weakly_complete {L: Language} (Gamma: Provable L) {MD: Model} (SM: Semantics L MD) (MC: ModelClass MD): Prop :=
+    forall x: expr, valid MC x -> provable x. 
+  **)
   Theorem complete_weakly: weakly_complete GP SM (KripkeModelClass _ kMC).
   ```
 
@@ -191,7 +196,7 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
 
 - A mini puzzle game (Chinese version only). 
 
-- See the video record of the whole game on [Youtube](https://youtu.be/2D67W584gpU)
+- See the video record of the whole game on [Youtube](https://youtu.be/2D67W584gpU).
 
 
 

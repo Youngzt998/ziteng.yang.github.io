@@ -10,11 +10,11 @@ title: ""
 
 I'm currently a senior year undergraduate student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/). 
 
-My research interests currently lies in formal methods, especially formal verification  and formalization of mathematical theorems. As an undergraduate students, I'm exploring more amazing research fields. I was advised by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) at present, before which I studied in [Xiang Yin's](http://xiangyin.sjtu.edu.cn/) group.
+My research interests currently lies in *formal methods*, especially formal verification (for solving practical problems)  and formalization of mathematical theorems. I also have research experience in *Automata Theory*. As an undergraduate students, I'm exploring more amazing research fields. I was advised by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) at present, before which I studied in [Xiang Yin's](http://xiangyin.sjtu.edu.cn/) group.
 
 I wish I could devote myself to the research and education of computer science in the future, so I am seeking a place to pursue Ph. D. degree.
 
-Here is my [CV](./cv/CV_ZitengYang_EN.pdf).
+Here is my **[CV](./cv/CV_ZitengYang_EN.pdf)**.
 
 # **Research Projects**
 
@@ -34,7 +34,11 @@ See more details in [Projects](/project/) .
 
 # **Publication**
 
-- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [ [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
+- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  
+
+  [ [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
+
+- 
 
 
 
