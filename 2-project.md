@@ -52,7 +52,7 @@ The following presented several representative and critical definitions and lemm
   }.
   ```
 
-  Note: we can describe Classical PDL abstractly by composing the following type classes of classical logic. The same applies to the proof system and semantic system.
+  Note: we can describe Classical PDL abstractly by composing the type classes above of classical logic. The same applies to the proof system and semantic system.
 
   
 
@@ -94,7 +94,7 @@ The following presented several representative and critical definitions and lemm
           (proj1_sig m ([pi]x) <-> forall n, R_D pi m n -> proj1_sig n x).
   ```
 
-  Note: this is two core lemma for proving completeness of modal logic and its extension.
+  Note: these are two core lemmas for proving completeness of modal logic and its extension.
 
   
 
