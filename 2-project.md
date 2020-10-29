@@ -13,9 +13,9 @@ permalink: /project/
 
 ## **Verification-aided Compiler Optimization**
 
-We are considering a new method of program optimization for C programs with annotation that contains the verification information of the program.  A conditional definition of "forward simulation" and "backward simulation"  for compiler correctness was proposed with crucial properties proved formally in Coq. The new methods was being realized based on [CompCert](http://compcert.inria.fr/) compiler. We also implemented a translation path from annotated CompCert C source language to annotated RTL intermediate language. 
+We are considering a new method of program optimization for C programs with annotation that contains the verification information of the program. The new methods was being realized based on [CompCert](http://compcert.inria.fr/) compiler. An extended semantics based on CompCert small step semantic framework was defined.  A conditional definition of "forward simulation" and "backward simulation" diagram for compiler correctness was proposed with crucial properties proved formally in Coq.
 
-Further details are confidential currently.
+We plan to upload our current result to arXiv at the end of Nov. 2020. Before that, further details are still confidential.
 
 
 
@@ -23,7 +23,7 @@ Further details are confidential currently.
 
 ## **Formalization of Completeness Proof of Propositional Dynamic Logic in Coq**
 
-[UnifySL](https://github.com/QinxiangCao/UnifySL) is a library of the proof assistant [Coq](https://coq.inria.fr/) for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were realized using Coq's type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.
+[UnifySL](https://github.com/QinxiangCao/UnifySL) is a library of the proof assistant [Coq](https://coq.inria.fr/) for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were abstractly described using Coq's type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.
 
 My work aimed to investigate the finite model methods, starting the exploration from the formalizing of propositional dynamic logic (PDL), including the proof theories, semantic definitions, the proof of its soundness and  the proof of its weak completeness, making the best of framework and tools in UnifySL. Currently the completeness proof was finished, and we expect to extract a new framework of high-order abstraction for finite model methods in the future. 
 
@@ -31,9 +31,9 @@ During my work, a lot of useful lemmas was also proved as a supplementary of the
 
 
 
-The following presented several critical definitions and lemmas:
+The following presented several representative and critical definitions and lemmas:
 
-- The abstract type class of PDL
+- The abstract type class of PDL:
 
   ```ocaml
   Class Program : Type:={
@@ -52,6 +52,10 @@ The following presented several critical definitions and lemmas:
   }.
   ```
 
+  Note: we can describe Classical PDL abstractly by composing the following type classes of classical logic. The same applies to the proof system and semantic system.
+
+  
+
 - The deep-embedded syntax of PDL
 
   ```ocaml
@@ -68,9 +72,10 @@ The following presented several critical definitions and lemmas:
     | andp: expr -> expr -> expr
     | falsep : expr
     | boxp: program -> expr -> expr
-    | varp : Var -> expr
-  .
+    | varp : Var -> expr.
   ```
+
+  Note: we must indicate explicitly in Coq that the given syntax is an instance of the abstract type class. The same applies to the proof system and semantic system.
 
   
 
@@ -88,6 +93,8 @@ The following presented several critical definitions and lemmas:
         FL_closure_construction psi ([pi]x) ->
           (proj1_sig m ([pi]x) <-> forall n, R_D pi m n -> proj1_sig n x).
   ```
+
+  Note: this is two core lemma for proving completeness of modal logic and its extension.
 
   
 
@@ -116,7 +123,7 @@ We also hope to investigate the non-blocking problem employing nondeterministic 
 
 
 
-The following figure illustrates our main process of synthesizing such safe and maximally permissive supervisory.
+The following figure illustrates our main process of synthesizing such safe and maximally permissive supervisory. 
 
 ![avatar](./papers/IFAC2020/example.png)
 

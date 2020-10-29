@@ -13,7 +13,7 @@
 <meta property="og:url" content="/project/" />
 <meta property="og:site_name" content="Ziteng Yang (杨子腾)" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Projects","url":"/project/","description":"Department of Computer Science and Engineering, Shanghai Jiao Tong University","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/project/","headline":"Projects","description":"Department of Computer Science and Engineering, Shanghai Jiao Tong University","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Ziteng Yang (杨子腾)" /></head>
 <body><header class="site-header" role="banner">
@@ -37,23 +37,23 @@
 
 <h2 id="verification-aided-compiler-optimization"><strong>Verification-aided Compiler Optimization</strong></h2>
 
-<p>We are considering a new method of program optimization for C programs with annotation that contains the verification information of the program.  A conditional definition of “forward simulation” and “backward simulation”  for compiler correctness was proposed with crucial properties proved formally in Coq. The new methods was being realized based on <a href="http://compcert.inria.fr/">CompCert</a> compiler. We also implemented a translation path from annotated CompCert C source language to annotated RTL intermediate language.</p>
+<p>We are considering a new method of program optimization for C programs with annotation that contains the verification information of the program. The new methods was being realized based on <a href="http://compcert.inria.fr/">CompCert</a> compiler. An extended semantics based on CompCert small step semantic framework was defined.  A conditional definition of “forward simulation” and “backward simulation” diagram for compiler correctness was proposed with crucial properties proved formally in Coq.</p>
 
-<p>Further details are confidential currently.</p>
+<p>We plan to upload our current result to arXiv at the end of Nov. 2020. Before that, further details are still confidential.</p>
 
 <h2 id="formalization-of-completeness-proof-of-propositional-dynamic-logic-in-coq"><strong>Formalization of Completeness Proof of Propositional Dynamic Logic in Coq</strong></h2>
 
-<p><a href="https://github.com/QinxiangCao/UnifySL">UnifySL</a> is a library of the proof assistant <a href="https://coq.inria.fr/">Coq</a> for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were realized using Coq’s type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.</p>
+<p><a href="https://github.com/QinxiangCao/UnifySL">UnifySL</a> is a library of the proof assistant <a href="https://coq.inria.fr/">Coq</a> for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were abstractly described using Coq’s type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.</p>
 
 <p>My work aimed to investigate the finite model methods, starting the exploration from the formalizing of propositional dynamic logic (PDL), including the proof theories, semantic definitions, the proof of its soundness and  the proof of its weak completeness, making the best of framework and tools in UnifySL. Currently the completeness proof was finished, and we expect to extract a new framework of high-order abstraction for finite model methods in the future.</p>
 
 <p>During my work, a lot of useful lemmas was also proved as a supplementary of the UnifySL library.</p>
 
-<p>The following presented several critical definitions and lemmas:</p>
+<p>The following presented several representative and critical definitions and lemmas:</p>
 
 <ul>
   <li>
-    <p>The abstract type class of PDL</p>
+    <p>The abstract type class of PDL:</p>
 
     <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Class</span> <span class="nc">Program</span> <span class="o">:</span> <span class="nc">Type</span><span class="o">:=</span><span class="p">{</span>
   <span class="n">program</span><span class="o">:</span> <span class="nc">Type</span><span class="p">;</span>
@@ -70,6 +70,8 @@
   <span class="n">test</span><span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">program</span>
 <span class="p">}</span><span class="o">.</span>
 </code></pre></div>    </div>
+
+    <p>Note: we can describe Classical PDL abstractly by composing the following type classes of classical logic. The same applies to the proof system and semantic system.</p>
   </li>
   <li>
     <p>The deep-embedded syntax of PDL</p>
@@ -87,9 +89,10 @@
   <span class="o">|</span> <span class="n">andp</span><span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
   <span class="o">|</span> <span class="bp">false</span><span class="n">p</span> <span class="o">:</span> <span class="n">expr</span>
   <span class="o">|</span> <span class="n">boxp</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
-  <span class="o">|</span> <span class="n">varp</span> <span class="o">:</span> <span class="nc">Var</span> <span class="o">-&gt;</span> <span class="n">expr</span>
-<span class="o">.</span>
+  <span class="o">|</span> <span class="n">varp</span> <span class="o">:</span> <span class="nc">Var</span> <span class="o">-&gt;</span> <span class="n">expr</span><span class="o">.</span>
 </code></pre></div>    </div>
+
+    <p>Note: we must indicate explicitly in Coq that the given syntax is an instance of the abstract type class. The same applies to the proof system and semantic system.</p>
   </li>
   <li>
     <p>The <em>Truth Lemma</em> and <em>Existence Lemma</em> (mutually inductive):</p>
@@ -105,6 +108,8 @@
       <span class="nc">FL_closure_construction</span> <span class="n">psi</span> <span class="p">([</span><span class="n">pi</span><span class="p">]</span><span class="n">x</span><span class="p">)</span> <span class="o">-&gt;</span>
         <span class="p">(</span><span class="n">proj1_sig</span> <span class="n">m</span> <span class="p">([</span><span class="n">pi</span><span class="p">]</span><span class="n">x</span><span class="p">)</span> <span class="o">&lt;-&gt;</span> <span class="n">forall</span> <span class="n">n</span><span class="o">,</span> <span class="nc">R_D</span> <span class="n">pi</span> <span class="n">m</span> <span class="n">n</span> <span class="o">-&gt;</span> <span class="n">proj1_sig</span> <span class="n">n</span> <span class="n">x</span><span class="p">)</span><span class="o">.</span>
 </code></pre></div>    </div>
+
+    <p>Note: this is two core lemma for proving completeness of modal logic and its extension.</p>
   </li>
   <li>
     <p>The <em>Weak Completeness</em> Theorem</p>
