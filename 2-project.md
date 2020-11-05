@@ -15,21 +15,23 @@ permalink: /project/
 
 We are considering a new method of program optimization for C programs with annotation that contains the verification information of the program. The new methods was being realized based on [CompCert](http://compcert.inria.fr/) compiler. An extended semantics based on CompCert small step semantic framework was defined.  A conditional definition of "forward simulation" and "backward simulation" diagram for compiler correctness was proposed with crucial properties proved formally in Coq.
 
-We plan to upload our current result to arXiv at the end of Nov. 2020. Before that, further details are still confidential.
+We plan to submit our current result (a long abstract) to [*POPL2021 Student Rsearch Competition*](https://popl21.sigplan.org/track/POPL-2021-student-research-competition) at the end of Nov. 2020. Before that, further details are still confidential.
 
 
 
 
 
-## **Formalization of Completeness Proof of Propositional Dynamic Logic in Coq**
+## **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**:
 
-[UnifySL](https://github.com/QinxiangCao/UnifySL) is a library of the proof assistant [Coq](https://coq.inria.fr/) for logic under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs of minimum logics, propositional logics and separation logics were abstractly described using Coq's type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.
+[UnifySL](https://github.com/QinxiangCao/UnifySL) is a library of the proof assistant [Coq](https://coq.inria.fr/) designed for basic mathematical logic (e.g. Propositional Logics, Separation Logics etc.) under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs were abstractly described using Coq's type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.
 
-My work aimed to investigate the finite model methods, starting the exploration from the formalizing of propositional dynamic logic (PDL), including the proof theories, semantic definitions, the proof of its soundness and  the proof of its weak completeness, making the best of framework and tools in UnifySL. Currently the completeness proof was finished, and we expect to extract a new framework of high-order abstraction for finite model methods in the future. 
+My work as a research assistant aimed to investigate the finite model methods, starting the exploration from the formalizing of propositional dynamic logic (PDL), including the proof theories, semantic definitions, the proof of its soundness and  the proof of its weak completeness, making the best of framework and tools in UnifySL. Currently the completeness proof was finished, and we expect to extract a new framework of high-order abstraction for finite model methods in the future. 
 
 During my work, a lot of useful lemmas was also proved as a supplementary of the UnifySL library. 
 
 
+
+**Implementation Details**
 
 The following presented several representative and critical definitions and lemmas:
 
