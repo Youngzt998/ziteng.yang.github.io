@@ -13,9 +13,9 @@ permalink: /project/
 
 ## **Verification-aided Compiler Optimization**
 
-We are considering a new method of program optimization for C programs with annotation that contains the verification information of the program. The new methods was being realized based on [CompCert](http://compcert.inria.fr/) compiler. An extended semantics based on CompCert small step semantic framework was defined.  A conditional definition of "forward simulation" and "backward simulation" diagram for compiler correctness was proposed with crucial properties proved formally in Coq.
+We are designing a new method of program optimization for C programs with assertion annotated that contains verification information of the program. The new methods was being realized based on original [CompCert](http://compcert.inria.fr/) compiler. New semantics framework was designed based on CompCert small step semantic framework.  A conditional definition of "forward simulation" and "backward simulation" diagram for compiler correctness was proposed with crucial properties proved.
 
-We plan to submit our current result (a long abstract) to [*POPL2021 Student Rsearch Competition*](https://popl21.sigplan.org/track/POPL-2021-student-research-competition) at the end of Nov. 2020. Before that, further details are still confidential.
+This is an original work of our research group under exploration, so details are still confidential.
 
 
 
@@ -136,6 +136,14 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
 
 
 ---
+
+
+
+
+
+
+
+
 
 
 

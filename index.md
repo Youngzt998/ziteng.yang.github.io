@@ -36,7 +36,7 @@ See more details in [Projects](/project/) .
 
 # **Publication**
 
-**Conference Paper**
+**Conference Paper:**
 
 - **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  
 
@@ -44,14 +44,26 @@ See more details in [Projects](/project/) .
 
 
 
+
+
+# **Seminar**
+
+Materials I introduced after reading during group meeting or similar event
+
+- Nov. 24, 2020, Group Meeting: Static Single Assignment - Redundancy Elimination [[Slides]()]
+
+
+
+
+
 # **Teaching Experience**
 
-- Teaching Assistant  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
-  - Courses for the *IEEE Honor Class (an honor class for elite students in EECS) at SJTU* 
-  - Duties: office hours holding, Q&A writing
-- Teaching Assistant for  *MA239@SJTU: Discrete Mathematics (Honor)*, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
-  - Courses for the  *[Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/index.php) (a program for top students in Engineering related majors) at SJTU*;
-  - Duties: exercise grading, tutorials (for exercises) teaching, office hours holding and Q&A writing
+- **Teaching Assistant (official)** for  *MA239@SJTU: Discrete Mathematics (Honor)*, 2020 fall, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
+  - Courses for the  *[Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/index.php) (a program only for top 5% students in Engineering related majors) at SJTU*;
+  - Duties: exercise grading, tutorials (for exercises) teaching, office hours holding and Q&A
+- **Teaching Assistant (unofficial)**  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
+  - Courses for the *IEEE Honor Class (an honor class for elite students in EECS) at SJTU & Artificial Intelligence Class * 
+  - Duties: Q&A, making  answer sheets for exercises
 
 
 
@@ -85,9 +97,9 @@ See more details in [Projects](/project/) .
 
 # Honors and Awards
 
-- Rongchang Scholarship for Science and Technology Innovation (currently promoted to final review; 10 out of 4000 school-wide each academic year; 30,000 CNY after oral defense) , Oct. 2020
-- Undergraduate Excellent Scholarship, Third-class (Top 20%; 500 CNY), Oct. 2018
-- 1st Prize in National High School Mathematics League in Provinces, Sept. 2016
+- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (30 persons school-wide each academic year; **10,000 CNY**) , Oct. 2020
+- **Undergraduate Excellent Scholarship, Third-class** (Top 20%; **500 CNY**), Oct. 2018
+- **1st Prize in National High School Mathematics League in Provinces**, Sept. 2016
 
 
 
