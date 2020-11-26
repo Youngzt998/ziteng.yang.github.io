@@ -18,7 +18,7 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 # **Research Projects**
 
-The following lists my most important research experience during undergraduate study.  
+The following lists my most important research experiences during undergraduate study.  
 
 See more details in [Projects](/project/) .
 
