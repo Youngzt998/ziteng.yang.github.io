@@ -10,15 +10,15 @@ title: ""
 
 I'm currently a senior year undergraduate student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/). 
 
-My research interests currently lies in *programming languages* and *formal methods*, especially using them to solve practical problems (i.e. building reliable system) and formalization of mathematical theorems. I also have research experience in *Automata Theory*.  
+My current research experience lies in *programming languages* and *formal methods*, especially using them to solve practical problems (i.e. building reliable system) and formalization of mathematical theorems. I also have research experience in *Automata Theory*.  
 
-As an undergraduate students, I'm exploring more amazing research fields. I was advised by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) at present, before which I studied in [Xiang Yin's](http://xiangyin.sjtu.edu.cn/) group.
-
-I wish I could devote myself to the research and education of computer science in the future, so I am seeking a place to pursue Ph. D. degree.
+As an undergraduate students, I'm exploring more amazing research fields. I was advised by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) at present, before which I studied in [Xiang Yin's](http://xiangyin.sjtu.edu.cn/) group. I wish I could devote myself to the research and education of computer science in the future, so I am seeking a place to pursue Ph. D. degree.
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 # **Research Projects**
+
+The following lists my most important research experience during undergraduate study.  
 
 See more details in [Projects](/project/) .
 
