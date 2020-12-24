@@ -16,6 +16,15 @@ As an undergraduate students, I'm exploring more amazing research fields. I was 
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
+---
+
+**contact**:
+
+- Email (Institution): youngster@sjtu.edu.cn (available until Jul. 2021)
+- Email (Permanent): cs.ziteng.yang@gmail.com
+
+
+
 # **Research Projects**
 
 The following lists my most important research experiences during undergraduate study.  
