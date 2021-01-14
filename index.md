@@ -20,8 +20,8 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Information:**
 
-- Email (Institution): <youngster@sjtu.edu.cn> (available until Jul. 2021)
-- Email (Permanent): <cs.ziteng.yang@gmail.com>
+- **Email (Institution):** <youngster@sjtu.edu.cn> (available until Jul. 2021)
+- **Email (Permanent):** <cs.ziteng.yang@gmail.com>
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
 
 
