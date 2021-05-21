@@ -8,13 +8,11 @@ title: ""
 
 # **About**
 
-[ News: I will join Georgia Institute of Technology as a PhD student  at fall 2021 ! ]
+[ News: I will join **Georgia Institute of Technology** as a PhD student in Computer Science  at fall 2021 ! ]
 
-I'm currently a senior year undergraduate student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/). 
+My current research experience lies in *Programming Languages* and *Formal Methods*. I also have a short research experience in *Automata Theory*.
 
-My current research experience lies in *programming languages* and *formal methods*, especially using them to solve practical problems (i.e. building reliable system) and formalization of mathematical theorems. I also have research experience in *Automata Theory*.  
-
-During my undergraduate time,  I was advised by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) and worked on *compiler correctness* and *Modal Logic* in *Coq proof assistant* from junior to senior year . Prior to that I studied in [Xiang Yin's](http://xiangyin.sjtu.edu.cn/) group and worked on *supervisory control* of *Discrete Event System* at sophomore.
+During my undergraduate time at **[Shanghai Jiao Tong University](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html)** and worked on *compiler correctness* and *Modal Logic* in *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on *supervisory control* of *Discrete Event System* during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
