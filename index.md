@@ -8,7 +8,7 @@ title: ""
 
 # **About**
 
-I am a first-year PhD in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at School of Computer Science, **Georgia Institute of Technology**. 
+I am a first-year PhD in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at School of Computer Science, <u>**Georgia Institute of Technology**</u>. 
 
 My current research experience lies in *Programming Languages* and *Formal Methods*.
 
@@ -28,26 +28,34 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 # **Research Projects**
 
-The following lists my most important research experiences during undergraduate study.  
-
-See more details in [Projects](/project/) .
 
 
 
-**Previously:**
+
+
+
+
+
+### During Undergraduate Time
 
 - **Verification-aided Compiler Optimization**
   - I proposed a frame verification work and gave a trial on "toy logic" for an expedition to support compiler optimization aided by verification information carried by programs 
-  - This project was now continued by  [Hanzhi Liu](https://misaka.center/), an undergraduate student at SJTU, also advised by Qinxiang Cao) to implement this optimization and framework in VST's separation logic [VST = Verified Software Toolchain]
+  - This project was now continued by  [Hanzhi Liu](https://misaka.center/), an undergraduate student (2019~2023, expected) at SJTU, also advised by Qinxiang Cao to implement this optimization and framework in VST's separation logic [VST = Verified Software Toolchain]
   - Further detail should be secret now
 
 - **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
 
 - **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
 
-  
+
+
+
 
 # **Publication**
+
+
+
+### During Undergraduate Time
 
 **Conference Paper:**
 
@@ -118,29 +126,57 @@ See more details in [Projects](/project/) .
 
 ## Entertainment
 
+I'd like to share things during leisure time:
+
 - Sports:  Tennis = badminton > volleyball >> table tennis
+- Movies: 
+  - ***Interstellar*** (the favorite one) [now you might know why I sometimes use "Intelstealer" as a nickname ...]
+  - ***The Dark Knight***, ***钢的琴*** (The Piano in a Factory)*
+  - Movies from ***Marvel Cinematic Universe***
+  - Movies from ***DC Extended Universe***
+- Games: ***Red Dead Redemption 2*** (the favorite one), ***Life is Strange***, ***Plants VS. Zombies***, ***Plant VS. Zombies 2***, etc.
+- Animals (I do not have any pets...): cats, dogs, hamsters ...
 - Instruments: Harmonica, (Piano, 10 years ago)
 - Music and Favorite Singers/bands:
   - Pop Music Singers/bands I was addicted to: 
-    - Around 2019 ~ Now:
-      -  *[Li Chen](https://music.apple.com/cn/artist/%E9%99%88%E7%B2%92/1138469250)* (95% of her albums and singles) and [Nightwish](https://www.nightwish.com/) (*Imaginaerum*, *Dark Passion Play* and *Endless Forms Most Beautiful* )
-    - Around 2015 ~ 2018: *[Ellie Goulding](https://music.apple.com/us/artist/ellie-goulding/338264227)* (98% of her albums and singles) and  [*Bea Miller*](https://music.apple.com/us/artist/bea-miller/706171903)
+    - Around 2019 ~ Now: *[Li Chen](https://music.apple.com/cn/artist/%E9%99%88%E7%B2%92/1138469250)* (95% of her albums and singles) and [Nightwish](https://www.nightwish.com/) (*Imaginaerum*, *Dark Passion Play* and *Endless Forms Most Beautiful* )
+    - Around 2015 ~ 2018: *[Ellie Goulding](https://music.apple.com/us/artist/ellie-goulding/338264227)* (98% of her albums and si ngles) and  [*Bea Miller*](https://music.apple.com/us/artist/bea-miller/706171903) (*Fire N Gold*, etc.)
     - Around 2012 ~ 2015: *[Britney Spears](https://music.apple.com/us/artist/britney-spears/217005)* and [Kesha](https://music.apple.com/us/artist/kesha/334854763)
-    - Around
-  - Classical Music: updating
+    - Around 2011: Song Xu, etc.
+  - Classical Music (I was not an expert. In fact, I know nothing but just enjoy it.) :
+    - *Sonata No.8 in C Minor, Op.13,  "Pathétique"*, I, II and III
+    - *Sonata No.14 in C-Sharp Minor, Op. 27 No.2, "Moonlight"*, I , II and III
+    - *Symphony No. 9 in E minor, Op. 95 "From the New World": IV. Allegro con fuoco*
+    - *Fantaisie-Impromptu in C-Sharp Minor, Op. posth. 66*
+    - *Nocturne No.2 in E Flat Major, Op.9, No.2*
+    - *Serenade* by *Schubert* 
+    - *VI. Waltz 2 from Jazz Suite No.2*
+    - *Canon in D major* by *Pachelbel*
+    - *"Modlitwa dziewicy" Op. 4 (A Maiden's Prayer)*
+    - *Concerto No. 1 in E major, Op. 8, RV 269, "Spring"*
+    - *Habanera from Carmen*
+    - *Swan Lake, Op. 20a: No.1*
+  - Traditional Chinese Music:
+    - *赛马*
+  - Related to politics/patriotism (I hate politics, but I love music):
+    - *我的祖国 (My Homeland)* by *郭兰英 (Lanyin Guo)*, *钢铁洪流进行曲 (March of Steel Torrent)*
+    - *La Marseillaise (the national anthem of France;马赛曲，法国国歌)*
+    - *Катюша (Katyusha, 喀秋莎)*
+    - *Soviet March (A joke song written by a US composer)* : D
   - From Movies: updating
-  - Songs I was addicted to but do not know anything about:  updating
-- Movies: 
-  - *Interstellar* (the favorite one) [now you might know why I sometimes use "Intelstealer" as a nickname ...]
-  - *The Dark Knight*, *钢的琴 (The Piano in a Factory)*
-  - Movies from *Marvel* Cinematic Universe
-  - Movies *DC* Extended Universe.
-- Games: *Red Dead Redemption 2* (the favorite one), *Life is Strange*, *Plants VS. Zombies*.
+  - Other songs I was addicted to and wish to share:
+    - *千千厥歌 (Thousands of Songs)*, *认真地老去*, *夜的第七章* 
+    - *手紙〜拝啓 十五の君へ〜*
+    - *Five Hundred Miles*, *Hotel California*, *Hedwig's Theme*, *New Year's Eve*, Wake Me Up, Waiting For Love, etc    
+    - *Катюша (Katyusha)*, *Skoro dembel'*
+    - updating1
+- 
 
 
 
 ## Other Facts
 
-- I was born and raised up in Chongqin, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see a different city. My father comes from Heibei Province in China and worked there in a city named Zhuozhou close to Beijing for a very long time. Therefore, I was also familiar with this two cities. 
-- ...
+- I was born and raised up in Chongqing, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. My father comes from Hebei Province in China and worked there in a city named Zhuozhou close to Beijing for a very long time. Therefore, I was also familiar with this two cities. 
+- Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (
+- 4...
 
