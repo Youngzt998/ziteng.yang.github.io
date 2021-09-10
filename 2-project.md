@@ -13,9 +13,13 @@ permalink: /project/
 
 ## **Verification-aided Compiler Optimization**
 
+
+
+[Note: This project was now continued by  [Hanzhi Liu](https://misaka.center/), an undergraduate genius student (2019~2023, expected) and an experienced programmer at SJTU, also advised by Qinxiang Cao, to implement this optimization and framework in VST's separation logic [VST = Verified Software Toolchain]]
+
 We are designing a new method of program optimization for C programs with assertion annotated that contains verification information of the program. The new methods was being realized based on original [CompCert](http://compcert.inria.fr/) compiler. New semantics framework was designed based on CompCert small step semantic framework.  A conditional definition of "forward simulation" and "backward simulation" diagram for compiler correctness was proposed with crucial properties proved.
 
-This is an original work of our research group under exploration, so details are still confidential.
+This is an original work of our research group under exploration, so details are still not opened to the public.
 
 
 
@@ -147,7 +151,19 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
 
 
 
-# **Other Projects** 
+# **Projects for Courses/Fun** 
+
+[**Naive-Airdrop**](https://github.com/Youngzt998/Naive-Airdrop) 
+
+- An application for encrypted file synchronization between PC and Android under the same wi-fi.  
+
+- Features: auto connection, changes detecting of the observed files on client devices, encryption in transfer, both auto transmission and manual transmission etc.
+
+- My design of the working logic of this application
+
+  ![avatar](./projects/airdrop/structure.png)
+
+---
 
 [**SimPL Interpreter**](https://github.com/Youngzt998/SimPL-Interpreter): an interpreter for a simple programming language called *SimPL*,  a simplified dialect of *ML*, including *type checking* (including let-polymorphism) and *evaluation*.
 
@@ -166,7 +182,7 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
   - Let-polymorphism: 
 
     ```ocaml
-  let a = fn x => x in 
+    let a = fn x => x in 
         let b = a 1 in 
             let c = a false in 
                 if c then b else 0
@@ -180,21 +196,6 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
   ![avatar](./projects/simpl/structure.png)
 
 
----
-
-[**Naive-Airdrop**](https://github.com/Youngzt998/Naive-Airdrop) 
-
-- An application for encrypted file synchronization between PC and Android under the same wi-fi.  
-
-- Features: auto connection, changes detecting of the observed files on client devices, encryption in transfer, both auto transmission and manual transmission etc.
-
-- The working logic of the Application
-
-  ![avatar](./projects/airdrop/structure.png)
-
-
-
-
 
 ---
 
@@ -205,13 +206,11 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
 
 
 
-
-
 ---
 
 [**In The Garden**](https://youtu.be/2D67W584gpU) 
 
-- A mini puzzle game (Chinese version only). 
+- A (boring) mini puzzle game (Chinese version only). 
 
 - See the video record of the whole game on [Youtube](https://youtu.be/2D67W584gpU).
 

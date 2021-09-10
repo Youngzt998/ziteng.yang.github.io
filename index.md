@@ -8,9 +8,9 @@ title: ""
 
 # **About**
 
-I am a first-year PhD in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at School of Computer Science, <u>**Georgia Institute of Technology**</u>. 
+I am a first-year PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at [School of Computer Science](https://www.scs.gatech.edu/), [College of Computing](https://www.cc.gatech.edu/), **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)**. 
 
-My current research experience lies in *Programming Languages* and *Formal Methods*.
+My research experience lies in ***Programming Languages (PL)*** and ***Formal Methods***. PhD program is a brand new stage of my life. I'm still exploring the various researches in PL.
 
 During my undergraduate time at **[Shanghai Jiao Tong University](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html)** and worked on *compiler correctness* and *Modal Logic* in *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
 
@@ -18,19 +18,19 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 ---
 
-**Information:**
+**Contact Information:**
 
 - **Email (Institution):** ziteng.yang@gatech.edu 
-- **Email (Permanent):** <cs.ziteng.yang@gmail.com>
+- **Email (Permanent):** <cs.ziteng.yang@gmail.com> 
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
 
 
 
 # **Research Projects**
 
+### During PhD program
 
-
-
+To be updated soon (or maybe a year later)
 
 
 
@@ -38,20 +38,23 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 ### During Undergraduate Time
 
-- **Verification-aided Compiler Optimization**
-  - I proposed a frame verification work and gave a trial on "toy logic" for an expedition to support compiler optimization aided by verification information carried by programs 
-  - This project was now continued by  [Hanzhi Liu](https://misaka.center/), an undergraduate student (2019~2023, expected) at SJTU, also advised by Qinxiang Cao to implement this optimization and framework in VST's separation logic [VST = Verified Software Toolchain]
+- [2020~2021] **Verification-aided Compiler Optimization** 
+  - I proposed a frame verification work based on *proof assistant Coq* and gave a trial on "toy logic" for an expedition to support compiler optimization aided by verification information carried by programs 
+  - This project was now continued by  [Hanzhi Liu](https://misaka.center/), an undergraduate genius student (2019~2023, expected) and an experienced programmer at SJTU, also advised by Qinxiang Cao, to implement this optimization and framework in VST's separation logic [VST = Verified Software Toolchain]
   - Further detail should be secret now
-
-- **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
-
-- **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
+- [2019~2020] **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
+- [2018~2019] **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
+  - 
 
 
 
 
 
 # **Publication**
+
+### During PhD program
+
+To be updated in the future
 
 
 
@@ -70,11 +73,9 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 # **Teaching Experience**
 
 - **Teaching Assistant **  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
-  - Courses for the *IEEE Honor Class (an honor class for elite students in EECS) at SJTU & Artificial Intelligence Class * 
-  - Duties: Q&A, making  answer sheets for exercises
-- **Teaching Assistant for  *MA239@SJTU: Discrete Mathematics (Honor)*, 2020 fall, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
+  - Courses for the *IEEE Honor Class (an honor class for elite students in EECS) & Artificial Intelligence Class at SJTU* 
+- **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Honor)*, 2020 fall, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
   - Courses for the  *[Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/index.php) (a program only for top 5% students in Engineering related majors) at SJTU*;
-  - Duties: exercise grading, tutorials (for exercises) teaching, office hours holding and Q&A
 
 
 
@@ -86,11 +87,11 @@ The following projects are selected either from course work or my entertainment 
 
 - [**Naive-Airdrop**](https://github.com/Youngzt998/Naive-Airdrop): an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in **2019**.  
 
-  (Both my first project using Java and first practical project for real life.)
+  (My first practical project for real life; it also helped my learn Java programming languages for the first time)
 
 - [**Re-implementation of *deque* and *map* of  C++ Standard Template Library (STL)**:](https://github.com/Youngzt998/Re-implementation-of-deque-and-map) Re-implement the data structure *deque* (using Block List) and *map* (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in **2018**. 
 
-  (My first project of programming.)
+  (My first course project of computer science)
 
 
 
@@ -99,6 +100,14 @@ See more details in [Projects](/project/) .
 
 
 # Honors and Awards
+
+### During PhD program
+
+To be updated in the future
+
+
+
+### During Undergraduate Time
 
 - **Rongchang Scholarship for Science and Technology Innovation (荣昶科技创新奖学金), Finalist** (30 persons school-wide each academic year; **10,000 CNY**) , Oct. 2020
 - **Undergraduate Excellent Scholarship, Third-class** (Top 20%; **500 CNY**), Oct. 2018
@@ -175,6 +184,23 @@ I'd like to share things during leisure time:
 
 
 ## Other Facts
+
+#### Jokes
+
+- I usually mix up with "sophomore" and "semaphore" 
+
+
+
+#### Computer Science
+
+- I was also admitted by the *Master of Logic* program at the University of Amsterdam. But not rich enough to enroll : ( 
+- I have no industrial experience till now. I still regard myself as a nonprofessional programmer...
+- Unlike a lot of my friends that started learning programming at a very young age, I never stepped into it until freshman year at SJTU.
+- I gave up a desire of stepping into game design, another totally different career life at sophomore. This is mainly because I didn't found neither a good mentor/advisor nor suitable partners and didn't make it by self-study. Nevertheless, I did in the area of Programming Languages later! But I always love the world of video games.
+
+
+
+#### Life
 
 - I was born and raised up in Chongqing, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. My father comes from Hebei Province in China and worked there in a city named Zhuozhou close to Beijing for a very long time. Therefore, I was also familiar with this two cities. 
 - Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (
