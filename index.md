@@ -28,7 +28,7 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 # **Research Projects**
 
-### During PhD program
+### **During PhD program**
 
 To be updated soon (or maybe a year later)
 
@@ -36,7 +36,7 @@ To be updated soon (or maybe a year later)
 
 
 
-### During Undergraduate Time
+### **During Undergraduate Time**
 
 - [2020~2021] **Verification-aided Compiler Optimization** 
   - I proposed a frame verification work based on *proof assistant Coq* and gave a trial on "toy logic" for an expedition to support compiler optimization aided by verification information carried by programs 
@@ -52,13 +52,13 @@ To be updated soon (or maybe a year later)
 
 # **Publication**
 
-### During PhD program
+### **During PhD program**
 
 To be updated in the future
 
 
 
-### During Undergraduate Time
+### **During Undergraduate Time**
 
 **Conference Paper:**
 
@@ -101,7 +101,7 @@ See more details in [Projects](/project/) .
 
 # Honors and Awards
 
-### During PhD program
+### **During PhD program**
 
 To be updated in the future
 
@@ -185,13 +185,13 @@ I'd like to share things during leisure time:
 
 ## Other Facts
 
-#### Jokes
+#### **Jokes**
 
 - I usually mix up with "sophomore" and "semaphore" 
 
 
 
-#### Computer Science
+#### **Computer Science**
 
 - I was also admitted by the *Master of Logic* program at the University of Amsterdam. But not rich enough to enroll : ( 
 - I have no industrial experience till now. I still regard myself as a nonprofessional programmer...
@@ -204,5 +204,5 @@ I'd like to share things during leisure time:
 
 - I was born and raised up in Chongqing, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. My father comes from Hebei Province in China and worked there in a city named Zhuozhou close to Beijing for a very long time. Therefore, I was also familiar with this two cities. 
 - Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (
-- 4...
+- ...
 
