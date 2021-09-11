@@ -26,9 +26,17 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 
 
+# Directory
+
+[TOC]
+
+
+
+
+
 # **Research Projects**
 
-### **During PhD program**
+**During PhD Program**
 
 To be updated soon (or maybe a year later)
 
@@ -36,7 +44,7 @@ To be updated soon (or maybe a year later)
 
 
 
-### **During Undergraduate Time**
+**During Undergraduate Time**
 
 - [2020~2021] **Verification-aided Compiler Optimization** 
   - I proposed a frame verification work based on *proof assistant Coq* and gave a trial on "toy logic" for an expedition to support compiler optimization aided by verification information carried by programs 
@@ -52,13 +60,15 @@ To be updated soon (or maybe a year later)
 
 # **Publication**
 
-### **During PhD program**
+**During PhD Program**
 
 To be updated in the future
 
+[If there's still nothing several years later, either of the two things might happened: 0. I have forgotten I have a personal website; 1. : (  ]
 
 
-### **During Undergraduate Time**
+
+**During Undergraduate Time**
 
 **Conference Paper:**
 
@@ -79,7 +89,33 @@ To be updated in the future
 
 
 
+# **Honors and Awards**
+
+**During PhD Program**
+
+Wish I could have some in the future : )
+
+
+
+**During Undergraduate Time**
+
+- **Rongchang Scholarship for Science and Technology Innovation (荣昶科技创新奖学金), Finalist** (30 persons school-wide each academic year; **10,000 CNY**) , Oct. 2020
+- **Undergraduate Excellent Scholarship, Third-class** (Top 20%; **500 CNY**), Oct. 2018
+- **1st Prize in National High School Mathematics League in Provinces (全国高中数学联赛)**, Sept. 2016
+
+
+
+
+
 # **Projects for Courses/Fun**
+
+**During PhD Program**
+
+Might be empty for a long time : (
+
+
+
+**During Undergraduate Time**
 
 The following projects are selected either from course work or my entertainment during spare time:
 
@@ -99,19 +135,25 @@ See more details in [Projects](/project/) .
 
 
 
-# Honors and Awards
-
-### **During PhD program**
-
-To be updated in the future
 
 
+# Useful Links
 
-### During Undergraduate Time
+## Some Professors' Website
 
-- **Rongchang Scholarship for Science and Technology Innovation (荣昶科技创新奖学金), Finalist** (30 persons school-wide each academic year; **10,000 CNY**) , Oct. 2020
-- **Undergraduate Excellent Scholarship, Third-class** (Top 20%; **500 CNY**), Oct. 2018
-- **1st Prize in National High School Mathematics League in Provinces (全国高中数学联赛)**, Sept. 2016
+### Programming Languages in Computer Science
+
+- Program Verification 
+  - The [*DeepSpec*](https://deepspec.org/main) Project: TODO
+  - TODO
+- Program Analysis:
+  - TODO
+
+
+
+## Materials for Study
+
+- TODO
 
 
 
@@ -119,37 +161,65 @@ To be updated in the future
 
 # **Miscellany**
 
-## Sentences I wish to follow
+## Sentences I wish to share
+
+[Inside Chinese internet, we some times called it "chicken soup" if some sentence or story is heuristic]
 
 - "Talk is cheap. Show me the code." --- Linus Torvalds
+
+- "Talk is cheap. Show me the proof." --- Qinxiang Cao
+
+- "Talk is not cheap" --- Some Cyber-friends
+
 - “闻道有先后，术业有专攻”  --- 韩愈
+
+  - One might have learned the doctrine earlier than the other, or might be a master in his own special field. --- [Yu Han](https://en.wikipedia.org/wiki/Han_Yu)
+
+- [Russell's Message](https://www.youtube.com/watch?v=ihaB8AFOhZo):
+
+  - <iframe width="280" height="315" src="https://www.youtube.com/embed/ihaB8AFOhZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    From bilibili (if you are physically in China's Mainland):
+  
+  - <iframe src="//player.bilibili.com/player.html?aid=540498305&bvid=BV1Ai4y1b7pw&cid=184163624&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+  
+  - "*Ask yourself only what are the facts and what is the truth that the facts bear out*"
+  
+  - "*Never let yourself be diverted either by what you wish to believe or by what you think would have beneficent social effects if it were believed, but look only and solely at what are the facts.*"
+  
+    - "*Love is wise, hatred is foolish.*"
 
 
 
 ## Current Future Plans
 
 - Learn more things in Logics, Mathematics and Computer Science (especially in PL, Theory and System);
-- Raise a cat in 2 years.
+- Raise a cat in 2 years (Right after passing my qualification examination)
 
 
 
 ## Entertainment
 
-I'd like to share things during leisure time:
+What I am exited about during leisure time:
 
 - Sports:  Tennis = badminton > volleyball >> table tennis
+- Animals (I do not have any pets...): cats, dogs, hamsters, ... (I really like [this couple's video](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0) 强烈推荐up主 *[九品芝麻铲屎官](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0)* 的视频剪辑)
 - Movies: 
   - ***Interstellar*** (the favorite one) [now you might know why I sometimes use "Intelstealer" as a nickname ...]
-  - ***The Dark Knight***, ***钢的琴*** (The Piano in a Factory)*
-  - Movies from ***Marvel Cinematic Universe***
-  - Movies from ***DC Extended Universe***
-- Games: ***Red Dead Redemption 2*** (the favorite one), ***Life is Strange***, ***Plants VS. Zombies***, ***Plant VS. Zombies 2***, etc.
-- Animals (I do not have any pets...): cats, dogs, hamsters ...
-- Instruments: Harmonica, (Piano, 10 years ago)
+  - ***The Dark Knight***,  ***Big Fish***
+  - [***Life in a Day***](https://www.youtube.com/watch?v=JaFVr_cJJIY) 
+  - ***钢的琴 (The Piano in a Factory)*** 
+  - Movies from ***Marvel Cinematic Universe*** and ***DC Extended Universe***
+- Games: 
+  - ***Red Dead Redemption 2*** (the favorite one)
+  - ***Life is Strange***
+  - ***Plants VS. Zombies***, ***Plant VS. Zombies 2***, etc.
+  - ***Cytus II***, ***Deemo***, ***Lanota***  (all are music games)
+- Instruments: Harmonica, (Piano, 10 years ago I can play it; now I can only love it)
 - Music and Favorite Singers/bands:
   - Pop Music Singers/bands I was addicted to: 
     - Around 2019 ~ Now: *[Li Chen](https://music.apple.com/cn/artist/%E9%99%88%E7%B2%92/1138469250)* (95% of her albums and singles) and [Nightwish](https://www.nightwish.com/) (*Imaginaerum*, *Dark Passion Play* and *Endless Forms Most Beautiful* )
-    - Around 2015 ~ 2018: *[Ellie Goulding](https://music.apple.com/us/artist/ellie-goulding/338264227)* (98% of her albums and si ngles) and  [*Bea Miller*](https://music.apple.com/us/artist/bea-miller/706171903) (*Fire N Gold*, etc.)
+    - Around 2015 ~ 2018: *[Ellie Goulding](https://music.apple.com/us/artist/ellie-goulding/338264227)* (98% of her albums and singles) and  [*Bea Miller*](https://music.apple.com/us/artist/bea-miller/706171903) (*Fire N Gold*, etc.)
     - Around 2012 ~ 2015: *[Britney Spears](https://music.apple.com/us/artist/britney-spears/217005)* and [Kesha](https://music.apple.com/us/artist/kesha/334854763)
     - Around 2011: Song Xu, etc.
   - Classical Music (I was not an expert. In fact, I know nothing but just enjoy it.) :
@@ -172,35 +242,73 @@ I'd like to share things during leisure time:
     - *La Marseillaise (the national anthem of France;马赛曲，法国国歌)*
     - *Катюша (Katyusha, 喀秋莎)*
     - *Soviet March (A joke song written by a US composer)* : D
-  - From Movies: updating
-  - Other songs I was addicted to and wish to share:
-    - *千千厥歌 (Thousands of Songs)*, *认真地老去*, *夜的第七章* 
-    - *手紙〜拝啓 十五の君へ〜*
-    - *Five Hundred Miles*, *Hotel California*, *Hedwig's Theme*, *New Year's Eve*, Wake Me Up, Waiting For Love, etc    
-    - *Катюша (Katyusha)*, *Skoro dembel'*
-    - updating1
+  - From Movies & Games: **updating**
+    - ***Interstellar:*** 
+    - ***Plant VS Zombies:***
+    - ***Plant VS Zombies 2:***
+    - ***Red Dead Redemption 2:***
+    - ***Life is Strange***
+    - ***Cytus II & Deemo***
+    - ***Les Misérables*:** *Look Down*, *At The End of The Day*, *The Docks (Lovely Ladies)*, *The Confrontation*, *Castle on a Cloud*, *Master of the House*, *Do You Hear The People Sing*
+    - ***La La Land:***
+    - ***Coco***: *Remember Me*, *Proud Corazón*
+    - ***The Hanger Games:***
+    - ***Sherlock Holmes:***
+    - ***Suicide Squad:***
+    - ***デジモンアドベンチャー (Digimon Adventure):*** *勝利〜善のテーマ〜*, *Butterfly*, *Brave Heart*
+    - ***ウルトラマンティガ (Ultraman Tiga):***
+    - ***Attack on Titan***:
+    - ***Game of Thrones:***
+  - Other songs I was addicted to and wish to share (categorized by language):
+    - [Chinese] *千千厥歌 (Thousands of Songs)*, *认真地老去*, *杀死那个石家庄人*, *黑色也是值得被等待的*, *夜的第七章* , *下一站茶山刘*, *月牙湾*, *华阴老腔一声喊*, *万物生*
+    - [English] *Five Hundred Miles*, *Hotel California*, *The Sound of Silence*, *Hedwig's Theme*, *New Year's Eve*, *Wake Me Up*, *Waiting For Love*, *Sparks Fly*, ...
+    - [Japanese] *手紙〜拝啓 十五の君へ〜*, *夢灯籠*, *ぜんぜんぜんせ*, *PLANET*
+    - [Russian] *Катюша (Katyusha)*, *Skoro dembel'*, *Подмосковные Вечера (Moscow Nights)* 
+    - [Piano] *翘课 (skip class)*, *Flower Dance*, *风の住む街*, *城南花已开*
+    - [Computer Generated] *BASARA*
+    - updating
+  - Interesting songs (好玩的):
+    - [葫芦娃变奏曲](https://www.bilibili.com/video/BV1r64y1B777?spm_id_from=333.999.0.0)
 - 
 
 
 
-## Other Facts
+## **Some Cyber-friends :)**
 
-#### **Jokes**
+- I am fortunate to know [Ziteng Wang](https://wzt.me/), who share the same spell of first name, similar spell of last name, and most importantly, the research interests in Programming Languages.
+- I shared a similar game interests with [Zhiming Xu](https://zhiming-xu.github.io/), although we seem not to share the similar research interests, 
+
+
+
+
+
+## **Cooking**
+
+To be updated when I became a master of that ...
+
+
+
+# **Other Facts**
+
+## **Jokes**
 
 - I usually mix up with "sophomore" and "semaphore" 
 
 
 
-#### **Computer Science**
+## **Computer Science**
 
 - I was also admitted by the *Master of Logic* program at the University of Amsterdam. But not rich enough to enroll : ( 
+  - It doesn't mean I do not love Computer Science
+- I gave up the desire of stepping into game design, another totally different career life at sophomore. This is mainly because I didn't found neither a good mentor/advisor nor suitable partners and didn't make it by self-study.
+  - It doesn't mean I do not love Programming Languages. Instead, I found those two things in the area of Programming Languages later! 
+  - Nevertheless, I always love the world of video games and believe they are a treasure of humans.
 - I have no industrial experience till now. I still regard myself as a nonprofessional programmer...
-- Unlike a lot of my friends that started learning programming at a very young age, I never stepped into it until freshman year at SJTU.
-- I gave up a desire of stepping into game design, another totally different career life at sophomore. This is mainly because I didn't found neither a good mentor/advisor nor suitable partners and didn't make it by self-study. Nevertheless, I did in the area of Programming Languages later! But I always love the world of video games.
+- Unlike a lot of my friends that started learning programming at a very young age, I never touched the world of programming until freshman year at SJTU.
 
 
 
-#### Life
+## Life
 
 - I was born and raised up in Chongqing, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. My father comes from Hebei Province in China and worked there in a city named Zhuozhou close to Beijing for a very long time. Therefore, I was also familiar with this two cities. 
 - Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (
