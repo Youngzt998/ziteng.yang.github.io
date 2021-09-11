@@ -99,13 +99,17 @@ Wish I could have some in the future : )
 
 - **1st Prize in National High School Mathematics League in Provinces **, Sept. 2016
 
-  **全国高中数学联赛, 省级一等**
-
 
 
 # **Projects for Courses/Fun**
 
 See more details in [Projects](/project/) .
+
+
+
+
+
+
 
 
 
