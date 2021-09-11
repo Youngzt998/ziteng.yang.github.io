@@ -109,11 +109,11 @@ See more details in [Projects](/project/) .
 
 
 
-# Useful Links
+# **Useful Links**
 
-## Some Professors' Website
+## **Some Professors' Website**
 
-### Programming Languages & Formal Methods in Computer Science
+### **Programming Languages & Formal Methods in Computer Science**
 
 - Program Analysis:
 
@@ -137,9 +137,9 @@ See more details in [Projects](/project/) .
 
 
 
-## Materials for Study
+## **Materials for Study**
 
-#### Programming Languages (Research Oriented)
+#### **Programming Languages (Research Oriented)**
 
 - Static Analysis Foundations:
 
@@ -200,7 +200,7 @@ See more details in [Projects](/project/) .
 
   - "*Love is wise, hatred is foolish.*"
 
-
+  
 
 ## Current Future Plans
 
