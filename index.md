@@ -72,7 +72,7 @@ To be updated in the future [If there's still nothing several years later, eithe
 
 # **Teaching Experience**
 
-- **Teaching Assistant **  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
+- **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
   - Courses for the *IEEE Honor Class (an honor class for elite students in EECS) & Artificial Intelligence Class at SJTU* 
 - **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Honor)*, 2020 fall, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
   - Courses for the  *[Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/index.php) (a program only for top 5% students in Engineering related majors) at SJTU*;
@@ -97,7 +97,7 @@ Wish I could have some in the future : )
 
   **上海交通大学校优奖学金, C等 (人民币伍佰元)**
 
-- **1st Prize in National High School Mathematics League in Provinces **, Sept. 2016
+- **1st Prize in National High School Mathematics League in Provinces**, Sept. 2016
 
 
 
@@ -176,7 +176,7 @@ See more details in [Projects](/project/) .
 
 # **Miscellany**
 
-## Sentences I wish to share
+## **Sentences I wish to share**
 
 [Inside Chinese internet, we some times called it "chicken soup" if some sentence or story is heuristic]
 
@@ -194,10 +194,6 @@ See more details in [Projects](/project/) .
 
   - <iframe width="280" height="315" src="https://www.youtube.com/embed/ihaB8AFOhZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    From bilibili (if you are physically in China's Mainland):
-
-  - <iframe src="//player.bilibili.com/player.html?aid=540498305&bvid=BV1Ai4y1b7pw&cid=184163624&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
   - "*Ask yourself only what are the facts and what is the truth that the facts bear out*"
 
   - "*Never let yourself be diverted either by what you wish to believe or by what you think would have beneficent social effects if it were believed, but look only and solely at what are the facts.*"
@@ -206,14 +202,14 @@ See more details in [Projects](/project/) .
 
   
 
-## Current Future Plans
+## **Current Future Plans**
 
 - Learn more things in Logics, Mathematics and Computer Science (especially in PL, Theory and System);
 - Raise a cat in 2 years (Right after passing my qualification examination)
 
 
 
-## Entertainment
+## **Entertainment**
 
 What I am exited about during leisure time:
 
