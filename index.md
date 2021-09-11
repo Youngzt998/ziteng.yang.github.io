@@ -12,7 +12,7 @@ I am a first-year PhD student in the [PLSE Lab](https://www.scs.gatech.edu/conte
 
 My research experience lies in ***Programming Languages (PL)*** and ***Formal Methods***. PhD program is a brand new stage of my life. I'm still exploring the various researches in PL.
 
-During my undergraduate time at **[Shanghai Jiao Tong University](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html)** and worked on *compiler correctness* and *Modal Logic* in *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
+During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html)** and worked on *compiler correctness* and *Modal Logic* in *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
@@ -20,17 +20,9 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
-- **Email (Institution):** ziteng.yang@gatech.edu 
+- **Email (Institution):** <ziteng.yang@gatech.edu> 
 - **Email (Permanent):** <cs.ziteng.yang@gmail.com> 
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
-
-
-
-# Directory
-
-[TOC]
-
-
 
 
 
@@ -62,9 +54,7 @@ To be updated soon (or maybe a year later)
 
 **During PhD Program**
 
-To be updated in the future
-
-[If there's still nothing several years later, either of the two things might happened: 0. I have forgotten I have a personal website; 1. : (  ]
+To be updated in the future [If there's still nothing several years later, either of the two things might happened: 0. I have forgotten I have a personal website; 1. : (  ]
 
 
 
@@ -97,43 +87,25 @@ Wish I could have some in the future : )
 
 
 
-**During Undergraduate Time**
+**During/Before Undergraduate Time**
 
-- **Rongchang Scholarship for Science and Technology Innovation (荣昶科技创新奖学金), Finalist** (30 persons school-wide each academic year; **10,000 CNY**) , Oct. 2020
+- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (30 persons school-wide each academic year; **10,000 CNY**) , Oct. 2020
+
+  **荣昶科技创新奖学金, 提名奖 (人民币壹万元)**
+
 - **Undergraduate Excellent Scholarship, Third-class** (Top 20%; **500 CNY**), Oct. 2018
-- **1st Prize in National High School Mathematics League in Provinces (全国高中数学联赛)**, Sept. 2016
 
+  **上海交通大学校优奖学金, C等 (人民币伍佰元)**
 
+- **1st Prize in National High School Mathematics League in Provinces **, Sept. 2016
+
+  **全国高中数学联赛, 省级一等**
 
 
 
 # **Projects for Courses/Fun**
 
-**During PhD Program**
-
-Might be empty for a long time : (
-
-
-
-**During Undergraduate Time**
-
-The following projects are selected either from course work or my entertainment during spare time:
-
-- [**SimPL Interpreter**](https://github.com/Youngzt998/SimPL-Interpreter): an interpreter for a simple programming language called *SimPL*, implemented in **2020**.
-
-- [**Naive-Airdrop**](https://github.com/Youngzt998/Naive-Airdrop): an application for encrypted file synchronization between PC and Android under the same wi-fi, implemented in **2019**.  
-
-  (My first practical project for real life; it also helped my learn Java programming languages for the first time)
-
-- [**Re-implementation of *deque* and *map* of  C++ Standard Template Library (STL)**:](https://github.com/Youngzt998/Re-implementation-of-deque-and-map) Re-implement the data structure *deque* (using Block List) and *map* (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions, implemented in **2018**. 
-
-  (My first course project of computer science)
-
-
-
 See more details in [Projects](/project/) .
-
-
 
 
 
@@ -141,19 +113,58 @@ See more details in [Projects](/project/) .
 
 ## Some Professors' Website
 
-### Programming Languages in Computer Science
+### Programming Languages & Formal Methods in Computer Science
+
+- Program Analysis:
+
+  - [Thomas W. Reps](http://pages.cs.wisc.edu/~reps/),  [QIrun Zhang](https://www.cc.gatech.edu/~qzhang414/),
 
 - Program Verification 
-  - The [*DeepSpec*](https://deepspec.org/main) Project: TODO
-  - TODO
-- Program Analysis:
-  - TODO
+  
+  - The [*DeepSpec*](https://deepspec.org/main) project: [Andrew W. Appel](https://www.cs.princeton.edu/~appel/), [Benjamin C. Pierce](https://www.cis.upenn.edu/~bcpierce/), [Zhong Shao](http://www.cs.yale.edu/homes/shao-zhong/)
+  - Separation Logic:
+  - 
+  
+- Software Testing: [Zhendong Su](https://people.inf.ethz.ch/suz/), [QIrun Zhang](https://www.cc.gatech.edu/~qzhang414/), [Lingming Zhang](http://lingming.cs.illinois.edu/index.html)
+
+- Program Synthesis: [Thomas W. Reps](http://pages.cs.wisc.edu/~reps/), [Loris D'Antoni](https://pages.cs.wisc.edu/~loris/), [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/)
+
+- Model Checking:
+
+  
+
+### 
 
 
 
 ## Materials for Study
 
-- TODO
+#### Programming Languages (Research Oriented)
+
+- Static Analysis Foundations:
+
+  - Check this [course website](https://pascal-group.bitbucket.io/teaching.html) and [the course video uploaded by the professors](https://www.bilibili.com/video/BV1b7411K7P4?share_source=copy_web) from NJU 
+
+- CFL-Reachability in static analysis: 
+
+  - Check [**this paper**](https://dl.acm.org/doi/10.1145/199448.199462) from [POPL'95] about how a static analysis problem can be transferred into graph-reachability problem
+
+- Formal verification using proof assistant Coq:
+
+  - **[Foundations of Coq]** Check this open-source free online-book *[**Software Foundations, Volume 1**](https://softwarefoundations.cis.upenn.edu/lf-current/index.html)*
+
+  - **[Foundations of Hoare-Logic based program verification]** Check this open-source free online-book ***[Software Foundations, Volume 2](https://softwarefoundations.cis.upenn.edu/plf-current/index.html)***
+  - **[Verify C program using a strong tool VST]** Check this open-source free online-book ***[Software Foundations, Volume 5](https://softwarefoundations.cis.upenn.edu/vc-current/index.html)***
+
+- Formal verification - theoretical view:
+
+  - **[Separation Logic & Verifiable C & Verified Compiler & CompCert Memory Model & ...]** Check [this book](https://vst.cs.princeton.edu/veric/) by Andrew W. Appel (free from author's page) 
+
+- 
+
+
+
+
 
 
 
@@ -178,16 +189,16 @@ See more details in [Projects](/project/) .
 - [Russell's Message](https://www.youtube.com/watch?v=ihaB8AFOhZo):
 
   - <iframe width="280" height="315" src="https://www.youtube.com/embed/ihaB8AFOhZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
+
     From bilibili (if you are physically in China's Mainland):
-  
+
   - <iframe src="//player.bilibili.com/player.html?aid=540498305&bvid=BV1Ai4y1b7pw&cid=184163624&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-  
+
   - "*Ask yourself only what are the facts and what is the truth that the facts bear out*"
-  
+
   - "*Never let yourself be diverted either by what you wish to believe or by what you think would have beneficent social effects if it were believed, but look only and solely at what are the facts.*"
-  
-    - "*Love is wise, hatred is foolish.*"
+
+  - "*Love is wise, hatred is foolish.*"
 
 
 
