@@ -26,6 +26,8 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 
 
+
+
 # **Research Projects**
 
 **During PhD Program**
@@ -111,11 +113,13 @@ See more details in [Projects](/project/) .
 
 
 
+---
+
 
 
 # **Useful Links**
 
-## **Some Professors' Website**
+## **Some Professors' Website** (Keep updating)
 
 ### **Programming Languages & Formal Methods in Computer Science**
 
@@ -137,28 +141,32 @@ See more details in [Projects](/project/) .
 
   
 
-### 
 
 
 
-## **Materials for Study**
 
-#### **Programming Languages (Research Oriented)**
+
+
+# **Materials for Study**
+
+## **Programming Languages (Research Oriented)**
 
 - Static Analysis Foundations:
 
+  - ***Static Program Analysis*** by A. Møller and M. Schwartzbach, [Online book](https://cs.au.dk/~amoeller/spa/), 2018
   - Check this [course website](https://pascal-group.bitbucket.io/teaching.html) and [the course video uploaded by the professors](https://www.bilibili.com/video/BV1b7411K7P4?share_source=copy_web) from NJU 
 
 - CFL-Reachability in static analysis: 
 
-  - Check [**this paper**](https://dl.acm.org/doi/10.1145/199448.199462) from [POPL'95] about how a static analysis problem can be transferred into graph-reachability problem
+  - Check [**this paper**](https://dl.acm.org/doi/10.1145/199448.199462) from [POPL'95] to learn about how some static analysis problem can be transferred into graph-reachability problem
+  - Check the course website from NJU above
 
 - Formal verification using proof assistant Coq:
 
   - **[Foundations of Coq]** Check this open-source free online-book *[**Software Foundations, Volume 1**](https://softwarefoundations.cis.upenn.edu/lf-current/index.html)*
-
-  - **[Foundations of Hoare-Logic based program verification]** Check this open-source free online-book ***[Software Foundations, Volume 2](https://softwarefoundations.cis.upenn.edu/plf-current/index.html)***
+- **[Foundations of Hoare-Logic based program verification]** Check this open-source free online-book ***[Software Foundations, Volume 2](https://softwarefoundations.cis.upenn.edu/plf-current/index.html)***
   - **[Verify C program using a strong tool VST]** Check this open-source free online-book ***[Software Foundations, Volume 5](https://softwarefoundations.cis.upenn.edu/vc-current/index.html)***
+  - Check this [***Formal Semantics course website***](https://flint.cs.yale.edu/cs430/) from Yale
 
 - Formal verification - theoretical view:
 
@@ -170,6 +178,8 @@ See more details in [Projects](/project/) .
 
 
 
+---
+
 
 
 
@@ -180,15 +190,15 @@ See more details in [Projects](/project/) .
 
 [Inside Chinese internet, we some times called it "chicken soup" if some sentence or story is heuristic]
 
-- "Talk is cheap. Show me the code." --- Linus Torvalds
+- *"Talk is cheap. Show me the code."* --- Linus Torvalds
 
-- "Talk is cheap. Show me the proof." --- Qinxiang Cao
+- *"Talk is cheap. Show me the proof."* --- Qinxiang Cao
 
-- "Talk is not cheap" --- Some Cyber-friends
+- *"Talk is not cheap"* --- Some Cyber-stranger
 
-- “闻道有先后，术业有专攻”  --- 韩愈
+- *“闻道有先后，术业有专攻”*  --- 韩愈
 
-  - One might have learned the doctrine earlier than the other, or might be a master in his own special field. --- [Yu Han](https://en.wikipedia.org/wiki/Han_Yu)
+  One might have learned the doctrine earlier than the other, or might be a master in his own special field. --- [Yu Han](https://en.wikipedia.org/wiki/Han_Yu)
 
 - [Russell's Message](https://www.youtube.com/watch?v=ihaB8AFOhZo):
 
@@ -205,7 +215,7 @@ See more details in [Projects](/project/) .
 ## **Current Future Plans**
 
 - Learn more things in Logics, Mathematics and Computer Science (especially in PL, Theory and System);
-- Raise a cat in 2 years (Right after passing my qualification examination)
+- Raise a cat in 2 years (I will immediately raise one after passing my qualification examination, sincerely.)
 
 
 
@@ -286,8 +296,10 @@ What I am exited about during leisure time:
 
 ## **Some Cyber-friends :)**
 
-- I am fortunate to know [Ziteng Wang](https://wzt.me/), who share the same spell of first name, similar spell of last name, and most importantly, the research interests in Programming Languages.
-- I shared a similar game interests with [Zhiming Xu](https://zhiming-xu.github.io/), although we seem not to share the similar research interests, 
+- I am fortunate to know [Ziteng Wang](https://wzt.me/), who share the same spell of first name, similar spell of last name, and most importantly, the research interests in Programming Languages with me.
+- I shared a similar game interest with [Zhiming Xu](https://zhiming-xu.github.io/), although we seem not to share similar research interests
+- [Alex Chi](https://www.skyzh.dev/) is an undergraduate student (graduate at 2022)  from the department of Computer Science at SJTU; you might be interested in his (famous, somehow) programming skills and (famous, somehow) course grades
+- [xxchan](https://xxchan.github.io/about/) used to be in the same research group with me during undergraduate time. His experience (see [this blog](https://xxchan.github.io/cs/2020/09/02/intern-at-meituan.html)) in an company might be a great reference for those (in China) who are still not sure whether going academical or industrial.  
 
 
 
@@ -321,7 +333,7 @@ To be updated when I became a master of that ...
 
 ## Life
 
-- I was born and raised up in Chongqing, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. My father comes from Hebei Province in China and worked there in a city named Zhuozhou close to Beijing for a very long time. Therefore, I was also familiar with this two cities. 
+- I was born and raised up in Chongqing, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. My father comes from Hebei Province in China and worked there in a city named Zhuozhou close to Beijing for a very long time. Therefore, I was also familiar with those cities. 
 - Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (
 - ...
 
