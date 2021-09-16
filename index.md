@@ -20,6 +20,7 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
+- [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319 [[266 Ferst Dr NW, Atlanta, GA 30332, US](https://goo.gl/maps/xbk4TXfCu8EtweQ86)]
 - **Email (Institution):** <ziteng.yang@gatech.edu> 
 - **Email (Permanent):** <cs.ziteng.yang@gmail.com> 
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
