@@ -117,9 +117,9 @@ See more details in [Projects](/project/) .
 
 
 
-# **Useful Links**
+# **Useful Links** For Study
 
-## **Some Professors' Website** (Keep updating)
+## **Some Professors' Website**
 
 ### **Programming Languages & Formal Methods in Computer Science**
 
@@ -131,13 +131,13 @@ See more details in [Projects](/project/) .
   
   - The [*DeepSpec*](https://deepspec.org/main) project: [Andrew W. Appel](https://www.cs.princeton.edu/~appel/), [Benjamin C. Pierce](https://www.cis.upenn.edu/~bcpierce/), [Zhong Shao](http://www.cs.yale.edu/homes/shao-zhong/)
   - Separation Logic:
-  - 
+  - ...
   
 - Software Testing: [Zhendong Su](https://people.inf.ethz.ch/suz/), [QIrun Zhang](https://www.cc.gatech.edu/~qzhang414/), [Lingming Zhang](http://lingming.cs.illinois.edu/index.html)
 
 - Program Synthesis: [Thomas W. Reps](http://pages.cs.wisc.edu/~reps/), [Loris D'Antoni](https://pages.cs.wisc.edu/~loris/), [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/)
 
-- Model Checking:
+- Model Checking: ...
 
   
 
@@ -151,27 +151,23 @@ See more details in [Projects](/project/) .
 
 ## **Programming Languages (Research Oriented)**
 
-- Static Analysis Foundations:
-
-  - ***Static Program Analysis*** by A. Møller and M. Schwartzbach, [Online book](https://cs.au.dk/~amoeller/spa/), 2018
+- **Static Analysis Foundations:**
+  - An introduction online book [***Static Program Analysis*** ](https://cs.au.dk/~amoeller/spa/) by A. Møller and M. Schwartzbach,2018
   - Check this [course website](https://pascal-group.bitbucket.io/teaching.html) and [the course video uploaded by the professors](https://www.bilibili.com/video/BV1b7411K7P4?share_source=copy_web) from NJU 
-
-- CFL-Reachability in static analysis: 
-
+  
+- **C**ontext**F**ree**L**anguage**-Reachability for Static Analysis**: 
   - Check [**this paper**](https://dl.acm.org/doi/10.1145/199448.199462) from [POPL'95] to learn about how some static analysis problem can be transferred into graph-reachability problem
   - Check the course website from NJU above
-
-- Formal verification using proof assistant Coq:
-
-  - **[Foundations of Coq]** Check this open-source free online-book *[**Software Foundations, Volume 1**](https://softwarefoundations.cis.upenn.edu/lf-current/index.html)*
-- **[Foundations of Hoare-Logic based program verification]** Check this open-source free online-book ***[Software Foundations, Volume 2](https://softwarefoundations.cis.upenn.edu/plf-current/index.html)***
-  - **[Verify C program using a strong tool VST]** Check this open-source free online-book ***[Software Foundations, Volume 5](https://softwarefoundations.cis.upenn.edu/vc-current/index.html)***
+  
+- **Formal verification using proof assistant Coq:**
+  - **[Foundations of proof assistant Coq]** Check this open-source free online-book *[**Software Foundations, Volume 1**](https://softwarefoundations.cis.upenn.edu/lf-current/index.html)*
+  - **[Foundations of Hoare-Logic based program verification]** Check this open-source free online-book ***[Software Foundations, Volume 2](https://softwarefoundations.cis.upenn.edu/plf-current/index.html)***
+  - **[Verify C program using VST, a separation logic tool in Coq]** Check this open-source free online-book ***[Software Foundations, Volume 5](https://softwarefoundations.cis.upenn.edu/vc-current/index.html)***
   - Check this [***Formal Semantics course website***](https://flint.cs.yale.edu/cs430/) from Yale
-
-- Formal verification - theoretical view:
-
-  - **[Separation Logic & Verifiable C & Verified Compiler & CompCert Memory Model & ...]** Check [this book](https://vst.cs.princeton.edu/veric/) by Andrew W. Appel (free from author's page) 
-
+  
+- **Formal verification - theoretical view:**
+  - **[Separation Logic & Verifiable C & Verified Compiler & CompCert Memory Model & ...]** Check this book  [**Program Logics for Certified Compilers**](https://vst.cs.princeton.edu/veric/) by Andrew W. Appel (free from author's page) 
+  
 - 
 
 
@@ -228,13 +224,13 @@ What I am exited about during leisure time:
 - Movies: 
   - ***Interstellar*** (the favorite one) [now you might know why I sometimes use "Intelstealer" as a nickname ...]
   - ***The Dark Knight***,  ***Big Fish***
-  - [***Life in a Day***](https://www.youtube.com/watch?v=JaFVr_cJJIY) 
+  - [***Life in a Day***](https://www.youtube.com/watch?v=JaFVr_cJJIY) (a movie consistent of clips from all over the world in the same ordinary  day made by Youtube)
   - ***钢的琴 (The Piano in a Factory)*** 
   - Movies from ***Marvel Cinematic Universe*** and ***DC Extended Universe***
 - Games: 
   - ***Red Dead Redemption 2*** (the favorite one)
   - ***Life is Strange***
-  - ***Plants VS. Zombies***, ***Plant VS. Zombies 2***, etc.
+  - ***Plants VS. Zombies***, ***Plant VS. Zombies 2***
   - ***Cytus II***, ***Deemo***, ***Lanota***  (all are music games)
 - Instruments: Harmonica, (Piano, 10 years ago I can play it; now I can only love it)
 - Music and Favorite Singers/bands:
