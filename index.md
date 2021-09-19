@@ -65,9 +65,7 @@ To be updated in the future [If there's still nothing several years later, eithe
 
 **Conference Paper:**
 
-- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  
-
-  [ [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
+- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [ [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
 
 
 
@@ -146,30 +144,62 @@ See more details in [Projects](/project/) .
 
 
 
+# **Materials for CS Study**
 
-
-# **Materials for Study**
+Stock up maybe-useful resources like the hamster ...
 
 ## **Programming Languages (Research Oriented)**
+
+### **Program Analysis**
 
 - **Static Analysis Foundations:**
   - An introduction online book [***Static Program Analysis*** ](https://cs.au.dk/~amoeller/spa/) by A. Møller and M. Schwartzbach,2018
   - Check this [course website](https://pascal-group.bitbucket.io/teaching.html) and [the course video uploaded by the professors](https://www.bilibili.com/video/BV1b7411K7P4?share_source=copy_web) from NJU 
   
 - **C**ontext**F**ree**L**anguage**-Reachability for Static Analysis**: 
-  - Check [**this paper**](https://dl.acm.org/doi/10.1145/199448.199462) from [POPL'95] to learn about how some static analysis problem can be transferred into graph-reachability problem
+  - Check [**this paper**](https://dl.acm.org/doi/10.1145/199448.199462) from [POPL'95] to learn about **how some static analysis problem can be transferred into graph-reachability problem**
   - Check the course website from NJU above
+  - Updating ...
   
+
+### **Program Verification**
+
 - **Formal verification using proof assistant Coq:**
   - **[Foundations of proof assistant Coq]** Check this open-source free online-book *[**Software Foundations, Volume 1**](https://softwarefoundations.cis.upenn.edu/lf-current/index.html)*
   - **[Foundations of Hoare-Logic based program verification]** Check this open-source free online-book ***[Software Foundations, Volume 2](https://softwarefoundations.cis.upenn.edu/plf-current/index.html)***
   - **[Verify C program using VST, a separation logic tool in Coq]** Check this open-source free online-book ***[Software Foundations, Volume 5](https://softwarefoundations.cis.upenn.edu/vc-current/index.html)***
   - Check this [***Formal Semantics course website***](https://flint.cs.yale.edu/cs430/) from Yale
+  - Updating ...
   
 - **Formal verification - theoretical view:**
   - **[Separation Logic & Verifiable C & Verified Compiler & CompCert Memory Model & ...]** Check this book  [**Program Logics for Certified Compilers**](https://vst.cs.princeton.edu/veric/) by Andrew W. Appel (free from author's page) 
+  - Updating ...
   
 - 
+
+
+
+
+
+
+
+## **Theoretical Computer Science (Interests Oriented)**
+
+- Prof. Ryan O'Donnell at CMU	 keeps uploading videos about basic theoretical computer science in [YouTube](https://www.youtube.com/channel/UCWnu2XymDtORV--qG2uG5eQ) and [Bilibili](https://space.bilibili.com/1198378855/?spm_id_from=333.999.0.0)
+
+  卡内基梅隆大学的 Ryan O'Donnell 教授一直在 YouTuBe 和 [B站](https://space.bilibili.com/1198378855/?spm_id_from=333.999.0.0) 上传理论计算机相关的科普视频
+
+
+
+## **Computer System (Courses Oriented)**
+
+- The [*IPADS Lab*](https://ipads.se.sjtu.edu.cn/) (an internationally famous laboratory focusing on computer systems) at SJTU has [***several excellent courses for computer system***](https://ipads.se.sjtu.edu.cn/pub/courses) 
+
+  上海交大软院的*[IPADS实验室](https://ipads.se.sjtu.edu.cn/)*开设的计算机系统相关课程学生风评特别的好: 
+
+  *[Operating System](https://ipads.se.sjtu.edu.cn/courses/os/)*, *[Introduction to Computer Systems](https://ipads.se.sjtu.edu.cn/courses/ics/)*, [Computer System Engineering](https://ipads.se.sjtu.edu.cn/courses/cse/), etc.
+
+  - About a Chinese-only text-book: 该实验室撰写的这本中文教材 [*《现代操作系统：原理与实现》*](https://ipads.se.sjtu.edu.cn/mospi/) 是计算机类中文教材中难得的写得较好的一本（但个人认为不适合初学；迷迷糊糊地学过一遍操作系统导论课程后再回看它，解决了我的大部分疑惑）
 
 
 
@@ -237,9 +267,11 @@ What I am exited about during leisure time:
 - Music and Favorite Singers/bands:
   - Pop Music Singers/bands I was addicted to: 
     - Around 2019 ~ Now: *[Li Chen](https://music.apple.com/cn/artist/%E9%99%88%E7%B2%92/1138469250)* (95% of her albums and singles) and [Nightwish](https://www.nightwish.com/) (*Imaginaerum*, *Dark Passion Play* and *Endless Forms Most Beautiful* )
+      - Have a taste: Updating ...
     - Around 2015 ~ 2018: *[Ellie Goulding](https://music.apple.com/us/artist/ellie-goulding/338264227)* (98% of her albums and singles) and  [*Bea Miller*](https://music.apple.com/us/artist/bea-miller/706171903) (*Fire N Gold*, etc.)
+      - Have a taste: Updating ...
     - Around 2012 ~ 2015: *[Britney Spears](https://music.apple.com/us/artist/britney-spears/217005)* and [Kesha](https://music.apple.com/us/artist/kesha/334854763)
-    - Around 2011: Song Xu, etc.
+    - Around 2011: *Jay Chou*, *Michael Jackson*, *Song Xu*,  etc.
   - Classical Music (I was not an expert. In fact, I know nothing but just enjoy it.) :
     - *Sonata No.8 in C Minor, Op.13,  "Pathétique"*, I, II and III
     - *Sonata No.14 in C-Sharp Minor, Op. 27 No.2, "Moonlight"*, I , II and III
@@ -254,12 +286,22 @@ What I am exited about during leisure time:
     - *Habanera from Carmen*
     - *Swan Lake, Op. 20a: No.1*
   - Traditional Chinese Music:
-    - *赛马*
-  - Related to politics/patriotism (I hate politics, but I love music):
-    - *我的祖国 (My Homeland)* by *郭兰英 (Lanyin Guo)*, *钢铁洪流进行曲 (March of Steel Torrent)*
-    - *La Marseillaise (the national anthem of France;马赛曲，法国国歌)*
+    - [*赛马*](https://www.youtube.com/watch?v=jitJGaoGs-I)
+  - **Related to politics/patriotism** (I hate politics, but I love music):
+
+    - *我的祖国 (My Homeland)* [ YouTube: [original version](https://www.youtube.com/watch?v=-pjriPXQC0o) from 1956| [a symphonic version](https://www.youtube.com/watch?v=Rkc1ZkVSWdw) ]
+
+      This is a song that almost every one who came from China's mainland can sing	
+
+    - *钢铁洪流进行曲 (March of Steel Torrent)* [[YouTube](https://www.youtube.com/watch?v=gFBwXdguRrY)]
+
+      This is a new Chinese Military Song written in 2019
+
+    - *La Marseillaise* (the national anthem of France; 中文译名*马赛曲*，法国国歌) [[YouTube](https://www.youtube.com/watch?v=SIxOl1EraXA)]
+
     - *Катюша (Katyusha, 喀秋莎)*
-    - *Soviet March (A joke song written by a US composer)* : D
+
+    - *Soviet March* (A joke song written by a US composer | 苏维埃进行曲，美国作曲家编写的嘲讽苏联的歌曲😅) : D
   - From Movies & Games: **updating**
     - ***Interstellar:*** 
     - ***Plant VS Zombies:***
@@ -283,10 +325,12 @@ What I am exited about during leisure time:
     - [Japanese] *手紙〜拝啓 十五の君へ〜*, *夢灯籠*, *ぜんぜんぜんせ*, *PLANET*
     - [Russian] *Катюша (Katyusha)*, *Skoro dembel'*, *Подмосковные Вечера (Moscow Nights)* 
     - [Piano] *翘课 (skip class)*, *Flower Dance*, *风の住む街*, *城南花已开*
+    - [Violin]
+    - [Accordion]
     - [Computer Generated] *BASARA*
     - updating
   - Interesting songs (好玩的):
-    - [葫芦娃变奏曲](https://www.bilibili.com/video/BV1r64y1B777?spm_id_from=333.999.0.0)
+    - [*葫芦娃变奏曲*](https://www.bilibili.com/video/BV1r64y1B777?spm_id_from=333.999.0.0), [*喀 秋 杀* ](https://www.bilibili.com/video/BV1fE411W7Lw?share_source=copy_web)(唢呐)
 - 
 
 
@@ -312,19 +356,19 @@ To be updated when I became a master of that ...
 
 ## **Jokes**
 
-- I usually mix up with "sophomore" and "semaphore" 
+- I usually mix up with "sophomore" and "semaphore" (This happens for at least 5 times ...)
 
 
 
 ## **Computer Science**
 
-- I was also admitted by the *Master of Logic* program at the University of Amsterdam. But not rich enough to enroll : ( 
-  - It doesn't mean I do not love Computer Science
-- I gave up the desire of stepping into game design, another totally different career life at sophomore. This is mainly because I didn't found neither a good mentor/advisor nor suitable partners and didn't make it by self-study.
+- I was also admitted by the *Master of Logic* program at the University of Amsterdam. But not rich enough to enroll : (  [It requires around 10,000 for tuition and another 10,000 or maybe more for life expenses ...]
+  - It doesn't mean I do not love Computer Science; they are somehow *[mutually inductive](https://en.wikipedia.org/wiki/Inductive_type#Mutually_inductive_definitions)* magics of the world 
+- I gave up the desire of stepping into game design, another totally different career life at sophomore. This is mainly because I didn't found neither a good mentor/advisor nor ideal partners and didn't make it by self-study.
   - It doesn't mean I do not love Programming Languages. Instead, I found those two things in the area of Programming Languages later! 
   - Nevertheless, I always love the world of video games and believe they are a treasure of humans.
-- I have no industrial experience till now. I still regard myself as a nonprofessional programmer...
-- Unlike a lot of my friends that started learning programming at a very young age, I never touched the world of programming until freshman year at SJTU.
+- I have no industrial experience till now. I still regard myself as **a very nonprofessional programmer**...
+- Unlike a lot of my friends that started learning programming at a very young age, I never touched the world of computer science until freshman year at SJTU.
 
 
 
