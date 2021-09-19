@@ -289,7 +289,7 @@ What I am exited about during leisure time:
     - [*赛马*](https://www.youtube.com/watch?v=jitJGaoGs-I)
   - **Related to politics/patriotism** (I hate politics, but I love music):
 
-    - *我的祖国 (My Homeland)* [ YouTube: [original version](https://www.youtube.com/watch?v=-pjriPXQC0o) from 1956| [a symphonic version](https://www.youtube.com/watch?v=Rkc1ZkVSWdw) ]
+    - *我的祖国 (My Homeland)*  \[ YouTube: [original version](https://www.youtube.com/watch?v=-pjriPXQC0o) from 1956; [a symphonic version](https://www.youtube.com/watch?v=Rkc1ZkVSWdw) \]
 
       This is a song that almost every one who came from China's mainland can sing	
 
@@ -301,7 +301,7 @@ What I am exited about during leisure time:
 
     - *Катюша (Katyusha, 喀秋莎)*
 
-    - *Soviet March* (A joke song written by a US composer | 苏维埃进行曲，美国作曲家编写的嘲讽苏联的歌曲😅) : D
+    - *Soviet March* (A joke song written by a US composer  苏维埃进行曲，美国作曲家编写的嘲讽苏联的歌曲😅) : D
   - From Movies & Games: **updating**
     - ***Interstellar:*** 
     - ***Plant VS Zombies:***
