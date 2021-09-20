@@ -20,9 +20,9 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
-- [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319 [[266 Ferst Dr NW, Atlanta, GA 30332, US](https://goo.gl/maps/xbk4TXfCu8EtweQ86)]
-- **Email (Institution):** <ziteng.yang@gatech.edu> 
-- **Email (Permanent):** <cs.ziteng.yang@gmail.com> 
+- **Physical Address:** ~~0C-DD-24-F6-DE-9C~~ [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319 [[266 Ferst Dr NW, Atlanta, GA 30332, US](https://goo.gl/maps/xbk4TXfCu8EtweQ86)]
+- **Email Address (Institution):** <ziteng.yang@gatech.edu> 
+- **Email Address (Permanent):** <cs.ziteng.yang@gmail.com> 
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
 
 
@@ -36,6 +36,26 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 To be updated soon (or maybe a year later)
 
 
+
+<u>I will probably investigate a subset of researches around those general topics in the following one or two years</u>:
+
+- Graph reachability problems and their application with static analysis;
+- Program synthesis and computability problems related to them;
+- Software testing (generally);
+- Combining static analysis and formal verification;
+- Program verification for concurrent program;
+
+*If you found that we shared similar interests, I'd be excited to have a free discuss with you!*
+
+
+
+<u>I will probably also be learning the fundamental knowledges of those topics in the following one or two years</u>:
+
+- Computability
+- Separation Logic (meta-theory and application), 
+- Meta-theory of Coq proof assistant, i.e. *Calculus of Constructions*
+- Basic knowledge of type theory
+- LLVM
 
 
 
@@ -241,7 +261,7 @@ Stock up maybe-useful resources like the hamster ...
 
 ## **Current Future Plans**
 
-- Learn more things in Logics, Mathematics and Computer Science (especially in PL, Theory and System);
+- Learn more things in **Logics**, **Mathematics** and Computer Science (especially in **PL**, **Theory** and **System**);
 - Raise a cat in 2 years (I will immediately raise one after passing my qualification examination, sincerely.)
 
 
@@ -352,11 +372,14 @@ To be updated when I became a master of that ...
 
 
 
-# **Other Facts**
+# **Share Some Facts**
 
-## **Jokes**
+## **Jokes in My Real Life**
 
 - I usually mix up with "sophomore" and "semaphore" (This happens for at least 5 times ...)
+- The first day I arrived at my undergraduate college, I need to configure the internet in my dormitory. Since I had never got in touch any concept about computer system yet, when they asked me to provide the MAC address, I mistook for that I must have a *Mac* from apple to earn the accessibility to the Internet.
+
+
 
 
 
@@ -374,7 +397,7 @@ To be updated when I became a master of that ...
 
 ## Life
 
-- I was born and raised up in Chongqing, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. My father comes from Hebei Province in China and worked there in a city named Zhuozhou close to Beijing for a very long time. Therefore, I was also familiar with those cities. 
-- Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (
+- I was born and raised up in *Chongqing*, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. Besides, my father comes from *Hebei* Province in China and worked there in a small city named *Zhuozhou* for a very long time, which is only 1-hour-drive to *Beijing* . Therefore, I was also familiar with those cities. 
+- Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (  The fact is, you will spend even less (a half) time to go to the downtown area in Shanghai from Hangzhou, Zhejiang Province than going there from Shanghai Jiao Tong University.
 - ...
 
