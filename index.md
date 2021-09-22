@@ -37,7 +37,7 @@ To be updated soon (or maybe a year later)
 
 
 
-<u>I will probably investigate a subset of researches around those general topics in the following one or two years</u>:
+<u>I will **probably** investigate a subset of researches around those general topics in the following one or two years</u>:
 
 - Graph reachability problems and their application with static analysis;
 - Program synthesis and computability problems related to them;
@@ -49,7 +49,7 @@ To be updated soon (or maybe a year later)
 
 
 
-<u>I will probably also be learning the fundamental knowledges of those topics in the following one or two years</u>:
+<u>I will **probably** also be learning the fundamental knowledges of those topics in the following one or two years</u>:
 
 - Computability
 - Separation Logic (meta-theory and application), 
@@ -83,9 +83,11 @@ To be updated in the future [If there's still nothing several years later, eithe
 
 **During Undergraduate Time**
 
-**Conference Paper:**
 
-- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [ [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
+
+**Formal Control Theory:** 
+
+- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [  **Conference Paper** l [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
 
 
 
@@ -277,6 +279,7 @@ What I am exited about during leisure time:
   - ***The Dark Knight***,  ***Big Fish***
   - [***Life in a Day***](https://www.youtube.com/watch?v=JaFVr_cJJIY) (a movie consistent of clips from all over the world in the same ordinary  day made by Youtube)
   - ***钢的琴 (The Piano in a Factory)*** 
+  - ***Before Sunrise (爱在黎明破晓前)***
   - Movies from ***Marvel Cinematic Universe*** and ***DC Extended Universe***
 - Games: 
   - ***Red Dead Redemption 2*** (the favorite one)
@@ -374,16 +377,25 @@ To be updated when I became a master of that ...
 
 # **Share Some Facts**
 
-## **Jokes in My Real Life**
+## "The Joke's On Me" - **Jokes in My Real Life**
 
 - I usually mix up with "sophomore" and "semaphore" (This happens for at least 5 times ...)
 - The first day I arrived at my undergraduate college, I need to configure the internet in my dormitory. Since I had never got in touch any concept about computer system yet, when they asked me to provide the MAC address, I mistook for that I must have a *Mac* from apple to earn the accessibility to the Internet.
+- ...
 
 
 
+## **Jokes/Meme in Computer Science (from internet)**
+
+- "WHAT IS YOUR ADDRESS"
+
+  ![image-20210921223916342](C:\Users\young\AppData\Roaming\Typora\typora-user-images\image-20210921223916342.png)
+
+- ...
 
 
-## **Computer Science**
+
+## **Computer Science in My Life**
 
 - I was also admitted by the *Master of Logic* program at the University of Amsterdam. But not rich enough to enroll : (  [It requires around 10,000 for tuition and another 10,000 or maybe more for life expenses ...]
   - It doesn't mean I do not love Computer Science; they are somehow *[mutually inductive](https://en.wikipedia.org/wiki/Inductive_type#Mutually_inductive_definitions)* magics of the world 
