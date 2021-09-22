@@ -37,7 +37,7 @@ To be updated soon (or maybe a year later)
 
 
 
-<u>I will **probably** investigate a subset of researches around those general topics in the following one or two years</u>:
+<u>I will probably investigate a subset of researches around those general topics in the following one or two years</u>:
 
 - Graph reachability problems and their application with static analysis;
 - Program synthesis and computability problems related to them;
@@ -49,7 +49,7 @@ To be updated soon (or maybe a year later)
 
 
 
-<u>I will **probably** also be learning the fundamental knowledges of those topics in the following one or two years</u>:
+<u>I will probably also be learning the fundamental knowledges of those topics in the following one or two years</u>:
 
 - Computability
 - Separation Logic (meta-theory and application), 
@@ -389,7 +389,7 @@ To be updated when I became a master of that ...
 
 - "WHAT IS YOUR ADDRESS"
 
-  ![image-20210921223916342](C:\Users\young\AppData\Roaming\Typora\typora-user-images\image-20210921223916342.png)
+  ![image-20210921223916342](index.assets/image-20210921223916342.png)
 
 - ...
 
