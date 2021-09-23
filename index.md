@@ -387,6 +387,8 @@ To be updated when I became a master of that ...
 
 ## **Jokes/Meme (all from internet)**
 
+- <img src="index.assets/image-20210923044320769.png" alt="image-20210923044320769" style="zoom:50%;" />
+
 - "WHAT IS YOUR ADDRESS"
 
   ![image-20210921223916342](index.assets/image-20210921223916342.png)
