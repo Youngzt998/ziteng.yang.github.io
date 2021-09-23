@@ -45,7 +45,7 @@ To be updated soon (or maybe a year later)
 - Combining static analysis and formal verification;
 - Program verification for concurrent program;
 
-*If you found that we shared similar interests, I'd be excited to have a free discuss with you!*
+*If you found that we shared similar interests, I'd be excited to have a cheerful discuss with you!*
 
 
 
@@ -435,7 +435,7 @@ To be updated when I became a master of that ...
 
 
 
-## Life
+## **Life**
 
 - I was born and raised up in *Chongqing*, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. Besides, my father comes from *Hebei* Province in China and worked there in a small city named *Zhuozhou* for a very long time, which is only 1-hour-drive to *Beijing* . Therefore, I was also familiar with those cities. 
 - Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (  The fact is, you will spend even less (a half) time to go to the downtown area in Shanghai from Hangzhou, Zhejiang Province than going there from Shanghai Jiao Tong University.
