@@ -12,7 +12,7 @@ I am a first-year PhD student in the [PLSE Lab](https://www.scs.gatech.edu/conte
 
 My research experience lies in ***Programming Languages (PL)*** and ***Formal Methods***. PhD program is a brand new stage of my life. I'm still exploring the various researches in PL.
 
-During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html)** and worked on *compiler correctness* and *Modal Logic* in *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
+During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *Modal Logic* in *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
