@@ -385,11 +385,39 @@ To be updated when I became a master of that ...
 
 
 
-## **Jokes/Meme in Computer Science (from internet)**
+## **Jokes/Meme (all from internet)**
 
 - "WHAT IS YOUR ADDRESS"
 
   ![image-20210921223916342](index.assets/image-20210921223916342.png)
+
+- "TO BE OR NOT TO BE"
+
+  <img src="index.assets/image-20210923033055472.png" alt="image-20210923033055472" style="zoom:50%;" />
+
+- “QED.”
+
+  <img src="index.assets/image-20210923034530903.png" alt="image-20210923034530903" style="zoom: 50%;" />
+
+- “IT WORKS”
+
+  <img src="index.assets/image-20210923034746198.png" alt="image-20210923034746198" style="zoom:50%;" />
+
+  <img src="index.assets/image-20210923040119431.png" alt="image-20210923040119431" style="zoom: 50%;" />
+
+- “WHO CARES”
+
+  <img src="index.assets/image-20210923034833337.png" alt="image-20210923034833337" style="zoom:33%;" />
+
+- “VAN GOGHS”
+
+  <img src="index.assets/image-20210923035144252.png" alt="image-20210923035144252" style="zoom: 25%;" />
+
+- <img src="index.assets/image-20210923035244315.png" alt="image-20210923035244315" style="zoom: 50%;" />
+
+- <img src="index.assets/image-20210923035355800.png" alt="image-20210923035355800" style="zoom:33%;" />
+
+- <img src="index.assets/image-20210923035812923.png" alt="image-20210923035812923" style="zoom: 33%;" />
 
 - ...
 
