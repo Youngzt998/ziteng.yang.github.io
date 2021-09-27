@@ -81,11 +81,11 @@ To be updated in the future [If there's still nothing several years later, eithe
 
 
 
+
+
 **During Undergraduate Time**
 
-
-
-**Formal Control Theory:** 
+<u>Formal Control Theory:</u> 
 
 - **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [  **Conference Paper** l [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
 
@@ -138,7 +138,7 @@ See more details in [Projects](/project/) .
 
 
 
-# **Useful Links** For Study
+# **Useful Links** For CS Study
 
 ## **Some Professors' Website**
 
@@ -170,7 +170,7 @@ See more details in [Projects](/project/) .
 
 Stock up maybe-useful resources like the hamster ...
 
-## **Programming Languages (Research Oriented)**
+## **a. Programming Languages (Research Oriented)**
 
 ### **Program Analysis**
 
@@ -205,7 +205,7 @@ Stock up maybe-useful resources like the hamster ...
 
 
 
-## **Theoretical Computer Science (Interests Oriented)**
+## **b. Theoretical Computer Science (Interests Oriented)**
 
 - Prof. Ryan O'Donnell at CMU	 keeps uploading videos about basic theoretical computer science in [YouTube](https://www.youtube.com/channel/UCWnu2XymDtORV--qG2uG5eQ) and [Bilibili](https://space.bilibili.com/1198378855/?spm_id_from=333.999.0.0)
 
@@ -213,7 +213,7 @@ Stock up maybe-useful resources like the hamster ...
 
 
 
-## **Computer System (Courses Oriented)**
+## **c. Computer System (Courses Oriented)**
 
 - The [*IPADS Lab*](https://ipads.se.sjtu.edu.cn/) (an internationally famous laboratory focusing on computer systems) at SJTU has [***several excellent courses for computer system***](https://ipads.se.sjtu.edu.cn/pub/courses) 
 
