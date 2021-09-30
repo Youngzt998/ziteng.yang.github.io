@@ -21,9 +21,18 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 **Contact Information:**
 
 - **Physical Address:** ~~0C-DD-24-F6-DE-9C~~ [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319 [[266 Ferst Dr NW, Atlanta, GA 30332, US](https://goo.gl/maps/xbk4TXfCu8EtweQ86)]
+
 - **Email Address (Institution):** <ziteng.yang@gatech.edu> 
+
 - **Email Address (Permanent):** <cs.ziteng.yang@gmail.com> 
+
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
+
+- WeChat for PL Research: 
+
+  <img src="index.assets/wechat_pl.jpg" alt="wechat_pl" style="zoom: 33%;" />
+
+  [WeChat for ordinary&trivial life](./figures/wechat_life.jpg)
 
 
 
@@ -39,7 +48,8 @@ To be updated soon (or maybe a year later)
 
 <u>I will probably investigate a subset of researches around those general topics in the following one or two years</u>:
 
-- Graph reachability problems and their application with static analysis;
+- Program analysis for parallel programs **[actively working on]**;
+- Graph reachability problems and their application with static analysis **[actively working on]**;
 - Program synthesis and computability problems related to them;
 - Software testing (generally);
 - Combining static analysis and formal verification;
@@ -52,7 +62,7 @@ To be updated soon (or maybe a year later)
 <u>I will probably also be learning the fundamental knowledges of those topics in the following one or two years</u>:
 
 - Computability
-- Separation Logic (meta-theory and application), 
+- Separation Logic (both meta-theory and application), 
 - Meta-theory of Coq proof assistant, i.e. *Calculus of Constructions*
 - Basic knowledge of type theory
 - LLVM
@@ -64,7 +74,7 @@ To be updated soon (or maybe a year later)
 - [2020~2021] **Verification-aided Compiler Optimization** 
   - I proposed a frame verification work based on *proof assistant Coq* and gave a trial on "toy logic" for an expedition to support compiler optimization aided by verification information carried by programs 
   - This project was now continued by  [Hanzhi Liu](https://misaka.center/), an undergraduate genius student (2019~2023, expected) and an experienced programmer at SJTU, also advised by Qinxiang Cao, to implement this optimization and framework in VST's separation logic [VST = Verified Software Toolchain]
-  - Further detail should be secret now
+  - Further detail should be secret now; there should be a paper submission soon
 - [2019~2020] **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
 - [2018~2019] **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
   - 
@@ -77,13 +87,19 @@ To be updated soon (or maybe a year later)
 
 **During PhD Program**
 
-To be updated in the future [If there's still nothing several years later, either of the two things might happened: 0. I have forgotten I have a personal website; 1. : (  ]
+To be updated in the future 
+
+- If there's still nothing several years later, either of the two things might happened: 0- I have forgotten I have a personal website; 1- : (  
 
 
 
 
 
 **During Undergraduate Time**
+
+<u>Program Verification:</u>
+
+- There might be one later ...
 
 <u>Formal Control Theory:</u> 
 
@@ -275,12 +291,19 @@ What I am exited about during leisure time:
 - Sports:  Tennis = badminton > volleyball >> table tennis
 - Animals (I do not have any pets...): cats, dogs, hamsters, ... (I really like [this couple's video](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0) 强烈推荐up主 *[九品芝麻铲屎官](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0)* 的视频剪辑)
 - Movies: 
-  - ***Interstellar*** (the favorite one) [now you might know why I sometimes use "Intelstealer" as a nickname ...]
-  - ***The Dark Knight***,  ***Big Fish***
+  - ***Interstellar (星际穿越)*** (the foremost one) [now you might know why I sometimes use "Intelstealer" as a nickname ...] [[YouTube](https://www.youtube.com/watch?v=uaSYEUugnzE), [Bilibili](https://www.bilibili.com/bangumi/play/ss28585/?from=search&seid=3596907034522347955&spm_id_from=333.337.0.0)]
+  - ***The Dark Knight (黑暗骑士)*** [[YouTube](https://www.youtube.com/watch?v=B9wbHZM-L8g), [Bilibili](https://www.bilibili.com/bangumi/play/ss28280/?from=search&seid=15745780917256640498&spm_id_from=333.337.0.0)]
+  - ***Big Fish (大鱼)*** [[YouTube](https://www.youtube.com/watch?v=mqIatIm6vlg), [Bilibili](https://www.bilibili.com/bangumi/play/ss33372/?from=search&seid=17356731908733314243&spm_id_from=333.337.0.0)]
   - [***Life in a Day***](https://www.youtube.com/watch?v=JaFVr_cJJIY) (a movie consistent of clips from all over the world in the same ordinary  day made by Youtube)
-  - ***钢的琴 (The Piano in a Factory)*** 
-  - ***Before Sunrise (爱在黎明破晓前)***
+  - ***钢的琴 (The Piano in a Factory)***  [[Bilibili](https://www.bilibili.com/bangumi/play/ss12415/?from=search&seid=6574871034134810189&spm_id_from=333.337.0.0)]
+  - ***Before Sunrise (爱在黎明破晓前)*** [[YouTube](https://www.youtube.com/watch?v=IqX_AZL8Sl0), [Bilibili](https://www.bilibili.com/bangumi/play/ss32312/?from=search&seid=6180111107384972910&spm_id_from=333.337.0.0)]
+  - ***The Last Emperor (末代皇帝)*** [[Bilibili](https://www.bilibili.com/bangumi/play/ss34165/?from=search&seid=5971606446261401507&spm_id_from=333.337.0.0)]
+  - ***World War Z*** (A good zombie movie; I like the design of its foreshadowing) [[YouTube](https://www.youtube.com/watch?v=PLYzc4K4a6o), [Bilibili](https://www.bilibili.com/bangumi/play/ss33173?from=search&seid=15745780917256640498&spm_id_from=333.337.0.0)]
+  - ***Mad Max: Fury Road***, ***无人区 (No Man's Land)***(I like the design of the post-apocalyptic world)
+  - 
   - Movies from ***Marvel Cinematic Universe*** and ***DC Extended Universe***
+- TV series: recalling ...
+
 - Games: 
   - ***Red Dead Redemption 2*** (the favorite one)
   - ***Life is Strange***
