@@ -424,6 +424,10 @@ To be updated when I became a master of that ...
 
   ![image-20210921223916342](index.assets/image-20210921223916342.png)
 
+- “GIT PUSH”
+
+  <img src="index.assets/FA27LtfX0AExnNy.jpeg" alt="图像" style="zoom: 33%;" />
+
 - "TO BE OR NOT TO BE"
 
   <img src="index.assets/image-20210923033055472.png" alt="image-20210923033055472" style="zoom:50%;" />
