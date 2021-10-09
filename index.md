@@ -182,7 +182,7 @@ See more details in [Projects](/project/) .
 
 
 
-# **Materials for CS Study**
+# **Materials for CS Study** from Internet
 
 Stock up maybe-useful resources like the hamster ...
 
@@ -243,7 +243,15 @@ Stock up maybe-useful resources like the hamster ...
 
 
 
----
+## **$\alpha$ Tools **
+
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) from MIT, including shells, git version control, vim editor, debugging tools, etc.
+
+  [计算机教育中缺失的一课](https://missing-semester-cn.github.io/) (中文翻译版)，包括了shell窗口、git版本控制、vim编辑器、调试器等工具的使用
+
+- 
+
+
 
 
 
@@ -299,8 +307,8 @@ What I am exited about during leisure time:
   - ***Before Sunrise (爱在黎明破晓前)*** [[YouTube](https://www.youtube.com/watch?v=IqX_AZL8Sl0), [Bilibili](https://www.bilibili.com/bangumi/play/ss32312/?from=search&seid=6180111107384972910&spm_id_from=333.337.0.0)]
   - ***The Last Emperor (末代皇帝)*** [[Bilibili](https://www.bilibili.com/bangumi/play/ss34165/?from=search&seid=5971606446261401507&spm_id_from=333.337.0.0)]
   - ***World War Z*** (A good zombie movie; I like the design of its foreshadowing) [[YouTube](https://www.youtube.com/watch?v=PLYzc4K4a6o), [Bilibili](https://www.bilibili.com/bangumi/play/ss33173?from=search&seid=15745780917256640498&spm_id_from=333.337.0.0)]
-  - ***Mad Max: Fury Road***, ***无人区 (No Man's Land)***(I like the design of the post-apocalyptic world)
-  - 
+  - ***Mad Max: Fury Road*** (I like the design of the post-apocalyptic world)
+  - ***无人区 (No Man's Land)***
   - Movies from ***Marvel Cinematic Universe*** and ***DC Extended Universe***
 - TV series: recalling ...
 
@@ -335,7 +343,7 @@ What I am exited about during leisure time:
     - [*赛马*](https://www.youtube.com/watch?v=jitJGaoGs-I)
   - **Related to politics/patriotism** (I hate politics, but I love music):
 
-    - *我的祖国 (My Homeland)*  \[ YouTube: [original version](https://www.youtube.com/watch?v=-pjriPXQC0o) from 1956; [a symphonic version](https://www.youtube.com/watch?v=Rkc1ZkVSWdw) \]
+    - *我的祖国 (My Homeland)*  \[ YouTube: [original version](https://www.youtube.com/watch?v=-pjriPXQC0o) from 1956; [a symphonic version](https://youtu.be/gL7am0SGO3s) \]
 
       This is a song that almost every one who came from China's mainland can sing	
 
