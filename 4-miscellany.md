@@ -187,7 +187,7 @@ To be updated when I became a master of that ...
 
 ## **Jokes/Meme (all from internet)**
 
-- <img src="4-miscellany.assets/image-20211028014543612.png" alt="image-20211028014543612" style="zoom: 50%;" />
+- <img src="4-miscellany.assets/image-20211028014543612.png" alt="image-20211028014543612" style="zoom:50%;" />
 
 - "WHAT IS YOUR ADDRESS"
 
