@@ -187,7 +187,7 @@ To be updated when I became a master of that ...
 
 ## **Jokes/Meme (all from internet)**
 
-- <img src="4-miscellany.assets/image-20211028014543612.png" alt="image-20211028014543612" style="zoom:50%;" />
+- ![image-20211028014543612](4-miscellany.assets/image-20211028014543612-16354001001521.png)
 
 - "WHAT IS YOUR ADDRESS"
 
@@ -195,35 +195,35 @@ To be updated when I became a master of that ...
 
 - “GIT PUSH”
 
-  <img src="4-miscellany.assets/FA27LtfX0AExnNy.jpeg" alt="FA27LtfX0AExnNy" style="zoom: 33%;" />
+  ![FA27LtfX0AExnNy](4-miscellany.assets/FA27LtfX0AExnNy.jpeg)
 
 - "TO BE OR NOT TO BE"
 
-  <img src="4-miscellany.assets/image-20210923033055472.png" alt="image-20210923033055472" style="zoom:33%;" />
+  ![image-20210923033055472](4-miscellany.assets/image-20210923033055472.png)
 
 - “QED.”
 
-  <img src="4-miscellany.assets/image-20210923034530903.png" alt="image-20210923034530903" style="zoom: 67%;" />
+  ![image-20210923034530903](4-miscellany.assets/image-20210923034530903.png)
 
 - “IT WORKS”
 
-  <img src="4-miscellany.assets/image-20210923034746198.png" alt="image-20210923034746198" style="zoom:50%;" />
+  ![image-20210923034746198](4-miscellany.assets/image-20210923034746198.png)
 
-  <img src="4-miscellany.assets/image-20210923040119431.png" alt="image-20210923040119431" style="zoom: 67%;" />
+  ![image-20210923040119431](4-miscellany.assets/image-20210923040119431.png)
 
 - “WHO CARES”
 
-  <img src="4-miscellany.assets/image-20210923034833337.png" alt="image-20210923034833337" style="zoom:50%;" />
+  ![image-20210923034833337](4-miscellany.assets/image-20210923034833337.png)
 
 - “VAN GOGHS”
 
-  <img src="4-miscellany.assets/image-20210923035144252.png" alt="image-20210923035144252" style="zoom:50%;" />
+  ![image-20210923035144252](4-miscellany.assets/image-20210923035144252.png)
 
-- <img src="4-miscellany.assets/image-20210923035244315.png" alt="image-20210923035244315" style="zoom:67%;" />
+- ![image-20210923035244315](4-miscellany.assets/image-20210923035244315.png)
 
-- <img src="4-miscellany.assets/image-20210923035355800.png" alt="image-20210923035355800" style="zoom:50%;" />
+- ![image-20210923035355800](4-miscellany.assets/image-20210923035355800.png)
 
-- <img src="4-miscellany.assets/image-20210923035812923.png" alt="image-20210923035812923" style="zoom:50%;" />
+- ![image-20210923035812923](4-miscellany.assets/image-20210923035812923.png)
 
 - ...
 
