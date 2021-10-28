@@ -27,7 +27,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/project/">Projects</a><a class="page-link" href="/publication/">Publications</a><a class="page-link" href="/travel/">Travel</a><a class="page-link" href="/chinese/">中文板块</a><a class="page-link" href="/"></a></div>
+        <div class="trigger"><a class="page-link" href="/project/">Projects</a><a class="page-link" href="/publication/">Publications</a><a class="page-link" href="/miscellany/">Miscellany</a><a class="page-link" href="/study/">CS.StudyMaterials</a><a class="page-link" href="/travel/">Travel</a><a class="page-link" href="/chinese/">中文板块</a><a class="page-link" href="/"></a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -36,13 +36,7 @@
 
 <p>I am a first-year PhD student in the <a href="https://www.scs.gatech.edu/content/programming-languages-software-engineering">PLSE Lab</a> at <a href="https://www.scs.gatech.edu/">School of Computer Science</a>, <a href="https://www.cc.gatech.edu/">College of Computing</a>, <strong><a href="https://www.gatech.edu/">Georgia Institute of Technology (GT)</a></strong>.</p>
 
-<p>My research experience lies in <strong><em>Programming Languages (PL)</em></strong> and <strong><em>Formal Methods</em></strong>. PhD program is a brand new stage of my life. I’m still exploring the various researches in PL.</p>
-
-<p>During my undergraduate time at <strong><a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a></strong>, major in <a href="http://www.cs.sjtu.edu.cn/en/">Computer Science and Technology</a> ,  I was advised by <strong><a href="https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html">Qinxiang Cao</a></strong> and worked on <em>compiler correctness</em> and <em>Modal Logic</em> in <em>Coq proof assistant</em> from junior to senior year . Prior to that I studied in <strong><a href="http://xiangyin.sjtu.edu.cn/">Xiang Yin’s</a></strong> group and worked on Automata Theory (specifically, <em>supervisory control</em> of <em>Discrete Event System</em>) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.</p>
-
 <p>Here is my <strong><a href="./cv/CV_ZitengYang.pdf">CV</a></strong>.</p>
-
-<hr />
 
 <p><strong>Contact Information:</strong></p>
 
@@ -63,29 +57,33 @@
     <p>WeChat for PL Research:</p>
 
     <p><img src="index.assets/wechat_pl.jpg" alt="wechat_pl" style="zoom: 33%;" /></p>
-
-    <p><a href="./figures/wechat_life.jpg">WeChat for ordinary&amp;trivial life</a></p>
   </li>
 </ul>
 
+<h1 id="biography"><strong>Biography</strong></h1>
+
+<p>My research interests lies in <strong><em>Programming Languages (PL)</em></strong> and <strong><em>Formal Methods</em></strong>. PhD program is a brand new stage of my life. I’m still exploring the various research areas in PL.</p>
+
+<p>During my undergraduate time at <strong><a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a></strong>, major in <a href="http://www.cs.sjtu.edu.cn/en/">Computer Science and Technology</a> ,  I was advised by <strong><a href="https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html">Qinxiang Cao</a></strong> and worked on <em>compiler correctness</em> and <em>mathematical logic</em> in the <em>Coq proof assistant</em> from junior to senior year . Prior to that I studied in <strong><a href="http://xiangyin.sjtu.edu.cn/">Xiang Yin’s</a></strong> group and worked on Automata Theory (specifically, <em>supervisory control</em> of <em>Discrete Event System</em>) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.</p>
+
 <h1 id="research-projects"><strong>Research Projects</strong></h1>
 
-<p><strong>During PhD Program</strong></p>
-
-<p>To be updated soon (or maybe a year later)</p>
+<p><strong>During PhD Time</strong></p>
 
 <p><u>I will probably investigate a subset of researches around those general topics in the following one or two years</u>:</p>
 
 <ul>
-  <li>Program analysis for parallel programs <strong>[actively working on]</strong>;</li>
-  <li>Graph reachability problems and their application with static analysis <strong>[actively working on]</strong>;</li>
-  <li>Program synthesis and computability problems related to them;</li>
-  <li>Software testing (generally);</li>
-  <li>Combining static analysis and formal verification;</li>
+  <li><strong>[actively working on]</strong> Graph reachability problems and their application with static analysis;</li>
+  <li><strong>[actively working on]</strong> Program analysis for parallel programs ;</li>
+  <li>Combining static analysis and formal verification;
+    <ul>
+      <li>Formally verified static analysis</li>
+      <li>Static analysis with extra information from formal verification</li>
+    </ul>
+  </li>
   <li>Program verification for concurrent program;</li>
+  <li>Program synthesis and decidability problems related to them;</li>
 </ul>
-
-<p><em>If you found that we shared similar interests, I’d be excited to have a cheerful discuss with you!</em></p>
 
 <p><u>I will probably also be learning the fundamental knowledges of those topics in the following one or two years</u>:</p>
 
@@ -97,46 +95,20 @@
   <li>LLVM</li>
 </ul>
 
+<p><em>If you found that we shared similar interests, I’d be excited to have a cheerful discuss with you!</em></p>
+
 <p><strong>During Undergraduate Time</strong></p>
 
 <ul>
   <li>[2020~2021] <strong>Verification-aided Compiler Optimization</strong>
     <ul>
       <li>I proposed a frame verification work based on <em>proof assistant Coq</em> and gave a trial on “toy logic” for an expedition to support compiler optimization aided by verification information carried by programs</li>
-      <li>This project was now continued by  <a href="https://misaka.center/">Hanzhi Liu</a>, an undergraduate genius student (2019~2023, expected) and an experienced programmer at SJTU, also advised by Qinxiang Cao, to implement this optimization and framework in VST’s separation logic [VST = Verified Software Toolchain]</li>
+      <li>This project was now continued by  <a href="https://misaka.center/">Hanzhi Liu</a>, an undergraduate student (2019~2023, expected) at SJTU, also advised by Qinxiang Cao, to implement this optimization and framework in VST’s Separation Logic [VST := Verified Software Toolchain]</li>
       <li>Further detail should be secret now; there should be a paper submission soon</li>
     </ul>
   </li>
   <li>[2019~2020] <strong>Finite Canonical Model for Completeness Theory in Coq Based on UnifySL</strong>: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  <a href="https://github.com/QinxiangCao/UnifySL"><em>UnifySL</em></a> for <a href="https://coq.inria.fr/"><em>Coq</em></a> proof assistant.</li>
-  <li>[2018~2019] <strong>Supervisor Control of Timed Discrete-Event Systems</strong>: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
-    <ul>
-      <li></li>
-    </ul>
-  </li>
-</ul>
-
-<h1 id="publication"><strong>Publication</strong></h1>
-
-<p><strong>During PhD Program</strong></p>
-
-<p>To be updated in the future</p>
-
-<ul>
-  <li>If there’s still nothing several years later, either of the two things might happened: 0- I have forgotten I have a personal website; 1- : (</li>
-</ul>
-
-<p><strong>During Undergraduate Time</strong></p>
-
-<p><u>Program Verification:</u></p>
-
-<ul>
-  <li>There might be one later …</li>
-</ul>
-
-<p><u>Formal Control Theory:</u></p>
-
-<ul>
-  <li><strong>Ziteng Yang</strong>, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [  <strong>Conference Paper</strong> l <a href="./papers/IFAC2020/IFAC2020-Final-Full.pdf">PDF</a>  l  <a href="./papers/IFAC2020/IFAC2020-Slides.pdf">Slide</a> l  <a href="https://youtu.be/GtbxR_OKfXU">Video Report (Youtube)</a> ].</li>
+  <li>[2018~2019] <strong>Supervisor Control of Timed Discrete-Event Systems</strong>: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.</li>
 </ul>
 
 <h1 id="teaching-experience"><strong>Teaching Experience</strong></h1>
@@ -183,415 +155,6 @@
 <p>See more details in <a href="/project/">Projects</a> .</p>
 
 <hr />
-
-<h1 id="useful-links-for-cs-study"><strong>Useful Links</strong> For CS Study</h1>
-
-<h2 id="some-professors-website"><strong>Some Professors’ Website</strong></h2>
-
-<h3 id="programming-languages--formal-methods-in-computer-science"><strong>Programming Languages &amp; Formal Methods in Computer Science</strong></h3>
-
-<ul>
-  <li>
-    <p>Program Analysis:</p>
-
-    <ul>
-      <li><a href="http://pages.cs.wisc.edu/~reps/">Thomas W. Reps</a>,  <a href="https://www.cc.gatech.edu/~qzhang414/">QIrun Zhang</a>,</li>
-    </ul>
-  </li>
-  <li>
-    <p>Program Verification</p>
-
-    <ul>
-      <li>The <a href="https://deepspec.org/main"><em>DeepSpec</em></a> project: <a href="https://www.cs.princeton.edu/~appel/">Andrew W. Appel</a>, <a href="https://www.cis.upenn.edu/~bcpierce/">Benjamin C. Pierce</a>, <a href="http://www.cs.yale.edu/homes/shao-zhong/">Zhong Shao</a></li>
-      <li>Separation Logic:</li>
-      <li>…</li>
-    </ul>
-  </li>
-  <li>
-    <p>Software Testing: <a href="https://people.inf.ethz.ch/suz/">Zhendong Su</a>, <a href="https://www.cc.gatech.edu/~qzhang414/">QIrun Zhang</a>, <a href="http://lingming.cs.illinois.edu/index.html">Lingming Zhang</a></p>
-  </li>
-  <li>
-    <p>Program Synthesis: <a href="http://pages.cs.wisc.edu/~reps/">Thomas W. Reps</a>, <a href="https://pages.cs.wisc.edu/~loris/">Loris D’Antoni</a>, <a href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia Polikarpova</a></p>
-  </li>
-  <li>
-    <p>Model Checking: …</p>
-  </li>
-</ul>
-
-<h1 id="materials-for-cs-study-from-internet"><strong>Materials for CS Study</strong> from Internet</h1>
-
-<p>Stock up maybe-useful resources like the hamster …</p>
-
-<h2 id="a-programming-languages-research-oriented"><strong>a. Programming Languages (Research Oriented)</strong></h2>
-
-<h3 id="program-analysis"><strong>Program Analysis</strong></h3>
-
-<ul>
-  <li><strong>Static Analysis Foundations:</strong>
-    <ul>
-      <li>An introduction online book <a href="https://cs.au.dk/~amoeller/spa/"><strong><em>Static Program Analysis</em></strong> </a> by A. Møller and M. Schwartzbach,2018</li>
-      <li>Check this <a href="https://pascal-group.bitbucket.io/teaching.html">course website</a> and <a href="https://www.bilibili.com/video/BV1b7411K7P4?share_source=copy_web">the course video uploaded by the professors</a> from NJU</li>
-    </ul>
-  </li>
-  <li><strong>C</strong>ontext<strong>F</strong>ree<strong>L</strong>anguage<strong>-Reachability for Static Analysis</strong>:
-    <ul>
-      <li>Check <a href="https://dl.acm.org/doi/10.1145/199448.199462"><strong>this paper</strong></a> from [POPL’95] to learn about <strong>how some static analysis problem can be transferred into graph-reachability problem</strong></li>
-      <li>Check the course website from NJU above</li>
-      <li>Updating …</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="program-verification"><strong>Program Verification</strong></h3>
-
-<ul>
-  <li><strong>Formal verification using proof assistant Coq:</strong>
-    <ul>
-      <li><strong>[Foundations of proof assistant Coq]</strong> Check this open-source free online-book <em><a href="https://softwarefoundations.cis.upenn.edu/lf-current/index.html"><strong>Software Foundations, Volume 1</strong></a></em></li>
-      <li><strong>[Foundations of Hoare-Logic based program verification]</strong> Check this open-source free online-book <strong><em><a href="https://softwarefoundations.cis.upenn.edu/plf-current/index.html">Software Foundations, Volume 2</a></em></strong></li>
-      <li><strong>[Verify C program using VST, a separation logic tool in Coq]</strong> Check this open-source free online-book <strong><em><a href="https://softwarefoundations.cis.upenn.edu/vc-current/index.html">Software Foundations, Volume 5</a></em></strong></li>
-      <li>Check this <a href="https://flint.cs.yale.edu/cs430/"><strong><em>Formal Semantics course website</em></strong></a> from Yale</li>
-      <li>Updating …</li>
-    </ul>
-  </li>
-  <li><strong>Formal verification - theoretical view:</strong>
-    <ul>
-      <li><strong>[Separation Logic &amp; Verifiable C &amp; Verified Compiler &amp; CompCert Memory Model &amp; …]</strong> Check this book  <a href="https://vst.cs.princeton.edu/veric/"><strong>Program Logics for Certified Compilers</strong></a> by Andrew W. Appel (free from author’s page)</li>
-      <li>Updating …</li>
-    </ul>
-  </li>
-  <li></li>
-</ul>
-
-<h2 id="b-theoretical-computer-science-interests-oriented"><strong>b. Theoretical Computer Science (Interests Oriented)</strong></h2>
-
-<ul>
-  <li>
-    <p>Prof. Ryan O’Donnell at CMU	 keeps uploading videos about basic theoretical computer science in <a href="https://www.youtube.com/channel/UCWnu2XymDtORV--qG2uG5eQ">YouTube</a> and <a href="https://space.bilibili.com/1198378855/?spm_id_from=333.999.0.0">Bilibili</a></p>
-
-    <p>卡内基梅隆大学的 Ryan O’Donnell 教授一直在 YouTuBe 和 <a href="https://space.bilibili.com/1198378855/?spm_id_from=333.999.0.0">B站</a> 上传理论计算机相关的科普视频</p>
-  </li>
-</ul>
-
-<h2 id="c-computer-system-courses-oriented"><strong>c. Computer System (Courses Oriented)</strong></h2>
-
-<ul>
-  <li>
-    <p>The <a href="https://ipads.se.sjtu.edu.cn/"><em>IPADS Lab</em></a> (an internationally famous laboratory focusing on computer systems) at SJTU has <a href="https://ipads.se.sjtu.edu.cn/pub/courses"><strong><em>several excellent courses for computer system</em></strong></a></p>
-
-    <p>上海交大软院的<em><a href="https://ipads.se.sjtu.edu.cn/">IPADS实验室</a></em>开设的计算机系统相关课程学生风评特别的好:</p>
-
-    <p><em><a href="https://ipads.se.sjtu.edu.cn/courses/os/">Operating System</a></em>, <em><a href="https://ipads.se.sjtu.edu.cn/courses/ics/">Introduction to Computer Systems</a></em>, <a href="https://ipads.se.sjtu.edu.cn/courses/cse/">Computer System Engineering</a>, etc.</p>
-
-    <ul>
-      <li>About a Chinese-only text-book: 该实验室撰写的这本中文教材 <a href="https://ipads.se.sjtu.edu.cn/mospi/"><em>《现代操作系统：原理与实现》</em></a> 是计算机类中文教材中难得的写得较好的一本（但个人认为不适合初学；迷迷糊糊地学过一遍操作系统导论课程后再回看它，解决了我的大部分疑惑）</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="alpha-tools-">**$\alpha$ Tools **</h2>
-
-<ul>
-  <li>
-    <p><a href="https://missing.csail.mit.edu/">The Missing Semester of Your CS Education</a> from MIT, including shells, git version control, vim editor, debugging tools, etc.</p>
-
-    <p><a href="https://missing-semester-cn.github.io/">计算机教育中缺失的一课</a> (中文翻译版)，包括了shell窗口、git版本控制、vim编辑器、调试器等工具的使用</p>
-  </li>
-  <li></li>
-</ul>
-
-<h1 id="miscellany"><strong>Miscellany</strong></h1>
-
-<h2 id="sentences-i-wish-to-share"><strong>Sentences I wish to share</strong></h2>
-
-<p>[Inside Chinese internet, we some times called it “chicken soup” if some sentence or story is heuristic]</p>
-
-<ul>
-  <li>
-    <p><em>“Talk is cheap. Show me the code.”</em> — Linus Torvalds</p>
-  </li>
-  <li>
-    <p><em>“Talk is cheap. Show me the proof.”</em> — Qinxiang Cao</p>
-  </li>
-  <li>
-    <p><em>“Talk is not cheap”</em> — Some Cyber-stranger</p>
-  </li>
-  <li>
-    <p><em>“闻道有先后，术业有专攻”</em>  — 韩愈</p>
-
-    <p>One might have learned the doctrine earlier than the other, or might be a master in his own special field. — <a href="https://en.wikipedia.org/wiki/Han_Yu">Yu Han</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.youtube.com/watch?v=ihaB8AFOhZo">Russell’s Message</a>:</p>
-
-    <ul>
-      <li>
-        <iframe width="280" height="315" src="https://www.youtube.com/embed/ihaB8AFOhZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-      </li>
-      <li>
-        <p>“<em>Ask yourself only what are the facts and what is the truth that the facts bear out</em>”</p>
-      </li>
-      <li>
-        <p>“<em>Never let yourself be diverted either by what you wish to believe or by what you think would have beneficent social effects if it were believed, but look only and solely at what are the facts.</em>”</p>
-      </li>
-      <li>“<em>Love is wise, hatred is foolish.</em>”</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="current-future-plans"><strong>Current Future Plans</strong></h2>
-
-<ul>
-  <li>Learn more things in <strong>Logics</strong>, <strong>Mathematics</strong> and Computer Science (especially in <strong>PL</strong>, <strong>Theory</strong> and <strong>System</strong>);</li>
-  <li>Raise a cat in 2 years (I will immediately raise one after passing my qualification examination, sincerely.)</li>
-</ul>
-
-<h2 id="entertainment"><strong>Entertainment</strong></h2>
-
-<p>What I am exited about during leisure time:</p>
-
-<ul>
-  <li>Sports:  Tennis = badminton &gt; volleyball » table tennis</li>
-  <li>Animals (I do not have any pets…): cats, dogs, hamsters, … (I really like <a href="https://space.bilibili.com/4779198?from=search&amp;seid=16222763425988580630&amp;spm_id_from=333.337.0.0">this couple’s video</a> 强烈推荐up主 <em><a href="https://space.bilibili.com/4779198?from=search&amp;seid=16222763425988580630&amp;spm_id_from=333.337.0.0">九品芝麻铲屎官</a></em> 的视频剪辑)</li>
-  <li>Movies:
-    <ul>
-      <li><strong><em>Interstellar (星际穿越)</em></strong> (the foremost one) [now you might know why I sometimes use “Intelstealer” as a nickname …] [<a href="https://www.youtube.com/watch?v=uaSYEUugnzE">YouTube</a>, <a href="https://www.bilibili.com/bangumi/play/ss28585/?from=search&amp;seid=3596907034522347955&amp;spm_id_from=333.337.0.0">Bilibili</a>]</li>
-      <li><strong><em>The Dark Knight (黑暗骑士)</em></strong> [<a href="https://www.youtube.com/watch?v=B9wbHZM-L8g">YouTube</a>, <a href="https://www.bilibili.com/bangumi/play/ss28280/?from=search&amp;seid=15745780917256640498&amp;spm_id_from=333.337.0.0">Bilibili</a>]</li>
-      <li><strong><em>Big Fish (大鱼)</em></strong> [<a href="https://www.youtube.com/watch?v=mqIatIm6vlg">YouTube</a>, <a href="https://www.bilibili.com/bangumi/play/ss33372/?from=search&amp;seid=17356731908733314243&amp;spm_id_from=333.337.0.0">Bilibili</a>]</li>
-      <li><a href="https://www.youtube.com/watch?v=JaFVr_cJJIY"><strong><em>Life in a Day</em></strong></a> (a movie consistent of clips from all over the world in the same ordinary  day made by Youtube)</li>
-      <li><strong><em>钢的琴 (The Piano in a Factory)</em></strong>  [<a href="https://www.bilibili.com/bangumi/play/ss12415/?from=search&amp;seid=6574871034134810189&amp;spm_id_from=333.337.0.0">Bilibili</a>]</li>
-      <li><strong><em>Before Sunrise (爱在黎明破晓前)</em></strong> [<a href="https://www.youtube.com/watch?v=IqX_AZL8Sl0">YouTube</a>, <a href="https://www.bilibili.com/bangumi/play/ss32312/?from=search&amp;seid=6180111107384972910&amp;spm_id_from=333.337.0.0">Bilibili</a>]</li>
-      <li><strong><em>The Last Emperor (末代皇帝)</em></strong> [<a href="https://www.bilibili.com/bangumi/play/ss34165/?from=search&amp;seid=5971606446261401507&amp;spm_id_from=333.337.0.0">Bilibili</a>]</li>
-      <li><strong><em>World War Z</em></strong> (A good zombie movie; I like the design of its foreshadowing) [<a href="https://www.youtube.com/watch?v=PLYzc4K4a6o">YouTube</a>, <a href="https://www.bilibili.com/bangumi/play/ss33173?from=search&amp;seid=15745780917256640498&amp;spm_id_from=333.337.0.0">Bilibili</a>]</li>
-      <li><strong><em>Mad Max: Fury Road</em></strong> (I like the design of the post-apocalyptic world)</li>
-      <li><strong><em>无人区 (No Man’s Land)</em></strong></li>
-      <li>Movies from <strong><em>Marvel Cinematic Universe</em></strong> and <strong><em>DC Extended Universe</em></strong></li>
-    </ul>
-  </li>
-  <li>
-    <p>TV series: recalling …</p>
-  </li>
-  <li>Games:
-    <ul>
-      <li><strong><em>Red Dead Redemption 2</em></strong> (the favorite one)</li>
-      <li><strong><em>Life is Strange</em></strong></li>
-      <li><strong><em>Plants VS. Zombies</em></strong>, <strong><em>Plant VS. Zombies 2</em></strong></li>
-      <li><strong><em>Cytus II</em></strong>, <strong><em>Deemo</em></strong>, <strong><em>Lanota</em></strong>  (all are music games)</li>
-    </ul>
-  </li>
-  <li>Instruments: Harmonica, (Piano, 10 years ago I can play it; now I can only love it)</li>
-  <li>Music and Favorite Singers/bands:
-    <ul>
-      <li>Pop Music Singers/bands I was addicted to:
-        <ul>
-          <li>Around 2019 ~ Now: <em><a href="https://music.apple.com/cn/artist/%E9%99%88%E7%B2%92/1138469250">Li Chen</a></em> (95% of her albums and singles) and <a href="https://www.nightwish.com/">Nightwish</a> (<em>Imaginaerum</em>, <em>Dark Passion Play</em> and <em>Endless Forms Most Beautiful</em> )
-            <ul>
-              <li>Have a taste: Updating …</li>
-            </ul>
-          </li>
-          <li>Around 2015 ~ 2018: <em><a href="https://music.apple.com/us/artist/ellie-goulding/338264227">Ellie Goulding</a></em> (98% of her albums and singles) and  <a href="https://music.apple.com/us/artist/bea-miller/706171903"><em>Bea Miller</em></a> (<em>Fire N Gold</em>, etc.)
-            <ul>
-              <li>Have a taste: Updating …</li>
-            </ul>
-          </li>
-          <li>Around 2012 ~ 2015: <em><a href="https://music.apple.com/us/artist/britney-spears/217005">Britney Spears</a></em> and <a href="https://music.apple.com/us/artist/kesha/334854763">Kesha</a></li>
-          <li>Around 2011: <em>Jay Chou</em>, <em>Michael Jackson</em>, <em>Song Xu</em>,  etc.</li>
-        </ul>
-      </li>
-      <li>Classical Music (I was not an expert. In fact, I know nothing but just enjoy it.) :
-        <ul>
-          <li><em>Sonata No.8 in C Minor, Op.13,  “Pathétique”</em>, I, II and III</li>
-          <li><em>Sonata No.14 in C-Sharp Minor, Op. 27 No.2, “Moonlight”</em>, I , II and III</li>
-          <li><em>Symphony No. 9 in E minor, Op. 95 “From the New World”: IV. Allegro con fuoco</em></li>
-          <li><em>Fantaisie-Impromptu in C-Sharp Minor, Op. posth. 66</em></li>
-          <li><em>Nocturne No.2 in E Flat Major, Op.9, No.2</em></li>
-          <li><em>Serenade</em> by <em>Schubert</em></li>
-          <li><em>VI. Waltz 2 from Jazz Suite No.2</em></li>
-          <li><em>Canon in D major</em> by <em>Pachelbel</em></li>
-          <li><em>“Modlitwa dziewicy” Op. 4 (A Maiden’s Prayer)</em></li>
-          <li><em>Concerto No. 1 in E major, Op. 8, RV 269, “Spring”</em></li>
-          <li><em>Habanera from Carmen</em></li>
-          <li><em>Swan Lake, Op. 20a: No.1</em></li>
-        </ul>
-      </li>
-      <li>Traditional Chinese Music:
-        <ul>
-          <li><a href="https://www.youtube.com/watch?v=jitJGaoGs-I"><em>赛马</em></a></li>
-        </ul>
-      </li>
-      <li>
-        <p><strong>Related to politics/patriotism</strong> (I hate politics, but I love music):</p>
-
-        <ul>
-          <li>
-            <p><em>我的祖国 (My Homeland)</em>  [ YouTube: <a href="https://www.youtube.com/watch?v=-pjriPXQC0o">original version</a> from 1956; <a href="https://youtu.be/gL7am0SGO3s">a symphonic version</a> ]</p>
-
-            <p>This is a song that almost every one who came from China’s mainland can sing</p>
-          </li>
-          <li>
-            <p><em>钢铁洪流进行曲 (March of Steel Torrent)</em> [<a href="https://www.youtube.com/watch?v=gFBwXdguRrY">YouTube</a>]</p>
-
-            <p>This is a new Chinese Military Song written in 2019</p>
-          </li>
-          <li>
-            <p><em>La Marseillaise</em> (the national anthem of France; 中文译名<em>马赛曲</em>，法国国歌) [<a href="https://www.youtube.com/watch?v=SIxOl1EraXA">YouTube</a>]</p>
-          </li>
-          <li>
-            <p><em>Катюша (Katyusha, 喀秋莎)</em></p>
-          </li>
-          <li>
-            <p><em>Soviet March</em> (A joke song written by a US composer  苏维埃进行曲，美国作曲家编写的嘲讽苏联的歌曲😅) : D</p>
-          </li>
-        </ul>
-      </li>
-      <li>From Movies &amp; Games: <strong>updating</strong>
-        <ul>
-          <li><strong><em>Interstellar:</em></strong></li>
-          <li><strong><em>Plant VS Zombies:</em></strong></li>
-          <li><strong><em>Plant VS Zombies 2:</em></strong></li>
-          <li><strong><em>Red Dead Redemption 2:</em></strong></li>
-          <li><strong><em>Life is Strange</em></strong></li>
-          <li><strong><em>Cytus II &amp; Deemo</em></strong></li>
-          <li><strong><em>Les Misérables</em>:</strong> <em>Look Down</em>, <em>At The End of The Day</em>, <em>The Docks (Lovely Ladies)</em>, <em>The Confrontation</em>, <em>Castle on a Cloud</em>, <em>Master of the House</em>, <em>Do You Hear The People Sing</em></li>
-          <li><strong><em>La La Land:</em></strong></li>
-          <li><strong><em>Coco</em></strong>: <em>Remember Me</em>, <em>Proud Corazón</em></li>
-          <li><strong><em>The Hanger Games:</em></strong></li>
-          <li><strong><em>Sherlock Holmes:</em></strong></li>
-          <li><strong><em>Suicide Squad:</em></strong></li>
-          <li><strong><em>デジモンアドベンチャー (Digimon Adventure):</em></strong> <em>勝利〜善のテーマ〜</em>, <em>Butterfly</em>, <em>Brave Heart</em></li>
-          <li><strong><em>ウルトラマンティガ (Ultraman Tiga):</em></strong></li>
-          <li><strong><em>Attack on Titan</em></strong>:</li>
-          <li><strong><em>Game of Thrones:</em></strong></li>
-        </ul>
-      </li>
-      <li>Other songs I was addicted to and wish to share (categorized by language):
-        <ul>
-          <li>[Chinese] <em>千千厥歌 (Thousands of Songs)</em>, <em>认真地老去</em>, <em>杀死那个石家庄人</em>, <em>黑色也是值得被等待的</em>, <em>夜的第七章</em> , <em>下一站茶山刘</em>, <em>月牙湾</em>, <em>华阴老腔一声喊</em>, <em>万物生</em></li>
-          <li>[English] <em>Five Hundred Miles</em>, <em>Hotel California</em>, <em>The Sound of Silence</em>, <em>Hedwig’s Theme</em>, <em>New Year’s Eve</em>, <em>Wake Me Up</em>, <em>Waiting For Love</em>, <em>Sparks Fly</em>, …</li>
-          <li>[Japanese] <em>手紙〜拝啓 十五の君へ〜</em>, <em>夢灯籠</em>, <em>ぜんぜんぜんせ</em>, <em>PLANET</em></li>
-          <li>[Russian] <em>Катюша (Katyusha)</em>, <em>Skoro dembel’</em>, <em>Подмосковные Вечера (Moscow Nights)</em></li>
-          <li>[Piano] <em>翘课 (skip class)</em>, <em>Flower Dance</em>, <em>风の住む街</em>, <em>城南花已开</em></li>
-          <li>[Violin]</li>
-          <li>[Accordion]</li>
-          <li>[Computer Generated] <em>BASARA</em></li>
-          <li>updating</li>
-        </ul>
-      </li>
-      <li>Interesting songs (好玩的):
-        <ul>
-          <li><a href="https://www.bilibili.com/video/BV1r64y1B777?spm_id_from=333.999.0.0"><em>葫芦娃变奏曲</em></a>, <a href="https://www.bilibili.com/video/BV1fE411W7Lw?share_source=copy_web"><em>喀 秋 杀</em> </a>(唢呐)</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li></li>
-</ul>
-
-<h2 id="some-cyber-friends-"><strong>Some Cyber-friends :)</strong></h2>
-
-<ul>
-  <li>I am fortunate to know <a href="https://wzt.me/">Ziteng Wang</a>, who share the same spell of first name, similar spell of last name, and most importantly, the research interests in Programming Languages with me.</li>
-  <li>I shared a similar game interest with <a href="https://zhiming-xu.github.io/">Zhiming Xu</a>, although we seem not to share similar research interests</li>
-  <li><a href="https://www.skyzh.dev/">Alex Chi</a> is an undergraduate student (graduate at 2022)  from the department of Computer Science at SJTU; you might be interested in his (famous, somehow) programming skills and (famous, somehow) course grades</li>
-  <li><a href="https://xxchan.github.io/about/">xxchan</a> used to be in the same research group with me during undergraduate time. His experience (see <a href="https://xxchan.github.io/cs/2020/09/02/intern-at-meituan.html">this blog</a>) in an company might be a great reference for those (in China) who are still not sure whether going academical or industrial.</li>
-</ul>
-
-<h2 id="cooking"><strong>Cooking</strong></h2>
-
-<p>To be updated when I became a master of that …</p>
-
-<h1 id="share-some-facts"><strong>Share Some Facts</strong></h1>
-
-<h2 id="the-jokes-on-me---jokes-in-my-real-life">“The Joke’s On Me” - <strong>Jokes in My Real Life</strong></h2>
-
-<ul>
-  <li>I usually mix up with “sophomore” and “semaphore” (This happens for at least 5 times …)</li>
-  <li>The first day I arrived at my undergraduate college, I need to configure the internet in my dormitory. Since I had never got in touch any concept about computer system yet, when they asked me to provide the MAC address, I mistook for that I must have a <em>Mac</em> from apple to earn the accessibility to the Internet.</li>
-  <li>…</li>
-</ul>
-
-<h2 id="jokesmeme-all-from-internet"><strong>Jokes/Meme (all from internet)</strong></h2>
-
-<ul>
-  <li>
-    <p><img src="index.assets/image-20210923044320769.png" alt="image-20210923044320769" style="zoom:50%;" /></p>
-  </li>
-  <li>
-    <p>“WHAT IS YOUR ADDRESS”</p>
-
-    <p><img src="index.assets/image-20210921223916342.png" alt="image-20210921223916342" /></p>
-  </li>
-  <li>
-    <p>“GIT PUSH”</p>
-
-    <p><img src="index.assets/FA27LtfX0AExnNy.jpeg" alt="图像" style="zoom: 33%;" /></p>
-  </li>
-  <li>
-    <p>“TO BE OR NOT TO BE”</p>
-
-    <p><img src="index.assets/image-20210923033055472.png" alt="image-20210923033055472" style="zoom:50%;" /></p>
-  </li>
-  <li>
-    <p>“QED.”</p>
-
-    <p><img src="index.assets/image-20210923034530903.png" alt="image-20210923034530903" style="zoom: 50%;" /></p>
-  </li>
-  <li>
-    <p>“IT WORKS”</p>
-
-    <p><img src="index.assets/image-20210923034746198.png" alt="image-20210923034746198" style="zoom:50%;" /></p>
-
-    <p><img src="index.assets/image-20210923040119431.png" alt="image-20210923040119431" style="zoom: 50%;" /></p>
-  </li>
-  <li>
-    <p>“WHO CARES”</p>
-
-    <p><img src="index.assets/image-20210923034833337.png" alt="image-20210923034833337" style="zoom:33%;" /></p>
-  </li>
-  <li>
-    <p>“VAN GOGHS”</p>
-
-    <p><img src="index.assets/image-20210923035144252.png" alt="image-20210923035144252" style="zoom: 25%;" /></p>
-  </li>
-  <li>
-    <p><img src="index.assets/image-20210923035244315.png" alt="image-20210923035244315" style="zoom: 50%;" /></p>
-  </li>
-  <li>
-    <p><img src="index.assets/image-20210923035355800.png" alt="image-20210923035355800" style="zoom:33%;" /></p>
-  </li>
-  <li>
-    <p><img src="index.assets/image-20210923035812923.png" alt="image-20210923035812923" style="zoom: 33%;" /></p>
-  </li>
-  <li>
-    <p>…</p>
-  </li>
-</ul>
-
-<h2 id="computer-science-in-my-life"><strong>Computer Science in My Life</strong></h2>
-
-<ul>
-  <li>I was also admitted by the <em>Master of Logic</em> program at the University of Amsterdam. But not rich enough to enroll : (  [It requires around 10,000 for tuition and another 10,000 or maybe more for life expenses …]
-    <ul>
-      <li>It doesn’t mean I do not love Computer Science; they are somehow <em><a href="https://en.wikipedia.org/wiki/Inductive_type#Mutually_inductive_definitions">mutually inductive</a></em> magics of the world</li>
-    </ul>
-  </li>
-  <li>I gave up the desire of stepping into game design, another totally different career life at sophomore. This is mainly because I didn’t found neither a good mentor/advisor nor ideal partners and didn’t make it by self-study.
-    <ul>
-      <li>It doesn’t mean I do not love Programming Languages. Instead, I found those two things in the area of Programming Languages later!</li>
-      <li>Nevertheless, I always love the world of video games and believe they are a treasure of humans.</li>
-    </ul>
-  </li>
-  <li>I have no industrial experience till now. I still regard myself as <strong>a very nonprofessional programmer</strong>…</li>
-  <li>Unlike a lot of my friends that started learning programming at a very young age, I never touched the world of computer science until freshman year at SJTU.</li>
-</ul>
-
-<h2 id="life"><strong>Life</strong></h2>
-
-<ul>
-  <li>I was born and raised up in <em>Chongqing</em>, China. This is a magical city built on several mountains. You should pay a visit if you’d like to see how such thing could exist. Besides, my father comes from <em>Hebei</em> Province in China and worked there in a small city named <em>Zhuozhou</em> for a very long time, which is only 1-hour-drive to <em>Beijing</em> . Therefore, I was also familiar with those cities.</li>
-  <li>Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (  The fact is, you will spend even less (a half) time to go to the downtown area in Shanghai from Hangzhou, Zhejiang Province than going there from Shanghai Jiao Tong University.</li>
-  <li>…</li>
-</ul>
 
 
 

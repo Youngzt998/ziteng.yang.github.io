@@ -10,13 +10,9 @@ title: ""
 
 I am a first-year PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at [School of Computer Science](https://www.scs.gatech.edu/), [College of Computing](https://www.cc.gatech.edu/), **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)**. 
 
-My research experience lies in ***Programming Languages (PL)*** and ***Formal Methods***. PhD program is a brand new stage of my life. I'm still exploring the various researches in PL.
-
-During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *Modal Logic* in *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
-
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
----
+
 
 **Contact Information:**
 
@@ -32,7 +28,13 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
   <img src="index.assets/wechat_pl.jpg" alt="wechat_pl" style="zoom: 33%;" />
 
-  [WeChat for ordinary&trivial life](./figures/wechat_life.jpg)
+  
+
+# **Biography**
+
+My research interests lies in ***Programming Languages (PL)*** and ***Formal Methods***. PhD program is a brand new stage of my life. I'm still exploring the various research areas in PL.
+
+During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *mathematical logic* in the *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
 
 
 
@@ -40,22 +42,17 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 # **Research Projects**
 
-**During PhD Program**
-
-To be updated soon (or maybe a year later)
-
-
+**During PhD Time**
 
 <u>I will probably investigate a subset of researches around those general topics in the following one or two years</u>:
 
-- Program analysis for parallel programs **[actively working on]**;
-- Graph reachability problems and their application with static analysis **[actively working on]**;
-- Program synthesis and computability problems related to them;
-- Software testing (generally);
+- **[actively working on]** Graph reachability problems and their application with static analysis;
+- **[actively working on]** Program analysis for parallel programs ;
 - Combining static analysis and formal verification;
+  - Formally verified static analysis
+  - Static analysis with extra information from formal verification 
 - Program verification for concurrent program;
-
-*If you found that we shared similar interests, I'd be excited to have a cheerful discuss with you!*
+- Program synthesis and decidability problems related to them;
 
 
 
@@ -69,43 +66,22 @@ To be updated soon (or maybe a year later)
 
 
 
+*If you found that we shared similar interests, I'd be excited to have a cheerful discuss with you!*
+
+
+
+
+
 **During Undergraduate Time**
 
 - [2020~2021] **Verification-aided Compiler Optimization** 
   - I proposed a frame verification work based on *proof assistant Coq* and gave a trial on "toy logic" for an expedition to support compiler optimization aided by verification information carried by programs 
-  - This project was now continued by  [Hanzhi Liu](https://misaka.center/), an undergraduate genius student (2019~2023, expected) and an experienced programmer at SJTU, also advised by Qinxiang Cao, to implement this optimization and framework in VST's separation logic [VST = Verified Software Toolchain]
+  - This project was now continued by  [Hanzhi Liu](https://misaka.center/), an undergraduate student (2019~2023, expected) at SJTU, also advised by Qinxiang Cao, to implement this optimization and framework in VST's Separation Logic [VST := Verified Software Toolchain]
   - Further detail should be secret now; there should be a paper submission soon
 - [2019~2020] **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
 - [2018~2019] **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
-  - 
 
-
-
-
-
-# **Publication**
-
-**During PhD Program**
-
-To be updated in the future 
-
-- If there's still nothing several years later, either of the two things might happened: 0- I have forgotten I have a personal website; 1- : (  
-
-
-
-
-
-**During Undergraduate Time**
-
-<u>Program Verification:</u>
-
-- There might be one later ...
-
-<u>Formal Control Theory:</u> 
-
-- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [  **Conference Paper** l [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
-
-
+  
 
 
 
@@ -152,329 +128,4 @@ See more details in [Projects](/project/) .
 
 ---
 
-
-
-# **Useful Links** For CS Study
-
-## **Some Professors' Website**
-
-### **Programming Languages & Formal Methods in Computer Science**
-
-- Program Analysis:
-
-  - [Thomas W. Reps](http://pages.cs.wisc.edu/~reps/),  [QIrun Zhang](https://www.cc.gatech.edu/~qzhang414/),
-
-- Program Verification 
-  
-  - The [*DeepSpec*](https://deepspec.org/main) project: [Andrew W. Appel](https://www.cs.princeton.edu/~appel/), [Benjamin C. Pierce](https://www.cis.upenn.edu/~bcpierce/), [Zhong Shao](http://www.cs.yale.edu/homes/shao-zhong/)
-  - Separation Logic:
-  - ...
-  
-- Software Testing: [Zhendong Su](https://people.inf.ethz.ch/suz/), [QIrun Zhang](https://www.cc.gatech.edu/~qzhang414/), [Lingming Zhang](http://lingming.cs.illinois.edu/index.html)
-
-- Program Synthesis: [Thomas W. Reps](http://pages.cs.wisc.edu/~reps/), [Loris D'Antoni](https://pages.cs.wisc.edu/~loris/), [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/)
-
-- Model Checking: ...
-
-  
-
-
-
-
-
-# **Materials for CS Study** from Internet
-
-Stock up maybe-useful resources like the hamster ...
-
-## **a. Programming Languages (Research Oriented)**
-
-### **Program Analysis**
-
-- **Static Analysis Foundations:**
-  - An introduction online book [***Static Program Analysis*** ](https://cs.au.dk/~amoeller/spa/) by A. Møller and M. Schwartzbach,2018
-  - Check this [course website](https://pascal-group.bitbucket.io/teaching.html) and [the course video uploaded by the professors](https://www.bilibili.com/video/BV1b7411K7P4?share_source=copy_web) from NJU 
-  
-- **C**ontext**F**ree**L**anguage**-Reachability for Static Analysis**: 
-  - Check [**this paper**](https://dl.acm.org/doi/10.1145/199448.199462) from [POPL'95] to learn about **how some static analysis problem can be transferred into graph-reachability problem**
-  - Check the course website from NJU above
-  - Updating ...
-  
-
-### **Program Verification**
-
-- **Formal verification using proof assistant Coq:**
-  - **[Foundations of proof assistant Coq]** Check this open-source free online-book *[**Software Foundations, Volume 1**](https://softwarefoundations.cis.upenn.edu/lf-current/index.html)*
-  - **[Foundations of Hoare-Logic based program verification]** Check this open-source free online-book ***[Software Foundations, Volume 2](https://softwarefoundations.cis.upenn.edu/plf-current/index.html)***
-  - **[Verify C program using VST, a separation logic tool in Coq]** Check this open-source free online-book ***[Software Foundations, Volume 5](https://softwarefoundations.cis.upenn.edu/vc-current/index.html)***
-  - Check this [***Formal Semantics course website***](https://flint.cs.yale.edu/cs430/) from Yale
-  - Updating ...
-  
-- **Formal verification - theoretical view:**
-  - **[Separation Logic & Verifiable C & Verified Compiler & CompCert Memory Model & ...]** Check this book  [**Program Logics for Certified Compilers**](https://vst.cs.princeton.edu/veric/) by Andrew W. Appel (free from author's page) 
-  - Updating ...
-  
-- 
-
-
-
-
-
-
-
-## **b. Theoretical Computer Science (Interests Oriented)**
-
-- Prof. Ryan O'Donnell at CMU	 keeps uploading videos about basic theoretical computer science in [YouTube](https://www.youtube.com/channel/UCWnu2XymDtORV--qG2uG5eQ) and [Bilibili](https://space.bilibili.com/1198378855/?spm_id_from=333.999.0.0)
-
-  卡内基梅隆大学的 Ryan O'Donnell 教授一直在 YouTuBe 和 [B站](https://space.bilibili.com/1198378855/?spm_id_from=333.999.0.0) 上传理论计算机相关的科普视频
-
-
-
-## **c. Computer System (Courses Oriented)**
-
-- The [*IPADS Lab*](https://ipads.se.sjtu.edu.cn/) (an internationally famous laboratory focusing on computer systems) at SJTU has [***several excellent courses for computer system***](https://ipads.se.sjtu.edu.cn/pub/courses) 
-
-  上海交大软院的*[IPADS实验室](https://ipads.se.sjtu.edu.cn/)*开设的计算机系统相关课程学生风评特别的好: 
-
-  *[Operating System](https://ipads.se.sjtu.edu.cn/courses/os/)*, *[Introduction to Computer Systems](https://ipads.se.sjtu.edu.cn/courses/ics/)*, [Computer System Engineering](https://ipads.se.sjtu.edu.cn/courses/cse/), etc.
-
-  - About a Chinese-only text-book: 该实验室撰写的这本中文教材 [*《现代操作系统：原理与实现》*](https://ipads.se.sjtu.edu.cn/mospi/) 是计算机类中文教材中难得的写得较好的一本（但个人认为不适合初学；迷迷糊糊地学过一遍操作系统导论课程后再回看它，解决了我的大部分疑惑）
-
-
-
-
-
-## **$\alpha$ Tools **
-
-- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) from MIT, including shells, git version control, vim editor, debugging tools, etc.
-
-  [计算机教育中缺失的一课](https://missing-semester-cn.github.io/) (中文翻译版)，包括了shell窗口、git版本控制、vim编辑器、调试器等工具的使用
-
-- 
-
-
-
-
-
-
-
-# **Miscellany**
-
-## **Sentences I wish to share**
-
-[Inside Chinese internet, we some times called it "chicken soup" if some sentence or story is heuristic]
-
-- *"Talk is cheap. Show me the code."* --- Linus Torvalds
-
-- *"Talk is cheap. Show me the proof."* --- Qinxiang Cao
-
-- *"Talk is not cheap"* --- Some Cyber-stranger
-
-- *“闻道有先后，术业有专攻”*  --- 韩愈
-
-  One might have learned the doctrine earlier than the other, or might be a master in his own special field. --- [Yu Han](https://en.wikipedia.org/wiki/Han_Yu)
-
-- [Russell's Message](https://www.youtube.com/watch?v=ihaB8AFOhZo):
-
-  - <iframe width="280" height="315" src="https://www.youtube.com/embed/ihaB8AFOhZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-  - "*Ask yourself only what are the facts and what is the truth that the facts bear out*"
-
-  - "*Never let yourself be diverted either by what you wish to believe or by what you think would have beneficent social effects if it were believed, but look only and solely at what are the facts.*"
-
-  - "*Love is wise, hatred is foolish.*"
-
-  
-
-## **Current Future Plans**
-
-- Learn more things in **Logics**, **Mathematics** and Computer Science (especially in **PL**, **Theory** and **System**);
-- Raise a cat in 2 years (I will immediately raise one after passing my qualification examination, sincerely.)
-
-
-
-## **Entertainment**
-
-What I am exited about during leisure time:
-
-- Sports:  Tennis = badminton > volleyball >> table tennis
-- Animals (I do not have any pets...): cats, dogs, hamsters, ... (I really like [this couple's video](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0) 强烈推荐up主 *[九品芝麻铲屎官](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0)* 的视频剪辑)
-- Movies: 
-  - ***Interstellar (星际穿越)*** (the foremost one) [now you might know why I sometimes use "Intelstealer" as a nickname ...] [[YouTube](https://www.youtube.com/watch?v=uaSYEUugnzE), [Bilibili](https://www.bilibili.com/bangumi/play/ss28585/?from=search&seid=3596907034522347955&spm_id_from=333.337.0.0)]
-  - ***The Dark Knight (黑暗骑士)*** [[YouTube](https://www.youtube.com/watch?v=B9wbHZM-L8g), [Bilibili](https://www.bilibili.com/bangumi/play/ss28280/?from=search&seid=15745780917256640498&spm_id_from=333.337.0.0)]
-  - ***Big Fish (大鱼)*** [[YouTube](https://www.youtube.com/watch?v=mqIatIm6vlg), [Bilibili](https://www.bilibili.com/bangumi/play/ss33372/?from=search&seid=17356731908733314243&spm_id_from=333.337.0.0)]
-  - [***Life in a Day***](https://www.youtube.com/watch?v=JaFVr_cJJIY) (a movie consistent of clips from all over the world in the same ordinary  day made by Youtube)
-  - ***钢的琴 (The Piano in a Factory)***  [[Bilibili](https://www.bilibili.com/bangumi/play/ss12415/?from=search&seid=6574871034134810189&spm_id_from=333.337.0.0)]
-  - ***Before Sunrise (爱在黎明破晓前)*** [[YouTube](https://www.youtube.com/watch?v=IqX_AZL8Sl0), [Bilibili](https://www.bilibili.com/bangumi/play/ss32312/?from=search&seid=6180111107384972910&spm_id_from=333.337.0.0)]
-  - ***The Last Emperor (末代皇帝)*** [[Bilibili](https://www.bilibili.com/bangumi/play/ss34165/?from=search&seid=5971606446261401507&spm_id_from=333.337.0.0)]
-  - ***World War Z*** (A good zombie movie; I like the design of its foreshadowing) [[YouTube](https://www.youtube.com/watch?v=PLYzc4K4a6o), [Bilibili](https://www.bilibili.com/bangumi/play/ss33173?from=search&seid=15745780917256640498&spm_id_from=333.337.0.0)]
-  - ***Mad Max: Fury Road*** (I like the design of the post-apocalyptic world)
-  - ***无人区 (No Man's Land)***
-  - Movies from ***Marvel Cinematic Universe*** and ***DC Extended Universe***
-- TV series: recalling ...
-
-- Games: 
-  - ***Red Dead Redemption 2*** (the favorite one)
-  - ***Life is Strange***
-  - ***Plants VS. Zombies***, ***Plant VS. Zombies 2***
-  - ***Cytus II***, ***Deemo***, ***Lanota***  (all are music games)
-- Instruments: Harmonica, (Piano, 10 years ago I can play it; now I can only love it)
-- Music and Favorite Singers/bands:
-  - Pop Music Singers/bands I was addicted to: 
-    - Around 2019 ~ Now: *[Li Chen](https://music.apple.com/cn/artist/%E9%99%88%E7%B2%92/1138469250)* (95% of her albums and singles) and [Nightwish](https://www.nightwish.com/) (*Imaginaerum*, *Dark Passion Play* and *Endless Forms Most Beautiful* )
-      - Have a taste: Updating ...
-    - Around 2015 ~ 2018: *[Ellie Goulding](https://music.apple.com/us/artist/ellie-goulding/338264227)* (98% of her albums and singles) and  [*Bea Miller*](https://music.apple.com/us/artist/bea-miller/706171903) (*Fire N Gold*, etc.)
-      - Have a taste: Updating ...
-    - Around 2012 ~ 2015: *[Britney Spears](https://music.apple.com/us/artist/britney-spears/217005)* and [Kesha](https://music.apple.com/us/artist/kesha/334854763)
-    - Around 2011: *Jay Chou*, *Michael Jackson*, *Song Xu*,  etc.
-  - Classical Music (I was not an expert. In fact, I know nothing but just enjoy it.) :
-    - *Sonata No.8 in C Minor, Op.13,  "Pathétique"*, I, II and III
-    - *Sonata No.14 in C-Sharp Minor, Op. 27 No.2, "Moonlight"*, I , II and III
-    - *Symphony No. 9 in E minor, Op. 95 "From the New World": IV. Allegro con fuoco*
-    - *Fantaisie-Impromptu in C-Sharp Minor, Op. posth. 66*
-    - *Nocturne No.2 in E Flat Major, Op.9, No.2*
-    - *Serenade* by *Schubert* 
-    - *VI. Waltz 2 from Jazz Suite No.2*
-    - *Canon in D major* by *Pachelbel*
-    - *"Modlitwa dziewicy" Op. 4 (A Maiden's Prayer)*
-    - *Concerto No. 1 in E major, Op. 8, RV 269, "Spring"*
-    - *Habanera from Carmen*
-    - *Swan Lake, Op. 20a: No.1*
-  - Traditional Chinese Music:
-    - [*赛马*](https://www.youtube.com/watch?v=jitJGaoGs-I)
-  - **Related to politics/patriotism** (I hate politics, but I love music):
-
-    - *我的祖国 (My Homeland)*  \[ YouTube: [original version](https://www.youtube.com/watch?v=-pjriPXQC0o) from 1956; [a symphonic version](https://youtu.be/gL7am0SGO3s) \]
-
-      This is a song that almost every one who came from China's mainland can sing	
-
-    - *钢铁洪流进行曲 (March of Steel Torrent)* [[YouTube](https://www.youtube.com/watch?v=gFBwXdguRrY)]
-
-      This is a new Chinese Military Song written in 2019
-
-    - *La Marseillaise* (the national anthem of France; 中文译名*马赛曲*，法国国歌) [[YouTube](https://www.youtube.com/watch?v=SIxOl1EraXA)]
-
-    - *Катюша (Katyusha, 喀秋莎)*
-
-    - *Soviet March* (A joke song written by a US composer  苏维埃进行曲，美国作曲家编写的嘲讽苏联的歌曲😅) : D
-  - From Movies & Games: **updating**
-    - ***Interstellar:*** 
-    - ***Plant VS Zombies:***
-    - ***Plant VS Zombies 2:***
-    - ***Red Dead Redemption 2:***
-    - ***Life is Strange***
-    - ***Cytus II & Deemo***
-    - ***Les Misérables*:** *Look Down*, *At The End of The Day*, *The Docks (Lovely Ladies)*, *The Confrontation*, *Castle on a Cloud*, *Master of the House*, *Do You Hear The People Sing*
-    - ***La La Land:***
-    - ***Coco***: *Remember Me*, *Proud Corazón*
-    - ***The Hanger Games:***
-    - ***Sherlock Holmes:***
-    - ***Suicide Squad:***
-    - ***デジモンアドベンチャー (Digimon Adventure):*** *勝利〜善のテーマ〜*, *Butterfly*, *Brave Heart*
-    - ***ウルトラマンティガ (Ultraman Tiga):***
-    - ***Attack on Titan***:
-    - ***Game of Thrones:***
-  - Other songs I was addicted to and wish to share (categorized by language):
-    - [Chinese] *千千厥歌 (Thousands of Songs)*, *认真地老去*, *杀死那个石家庄人*, *黑色也是值得被等待的*, *夜的第七章* , *下一站茶山刘*, *月牙湾*, *华阴老腔一声喊*, *万物生*
-    - [English] *Five Hundred Miles*, *Hotel California*, *The Sound of Silence*, *Hedwig's Theme*, *New Year's Eve*, *Wake Me Up*, *Waiting For Love*, *Sparks Fly*, ...
-    - [Japanese] *手紙〜拝啓 十五の君へ〜*, *夢灯籠*, *ぜんぜんぜんせ*, *PLANET*
-    - [Russian] *Катюша (Katyusha)*, *Skoro dembel'*, *Подмосковные Вечера (Moscow Nights)* 
-    - [Piano] *翘课 (skip class)*, *Flower Dance*, *风の住む街*, *城南花已开*
-    - [Violin]
-    - [Accordion]
-    - [Computer Generated] *BASARA*
-    - updating
-  - Interesting songs (好玩的):
-    - [*葫芦娃变奏曲*](https://www.bilibili.com/video/BV1r64y1B777?spm_id_from=333.999.0.0), [*喀 秋 杀* ](https://www.bilibili.com/video/BV1fE411W7Lw?share_source=copy_web)(唢呐)
-- 
-
-
-
-## **Some Cyber-friends :)**
-
-- I am fortunate to know [Ziteng Wang](https://wzt.me/), who share the same spell of first name, similar spell of last name, and most importantly, the research interests in Programming Languages with me.
-- I shared a similar game interest with [Zhiming Xu](https://zhiming-xu.github.io/), although we seem not to share similar research interests
-- [Alex Chi](https://www.skyzh.dev/) is an undergraduate student (graduate at 2022)  from the department of Computer Science at SJTU; you might be interested in his (famous, somehow) programming skills and (famous, somehow) course grades
-- [xxchan](https://xxchan.github.io/about/) used to be in the same research group with me during undergraduate time. His experience (see [this blog](https://xxchan.github.io/cs/2020/09/02/intern-at-meituan.html)) in an company might be a great reference for those (in China) who are still not sure whether going academical or industrial.  
-
-
-
-
-
-## **Cooking**
-
-To be updated when I became a master of that ...
-
-
-
-# **Share Some Facts**
-
-## "The Joke's On Me" - **Jokes in My Real Life**
-
-- I usually mix up with "sophomore" and "semaphore" (This happens for at least 5 times ...)
-- The first day I arrived at my undergraduate college, I need to configure the internet in my dormitory. Since I had never got in touch any concept about computer system yet, when they asked me to provide the MAC address, I mistook for that I must have a *Mac* from apple to earn the accessibility to the Internet.
-- ...
-
-
-
-## **Jokes/Meme (all from internet)**
-
-- <img src="index.assets/image-20210923044320769.png" alt="image-20210923044320769" style="zoom:50%;" />
-
-- "WHAT IS YOUR ADDRESS"
-
-  ![image-20210921223916342](index.assets/image-20210921223916342.png)
-
-- “GIT PUSH”
-
-  <img src="index.assets/FA27LtfX0AExnNy.jpeg" alt="图像" style="zoom: 33%;" />
-
-- "TO BE OR NOT TO BE"
-
-  <img src="index.assets/image-20210923033055472.png" alt="image-20210923033055472" style="zoom:50%;" />
-
-- “QED.”
-
-  <img src="index.assets/image-20210923034530903.png" alt="image-20210923034530903" style="zoom: 50%;" />
-
-- “IT WORKS”
-
-  <img src="index.assets/image-20210923034746198.png" alt="image-20210923034746198" style="zoom:50%;" />
-
-  <img src="index.assets/image-20210923040119431.png" alt="image-20210923040119431" style="zoom: 50%;" />
-
-- “WHO CARES”
-
-  <img src="index.assets/image-20210923034833337.png" alt="image-20210923034833337" style="zoom:33%;" />
-
-- “VAN GOGHS”
-
-  <img src="index.assets/image-20210923035144252.png" alt="image-20210923035144252" style="zoom: 25%;" />
-
-- <img src="index.assets/image-20210923035244315.png" alt="image-20210923035244315" style="zoom: 50%;" />
-
-- <img src="index.assets/image-20210923035355800.png" alt="image-20210923035355800" style="zoom:33%;" />
-
-- <img src="index.assets/image-20210923035812923.png" alt="image-20210923035812923" style="zoom: 33%;" />
-
-- ...
-
-
-
-## **Computer Science in My Life**
-
-- I was also admitted by the *Master of Logic* program at the University of Amsterdam. But not rich enough to enroll : (  [It requires around 10,000 for tuition and another 10,000 or maybe more for life expenses ...]
-  - It doesn't mean I do not love Computer Science; they are somehow *[mutually inductive](https://en.wikipedia.org/wiki/Inductive_type#Mutually_inductive_definitions)* magics of the world 
-- I gave up the desire of stepping into game design, another totally different career life at sophomore. This is mainly because I didn't found neither a good mentor/advisor nor ideal partners and didn't make it by self-study.
-  - It doesn't mean I do not love Programming Languages. Instead, I found those two things in the area of Programming Languages later! 
-  - Nevertheless, I always love the world of video games and believe they are a treasure of humans.
-- I have no industrial experience till now. I still regard myself as **a very nonprofessional programmer**...
-- Unlike a lot of my friends that started learning programming at a very young age, I never touched the world of computer science until freshman year at SJTU.
-
-
-
-## **Life**
-
-- I was born and raised up in *Chongqing*, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. Besides, my father comes from *Hebei* Province in China and worked there in a small city named *Zhuozhou* for a very long time, which is only 1-hour-drive to *Beijing* . Therefore, I was also familiar with those cities. 
-- Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (  The fact is, you will spend even less (a half) time to go to the downtown area in Shanghai from Hangzhou, Zhejiang Province than going there from Shanghai Jiao Tong University.
-- ...
 
