@@ -187,7 +187,7 @@ To be updated when I became a master of that ...
 
 ## **Jokes/Meme (all from internet)**
 
-- <img src="4-miscellany.assets/image-20210923044320769.png" alt="image-20210923044320769" style="zoom:50%;" />
+- ![image-20211028014024540](4-miscellany.assets/image-20211028014024540.png)
 
 - "WHAT IS YOUR ADDRESS"
 
@@ -195,35 +195,35 @@ To be updated when I became a master of that ...
 
 - “GIT PUSH”
 
-  <img src="4-miscellany.assets/FA27LtfX0AExnNy.jpeg" alt="图像" style="zoom: 33%;" />
+  <img src="4-miscellany.assets/FA27LtfX0AExnNy.jpeg" alt="FA27LtfX0AExnNy" style="zoom: 33%;" />
 
 - "TO BE OR NOT TO BE"
 
-  <img src="4-miscellany.assets/image-20210923033055472.png" alt="image-20210923033055472" style="zoom:50%;" />
+  <img src="4-miscellany.assets/image-20210923033055472.png" alt="image-20210923033055472" style="zoom:33%;" />
 
 - “QED.”
 
-  <img src="4-miscellany.assets/image-20210923034530903.png" alt="image-20210923034530903" style="zoom: 50%;" />
+  <img src="4-miscellany.assets/image-20210923034530903.png" alt="image-20210923034530903" style="zoom: 67%;" />
 
 - “IT WORKS”
 
   <img src="4-miscellany.assets/image-20210923034746198.png" alt="image-20210923034746198" style="zoom:50%;" />
 
-  <img src="4-miscellany.assets/image-20210923040119431.png" alt="image-20210923040119431" style="zoom: 50%;" />
+  <img src="4-miscellany.assets/image-20210923040119431.png" alt="image-20210923040119431" style="zoom: 67%;" />
 
 - “WHO CARES”
 
-  <img src="4-miscellany.assets/image-20210923034833337.png" alt="image-20210923034833337" style="zoom:33%;" />
+  <img src="4-miscellany.assets/image-20210923034833337.png" alt="image-20210923034833337" style="zoom:50%;" />
 
 - “VAN GOGHS”
 
-  <img src="4-miscellany.assets/image-20210923035144252.png" alt="image-20210923035144252" style="zoom: 25%;" />
+  <img src="4-miscellany.assets/image-20210923035144252.png" alt="image-20210923035144252" style="zoom:50%;" />
 
-- <img src="4-miscellany.assets/image-20210923035244315.png" alt="image-20210923035244315" style="zoom: 50%;" />
+- <img src="4-miscellany.assets/image-20210923035244315.png" alt="image-20210923035244315" style="zoom:67%;" />
 
-- <img src="4-miscellany.assets/image-20210923035355800.png" alt="image-20210923035355800" style="zoom:33%;" />
+- <img src="4-miscellany.assets/image-20210923035355800.png" alt="image-20210923035355800" style="zoom:50%;" />
 
-- <img src="4-miscellany.assets/image-20210923035812923.png" alt="image-20210923035812923" style="zoom: 33%;" />
+- <img src="4-miscellany.assets/image-20210923035812923.png" alt="image-20210923035812923" style="zoom:50%;" />
 
 - ...
 

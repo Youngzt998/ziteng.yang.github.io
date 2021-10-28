@@ -73,7 +73,7 @@ I'd like to share some useful materials (both undergraduate level and graduate l
 
 
 
-### **$\alpha$ Tools **
+### **$\alpha$ Tools**
 
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) from MIT, including shells, git version control, vim editor, debugging tools, etc.
 
