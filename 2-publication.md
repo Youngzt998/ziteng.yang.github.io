@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: "Publications"
 permalink: /publication/
 published: true
@@ -15,7 +15,7 @@ To be updated in the future
 
 <u>Program Verification:</u>
 
-- There might be one later ...
+- [There might be one later ...]
 
 <u>Formal Control Theory:</u> 
 

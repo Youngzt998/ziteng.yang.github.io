@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: home
 title: "Travel"
 permalink: /travel/
-published: true
+published: false
 ---
 
 Planning to update some travel photos at this page...

@@ -1,13 +1,11 @@
 ---
-layout: page
+layout: home
 title: "CS.StudyMaterials"
 permalink: /study/
 published: true
 ---
 
 
-
-# **Useful Links** For CS Study
 
 Thanks for visiting! 
 

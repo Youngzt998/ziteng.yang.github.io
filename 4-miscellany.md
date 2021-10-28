@@ -1,13 +1,11 @@
 ---
-layout: page
+layout: home
 title: "Miscellany"
 permalink: /miscellany/
 published: true
 ---
 
 
-
-# **Miscellany**
 
 ## **Sentences I wish to share**
 
