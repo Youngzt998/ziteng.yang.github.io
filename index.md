@@ -24,11 +24,8 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
 
-- WeChat for PL Research: 
-
-  <img src="index.assets/wechat_pl.jpg" alt="wechat_pl" style="zoom: 33%;" />
-
   
+
 
 # **Biography**
 
@@ -52,17 +49,6 @@ During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https:/
   - Formally verified static analysis
   - Static analysis with extra information from formal verification 
 - Program verification for concurrent program;
-- Program synthesis and decidability problems related to them;
-
-
-
-<u>I will probably also be learning the fundamental knowledges of those topics in the following one or two years</u>:
-
-- Computability
-- Separation Logic (both meta-theory and application), 
-- Meta-theory of Coq proof assistant, i.e. *Calculus of Constructions*
-- Basic knowledge of type theory
-- LLVM
 
 
 
@@ -127,5 +113,4 @@ See more details in [Projects](/project/) .
 
 
 ---
-
 
