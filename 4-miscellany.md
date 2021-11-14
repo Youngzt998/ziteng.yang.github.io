@@ -2,7 +2,7 @@
 layout: home
 title: "Miscellany"
 permalink: /miscellany/
-published: true
+published: false
 ---
 
 ## **Some Cyber-friends :)**
@@ -43,7 +43,7 @@ published: true
 ## **Current Future Plans**
 
 - Learn more things in **Logics**, **Mathematics** and Computer Science (especially in **PL**, **Theory** and **System**);
-- Raise a cat in 2 years (I will immediately raise one after passing my qualification examination, sincerely.)
+- Raise a cat in 2 years
 
 
 
