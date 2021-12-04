@@ -35,90 +35,6 @@ During my work, a lot of useful lemmas was also proved as a supplementary of the
 
 
 
-**Implementation Details**
-
-The following presented several representative and critical definitions and lemmas:
-
-- The abstract type class of PDL:
-
-  ```ocaml
-  Class Program : Type:={
-    program: Type;
-  }.
-  
-  Class PropositionalDynamicLanguage (L:Language)(Pro: Program):Type:={
-    boxp: program -> expr -> expr
-  }.
-  
-  Class ProgramOperation (L:Language)(Pro:Program):Type:= {
-    choice: program -> program -> program;
-    composition: program -> program -> program;
-    iteration: program -> program;
-    test: expr -> program
-  }.
-  ```
-
-  Note: we can describe Classical PDL abstractly by composing the type classes above of classical logic. The same applies to the proof system and semantic system.
-
-  
-
-- The deep-embedded syntax of PDL
-
-  ```ocaml
-  Inductive program {Sigma: PropositionalVariables}{ProV: ProgramVariables}: Type :=
-    | choice: program -> program -> program
-    | composition: program -> program -> program
-    | iteration: program -> program
-    | test: expr -> program
-    | basep: BaseP -> program
-  with
-   expr {Sigma: PropositionalVariables} {ProV: ProgramVariables}: Type :=
-    | impp : expr -> expr -> expr
-    | orp : expr -> expr -> expr
-    | andp: expr -> expr -> expr
-    | falsep : expr
-    | boxp: program -> expr -> expr
-    | varp : Var -> expr.
-  ```
-
-  Note: we must indicate explicitly in Coq that the given syntax is an instance of the abstract type class. The same applies to the proof system and semantic system.
-
-  
-
-- The *Truth Lemma* and *Existence Lemma* (mutually inductive):
-
-  ```ocaml
-  Lemma TRUTH_LEMMA:
-    forall (psi x: exp) m Phi,
-      rel psi m Phi -> 
-        FL_closure_construction psi x ->
-          (KRIPKE: canonical_Kmodel psi, m |= x <-> proj1_sig Phi x)
-  with EXISTENCE_LEMMA:
-    forall (pi: prog)(psi x: exp)(m : Kworlds (canonical_Kmodel psi)),
-      FL_Atom psi (proj1_sig m) -> 
-        FL_closure_construction psi ([pi]x) ->
-          (proj1_sig m ([pi]x) <-> forall n, R_D pi m n -> proj1_sig n x).
-  ```
-
-  Note: these are two core lemmas for proving completeness of modal logic and its extension.
-
-  
-
--  The *Weak Completeness* Theorem
-
-  ```ocaml
-  (**
-  The general abstract definition of weak completeness property:
-  Definition weakly_complete {L: Language} (Gamma: Provable L) {MD: Model} (SM: Semantics L MD) (MC: ModelClass MD): Prop :=
-    forall x: expr, valid MC x -> provable x. 
-  **)
-  Theorem complete_weakly: weakly_complete GP SM (KripkeModelClass _ kMC).
-  ```
-
-
-
-
-
 
 
 
@@ -133,19 +49,13 @@ The following figure illustrates our main process of synthesizing such safe and 
 
 ![avatar](./papers/IFAC2020/example.png)
 
-Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://www.ifac2020.org/) uploaded to Youtube.
+Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://www.ifac2020.org/) uploaded to YouTube.
 
 
 
 
 
 ---
-
-
-
-
-
-
 
 
 
@@ -192,10 +102,8 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
     (* ==> 0 *)
     ```
   
-- Structure of Principle Data Structures for Implementation:
-  ![avatar](./projects/simpl/structure.png)
-
-
+  
+  
 
 ---
 
@@ -203,16 +111,6 @@ Here is our [video report](https://youtu.be/GtbxR_OKfXU) at [IFAC2020](https://w
 
 - Replacement of the original page replacement algorithm with a new one in a given specification.
 -  See a detailed instruction (also a report) for beginner of (Linux) Operating System kernel investigation [here](./projects/os-prj-linuxmm/Instruction.pdf).
-
-
-
----
-
-[**In The Garden**](https://youtu.be/2D67W584gpU) 
-
-- A (boring) mini puzzle game (Chinese version only). 
-
-- See the video record of the whole game on [Youtube](https://youtu.be/2D67W584gpU).
 
 
 

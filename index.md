@@ -18,9 +18,7 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 - **Physical Address:** ~~0C-DD-24-F6-DE-9C~~ [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319 [[266 Ferst Dr NW, Atlanta, GA 30332, US](https://goo.gl/maps/xbk4TXfCu8EtweQ86)]
 
-- **Email Address (Institution):** <ziteng.yang@gatech.edu> 
-
-- **Email Address (Permanent):** <cs.ziteng.yang@gmail.com> 
+- **Email Address (Institution):** <ziteng.yang@gatech.edu>  **Email Address (Permanent):** <cs.ziteng.yang@gmail.com> 
 
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
 
@@ -52,31 +50,47 @@ During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https:/
 
 
 
-*If you found that we shared similar interests, I'd be excited to have a cheerful discuss with you!*
-
-
-
-
-
 **During Undergraduate Time**
 
 - [2020~2021] **Verification-aided Compiler Optimization** 
-  - I proposed a frame verification work based on *proof assistant Coq* and gave a trial on "toy logic" for an expedition to support compiler optimization aided by verification information carried by programs 
-  - This project was now continued by  [Hanzhi Liu](https://misaka.center/), an undergraduate student (2019~2023, expected) at SJTU, also advised by Qinxiang Cao, to implement this optimization and framework in VST's Separation Logic [VST := Verified Software Toolchain]
-  - Further detail should be secret now; there should be a paper submission soon
+  - This is an expedition to support compiler optimization aided by verification information carried by programs;
+  - I proposed a verification framework based on *proof assistant Coq* and gave a trial on "toy logic" ;
+  - This project was now continued by  [Hanzhi Liu](https://misaka.center/) to implement this optimization and framework in VST's Separation Logic [VST := Verified Software Toolchain]; further detail should be secret now; there should be a paper submission soon
 - [2019~2020] **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
 - [2018~2019] **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
 
   
+
+# **Publications**
+
+### **During PhD Program**
+
+There should be some years later ...
+
+
+
+### **During Undergraduate Time**
+
+<u>Program Verification:</u>
+
+- [There might be one later (submitted to CAV 2022)]
+
+<u>Formal Control Theory:</u> 
+
+- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [  **Conference Paper** l [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
+
+
+
+
 
 
 
 # **Teaching Experience**
 
 - **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
-  - Courses for the *IEEE Honor Class (an honor class for elite students in EECS) & Artificial Intelligence Class at SJTU* 
+  - Courses for the *IEEE Honor Class & Artificial Intelligence Class at SJTU* 
 - **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Honor)*, 2020 fall, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
-  - Courses for the  *[Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/index.php) (a program only for top 5% students in Engineering related majors) at SJTU*;
+  - Courses for the  *[Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/index.php)  at SJTU*;
 
 
 
@@ -110,7 +124,4 @@ See more details in [Projects](/project/) .
 
 
 
-
-
----
 

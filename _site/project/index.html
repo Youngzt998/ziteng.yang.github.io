@@ -50,83 +50,6 @@
 
 <p>During my work, a lot of useful lemmas was also proved as a supplementary of the UnifySL library.</p>
 
-<p><strong>Implementation Details</strong></p>
-
-<p>The following presented several representative and critical definitions and lemmas:</p>
-
-<ul>
-  <li>
-    <p>The abstract type class of PDL:</p>
-
-    <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Class</span> <span class="nc">Program</span> <span class="o">:</span> <span class="nc">Type</span><span class="o">:=</span><span class="p">{</span>
-  <span class="n">program</span><span class="o">:</span> <span class="nc">Type</span><span class="p">;</span>
-<span class="p">}</span><span class="o">.</span>
-  
-<span class="nc">Class</span> <span class="nc">PropositionalDynamicLanguage</span> <span class="p">(</span><span class="nc">L</span><span class="o">:</span><span class="nc">Language</span><span class="p">)(</span><span class="nc">Pro</span><span class="o">:</span> <span class="nc">Program</span><span class="p">)</span><span class="o">:</span><span class="nc">Type</span><span class="o">:=</span><span class="p">{</span>
-  <span class="n">boxp</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
-<span class="p">}</span><span class="o">.</span>
-  
-<span class="nc">Class</span> <span class="nc">ProgramOperation</span> <span class="p">(</span><span class="nc">L</span><span class="o">:</span><span class="nc">Language</span><span class="p">)(</span><span class="nc">Pro</span><span class="o">:</span><span class="nc">Program</span><span class="p">)</span><span class="o">:</span><span class="nc">Type</span><span class="o">:=</span> <span class="p">{</span>
-  <span class="n">choice</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span><span class="p">;</span>
-  <span class="n">composition</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span><span class="p">;</span>
-  <span class="n">iteration</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span><span class="p">;</span>
-  <span class="n">test</span><span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">program</span>
-<span class="p">}</span><span class="o">.</span>
-</code></pre></div>    </div>
-
-    <p>Note: we can describe Classical PDL abstractly by composing the type classes above of classical logic. The same applies to the proof system and semantic system.</p>
-  </li>
-  <li>
-    <p>The deep-embedded syntax of PDL</p>
-
-    <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Inductive</span> <span class="n">program</span> <span class="p">{</span><span class="nc">Sigma</span><span class="o">:</span> <span class="nc">PropositionalVariables</span><span class="p">}{</span><span class="nc">ProV</span><span class="o">:</span> <span class="nc">ProgramVariables</span><span class="p">}</span><span class="o">:</span> <span class="nc">Type</span> <span class="o">:=</span>
-  <span class="o">|</span> <span class="n">choice</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span>
-  <span class="o">|</span> <span class="n">composition</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span>
-  <span class="o">|</span> <span class="n">iteration</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">program</span>
-  <span class="o">|</span> <span class="n">test</span><span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">program</span>
-  <span class="o">|</span> <span class="n">basep</span><span class="o">:</span> <span class="nc">BaseP</span> <span class="o">-&gt;</span> <span class="n">program</span>
-<span class="k">with</span>
- <span class="n">expr</span> <span class="p">{</span><span class="nc">Sigma</span><span class="o">:</span> <span class="nc">PropositionalVariables</span><span class="p">}</span> <span class="p">{</span><span class="nc">ProV</span><span class="o">:</span> <span class="nc">ProgramVariables</span><span class="p">}</span><span class="o">:</span> <span class="nc">Type</span> <span class="o">:=</span>
-  <span class="o">|</span> <span class="n">impp</span> <span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
-  <span class="o">|</span> <span class="n">orp</span> <span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
-  <span class="o">|</span> <span class="n">andp</span><span class="o">:</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
-  <span class="o">|</span> <span class="bp">false</span><span class="n">p</span> <span class="o">:</span> <span class="n">expr</span>
-  <span class="o">|</span> <span class="n">boxp</span><span class="o">:</span> <span class="n">program</span> <span class="o">-&gt;</span> <span class="n">expr</span> <span class="o">-&gt;</span> <span class="n">expr</span>
-  <span class="o">|</span> <span class="n">varp</span> <span class="o">:</span> <span class="nc">Var</span> <span class="o">-&gt;</span> <span class="n">expr</span><span class="o">.</span>
-</code></pre></div>    </div>
-
-    <p>Note: we must indicate explicitly in Coq that the given syntax is an instance of the abstract type class. The same applies to the proof system and semantic system.</p>
-  </li>
-  <li>
-    <p>The <em>Truth Lemma</em> and <em>Existence Lemma</em> (mutually inductive):</p>
-
-    <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Lemma</span> <span class="nc">TRUTH_LEMMA</span><span class="o">:</span>
-  <span class="n">forall</span> <span class="p">(</span><span class="n">psi</span> <span class="n">x</span><span class="o">:</span> <span class="n">exp</span><span class="p">)</span> <span class="n">m</span> <span class="nc">Phi</span><span class="o">,</span>
-    <span class="n">rel</span> <span class="n">psi</span> <span class="n">m</span> <span class="nc">Phi</span> <span class="o">-&gt;</span> 
-      <span class="nc">FL_closure_construction</span> <span class="n">psi</span> <span class="n">x</span> <span class="o">-&gt;</span>
-        <span class="p">(</span><span class="nc">KRIPKE</span><span class="o">:</span> <span class="n">canonical_Kmodel</span> <span class="n">psi</span><span class="o">,</span> <span class="n">m</span> <span class="o">|=</span> <span class="n">x</span> <span class="o">&lt;-&gt;</span> <span class="n">proj1_sig</span> <span class="nc">Phi</span> <span class="n">x</span><span class="p">)</span>
-<span class="k">with</span> <span class="nc">EXISTENCE_LEMMA</span><span class="o">:</span>
-  <span class="n">forall</span> <span class="p">(</span><span class="n">pi</span><span class="o">:</span> <span class="n">prog</span><span class="p">)(</span><span class="n">psi</span> <span class="n">x</span><span class="o">:</span> <span class="n">exp</span><span class="p">)(</span><span class="n">m</span> <span class="o">:</span> <span class="nc">Kworlds</span> <span class="p">(</span><span class="n">canonical_Kmodel</span> <span class="n">psi</span><span class="p">))</span><span class="o">,</span>
-    <span class="nc">FL_Atom</span> <span class="n">psi</span> <span class="p">(</span><span class="n">proj1_sig</span> <span class="n">m</span><span class="p">)</span> <span class="o">-&gt;</span> 
-      <span class="nc">FL_closure_construction</span> <span class="n">psi</span> <span class="p">([</span><span class="n">pi</span><span class="p">]</span><span class="n">x</span><span class="p">)</span> <span class="o">-&gt;</span>
-        <span class="p">(</span><span class="n">proj1_sig</span> <span class="n">m</span> <span class="p">([</span><span class="n">pi</span><span class="p">]</span><span class="n">x</span><span class="p">)</span> <span class="o">&lt;-&gt;</span> <span class="n">forall</span> <span class="n">n</span><span class="o">,</span> <span class="nc">R_D</span> <span class="n">pi</span> <span class="n">m</span> <span class="n">n</span> <span class="o">-&gt;</span> <span class="n">proj1_sig</span> <span class="n">n</span> <span class="n">x</span><span class="p">)</span><span class="o">.</span>
-</code></pre></div>    </div>
-
-    <p>Note: these are two core lemmas for proving completeness of modal logic and its extension.</p>
-  </li>
-  <li>
-    <p>The <em>Weak Completeness</em> Theorem</p>
-  </li>
-</ul>
-
-<div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c">(**
-  The general abstract definition of weak completeness property:
-  Definition weakly_complete {L: Language} (Gamma: Provable L) {MD: Model} (SM: Semantics L MD) (MC: ModelClass MD): Prop :=
-    forall x: expr, valid MC x -&gt; provable x. 
-  **)</span>
-  <span class="nc">Theorem</span> <span class="n">complete_weakly</span><span class="o">:</span> <span class="n">weakly_complete</span> <span class="nc">GP</span> <span class="nc">SM</span> <span class="p">(</span><span class="nc">KripkeModelClass</span> <span class="n">_</span> <span class="n">kMC</span><span class="p">)</span><span class="o">.</span>
-</code></pre></div></div>
-
 <h2 id="supervisor-control-of-timed-discrete-event-systems"><strong>Supervisor Control of Timed Discrete-Event Systems</strong></h2>
 
 <p>The supervisory control theory of Discrete Event Systems (DES) is a formal framework for the synthesis of control logic for complex automated systems. We investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event. The design objective is to synthesize a maximally-permissive supervisor to restrict the behavior of the system such that the closed-loop language is within a safe specification language. Relevant paper was accepted by <a href="https://www.ifac2020.org/">21st IFAC World Congress, 2020</a>.
@@ -136,7 +59,7 @@ We also hope to investigate the non-blocking problem employing nondeterministic 
 
 <p><img src="./papers/IFAC2020/example.png" alt="avatar" /></p>
 
-<p>Here is our <a href="https://youtu.be/GtbxR_OKfXU">video report</a> at <a href="https://www.ifac2020.org/">IFAC2020</a> uploaded to Youtube.</p>
+<p>Here is our <a href="https://youtu.be/GtbxR_OKfXU">video report</a> at <a href="https://www.ifac2020.org/">IFAC2020</a> uploaded to YouTube.</p>
 
 <hr />
 
@@ -192,10 +115,6 @@ We also hope to investigate the non-blocking problem employing nondeterministic 
       </li>
     </ul>
   </li>
-  <li>
-    <p>Structure of Principle Data Structures for Implementation:
-<img src="./projects/simpl/structure.png" alt="avatar" /></p>
-  </li>
 </ul>
 
 <hr />
@@ -205,19 +124,6 @@ We also hope to investigate the non-blocking problem employing nondeterministic 
 <ul>
   <li>Replacement of the original page replacement algorithm with a new one in a given specification.</li>
   <li>See a detailed instruction (also a report) for beginner of (Linux) Operating System kernel investigation <a href="./projects/os-prj-linuxmm/Instruction.pdf">here</a>.</li>
-</ul>
-
-<hr />
-
-<p><a href="https://youtu.be/2D67W584gpU"><strong>In The Garden</strong></a></p>
-
-<ul>
-  <li>
-    <p>A (boring) mini puzzle game (Chinese version only).</p>
-  </li>
-  <li>
-    <p>See the video record of the whole game on <a href="https://youtu.be/2D67W584gpU">Youtube</a>.</p>
-  </li>
 </ul>
 
 <hr />
