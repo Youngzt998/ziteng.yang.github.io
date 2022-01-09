@@ -8,7 +8,9 @@ title: ""
 
 # **About**
 
-I am a first-year PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at [School of Computer Science](https://www.scs.gatech.edu/), [College of Computing](https://www.cc.gatech.edu/), **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)**. 
+I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [Vivek Sarkar](https://vsarkar.cc.gatech.edu/).
+
+My current research interests lies in ***Programming Languages (PL)*** and ***Formal Methods***. 
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
@@ -16,9 +18,9 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
-- **Physical Address:** ~~0C-DD-24-F6-DE-9C~~ [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319 [[266 Ferst Dr NW, Atlanta, GA 30332, US](https://goo.gl/maps/xbk4TXfCu8EtweQ86)]
+- **Email Address (Institution):** <ziteng.yang@gatech.edu>  
 
-- **Email Address (Institution):** <ziteng.yang@gatech.edu>  **Email Address (Permanent):** <cs.ziteng.yang@gmail.com> 
+- **Physical Address:** ~~0C-DD-24-F6-DE-9C~~ [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319
 
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
 
@@ -26,8 +28,6 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 
 # **Biography**
-
-My research interests lies in ***Programming Languages (PL)*** and ***Formal Methods***. PhD program is a brand new stage of my life. I'm still exploring the various research areas in PL.
 
 During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *mathematical logic* in the *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
 
@@ -39,9 +39,8 @@ During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https:/
 
 **During PhD Time**
 
-<u>I will probably investigate a subset of researches around those general topics in the following one or two years</u>:
+<u>I will probably investigate a subset of researches around those general topics in the following  two years</u>:
 
-- **[actively working on]** Graph reachability problems and their application with static analysis;
 - **[actively working on]** Program analysis for parallel programs ;
 - Combining static analysis and formal verification;
   - Formally verified static analysis
@@ -52,12 +51,13 @@ During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https:/
 
 **During Undergraduate Time**
 
-- [2020~2021] **Verification-aided Compiler Optimization** 
+- [2020~2021, Compiler Verification] **Verification-aided Compiler Optimization** 
+  
   - This is an expedition to support compiler optimization aided by verification information carried by programs;
-  - I proposed a verification framework based on *proof assistant Coq* and gave a trial on "toy logic" ;
-  - This project was now continued by  [Hanzhi Liu](https://misaka.center/) to implement this optimization and framework in VST's Separation Logic [VST := Verified Software Toolchain]; further detail should be secret now; there should be a paper submission soon
-- [2019~2020] **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
-- [2018~2019] **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
+  - I proposed a verification framework based on *proof assistant Coq* and gave a trial on "toy logic";
+  - This project was now continued by [Hanzhi Liu](https://misaka.center/) to implement this optimization and framework in VST's Separation Logic [VST := Verified Software Toolchain]; further detail should be secret now; *there should be a paper submission soon*
+- [2019~2020, Proof Assistant & Mathematical Logic] **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
+- [2018~2019, Formal Control Theory] **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
 
   
 
@@ -73,7 +73,7 @@ There should be some years later ...
 
 <u>Program Verification:</u>
 
-- [There might be one later (submitted to CAV 2022)]
+- [There might be one later (submitted to OOPSLA 2022)]
 
 <u>Formal Control Theory:</u> 
 
@@ -119,7 +119,6 @@ Wish I could have some in the future : )
 # **Projects for Courses/Fun**
 
 See more details in [Projects](/project/) .
-
 
 
 
