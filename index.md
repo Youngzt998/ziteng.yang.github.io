@@ -29,7 +29,7 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 # **Biography**
 
-During my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/) ,  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *mathematical logic* in the *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
+Before joining GT, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/).  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *mathematical logic* in the *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
 
 
 
