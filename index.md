@@ -60,7 +60,11 @@ There should be some years later ...
 
 <u>Program Verification:</u>
 
-- [There might be one later ]
+- [There might be one later; co-first author ]
+  
+  [I designed the theory framework in this work; the implementation trial are done by my co-workers ; Cao is our advisor. ]
+  
+  
 
 <u>Formal Control Theory:</u> 
 
