@@ -5,12 +5,9 @@ permalink: /miscellany/
 published: false
 ---
 
-## **Some Cyber-friends :)**
 
-- I am fortunate to know [Ziteng Wang](https://wzt.me/), who share the same spell of first name, similar spell of last name, and most importantly, the research interests in Programming Languages with me.
-- I shared a similar game interest with [Zhiming Xu](https://zhiming-xu.github.io/), although we seem not to share similar research interests
-- [Alex Chi](https://www.skyzh.dev/) is an undergraduate student (graduate at 2022)  from the department of Computer Science at SJTU; you might be interested in his (famous, somehow) programming skills and (famous, somehow) course grades
-- [xxchan](https://xxchan.github.io/about/) used to be in the same research group with me during undergraduate time. His experience (see [this blog](https://xxchan.github.io/cs/2020/09/02/intern-at-meituan.html)) in an company might be a great reference for those (in China) who are still not sure whether going academical or industrial.  
+
+***This is the site only for fun! It's not really so related to researches... However, it shows 30% of my personality : ) *** 
 
 
 
@@ -42,8 +39,20 @@ published: false
 
 ## **Current Future Plans**
 
-- Learn more things in **Logics**, **Mathematics** and Computer Science (especially in **PL**, **Theory** and **System**);
-- Raise a cat in 2 years
+- Learn more things in Computer Science (especially in **PL**, **Theory** and **System**), **Logics**, and **Mathematics**
+- Probably learn some music instruments and theory - wish I have such time ...
+- ~~Raise a cat in 2 years~~ Raise another cat in 2 years : )  
+
+
+
+## **Some Cyber-friends :)**
+
+- I am fortunate to know [Ziteng Wang](https://wzt.me/), who share the same spell of first name, similar spell of last name, and most importantly, the research interests in Programming Languages with me.
+- I shared a similar game interest with [Zhiming Xu](https://zhiming-xu.github.io/), although we seem not to share similar research interests
+- [Alex Chi](https://www.skyzh.dev/) is an undergraduate student (graduate at 2022)  from the department of Computer Science at SJTU; you might be interested in his (famous, somehow) programming skills and (famous, somehow) course grades
+- [xxchan](https://xxchan.github.io/about/) used to be in the same research group with me during undergraduate time. His experience (see [this blog](https://xxchan.github.io/cs/2020/09/02/intern-at-meituan.html)) in an company might be a great reference for those (in China) who are still not sure whether going academical or industrial.  
+
+
 
 
 
@@ -51,7 +60,7 @@ published: false
 
 ## **Computer Science in My Life**
 
-- I was also admitted by the *Master of Logic* program at the University of Amsterdam. But not rich enough to enroll : (  [It requires around 10,000 for tuition and another 10,000 or maybe more for life expenses ...]
+- I was also admitted by the *Master of Logic* program at the University of Amsterdam. But not rich enough to enroll : (  [It requires around £10,000 for tuition and another £10,000 or maybe more for life expenses ...]
   - It doesn't mean I do not love Computer Science; they are somehow *[mutually inductive](https://en.wikipedia.org/wiki/Inductive_type#Mutually_inductive_definitions)* magics of the world 
 - I gave up the desire of stepping into game design, another totally different career life at sophomore. This is mainly because I didn't found neither a good mentor/advisor nor ideal partners and didn't make it by self-study.
   - It doesn't mean I do not love Programming Languages. Instead, I found those two things in the area of Programming Languages later! 
@@ -73,16 +82,16 @@ published: false
 
 What I am excited about during leisure time:
 
-- Sports:  Tennis = badminton > volleyball >> table tennis
+- **Sports:**  Tennis = badminton > volleyball >> table tennis
 
-- Animals (I do not have any pets...): cats, dogs, hamsters, ... (I really like [this couple's video](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0) 强烈推荐up主 *[九品芝麻铲屎官](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0)* 的视频剪辑)
+- **Animals** ~~(I do not have any pets...)~~: cats, dogs, hamsters, ... (I really like [this couple's video](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0) 强烈推荐up主 *[九品芝麻铲屎官](https://space.bilibili.com/4779198?from=search&seid=16222763425988580630&spm_id_from=333.337.0.0)* 的视频剪辑)
 
-- Movies: 
+- **Movies:** 
 
-  - ***Interstellar (星际穿越)*** (the foremost one) [now you might know why I sometimes use "Intelstealer" as a nickname ...] [[YouTube](https://www.youtube.com/watch?v=uaSYEUugnzE), [Bilibili](https://www.bilibili.com/bangumi/play/ss28585/?from=search&seid=3596907034522347955&spm_id_from=333.337.0.0)]
+  - ***Interstellar (星际穿越)*** (the foremost one) [I sometimes use "Intelstealer" as a nickname ...] [[YouTube](https://www.youtube.com/watch?v=uaSYEUugnzE), [Bilibili](https://www.bilibili.com/bangumi/play/ss28585/?from=search&seid=3596907034522347955&spm_id_from=333.337.0.0)]
   - ***The Dark Knight (黑暗骑士)*** [[YouTube](https://www.youtube.com/watch?v=B9wbHZM-L8g), [Bilibili](https://www.bilibili.com/bangumi/play/ss28280/?from=search&seid=15745780917256640498&spm_id_from=333.337.0.0)]
   - ***Big Fish (大鱼)*** [[YouTube](https://www.youtube.com/watch?v=mqIatIm6vlg), [Bilibili](https://www.bilibili.com/bangumi/play/ss33372/?from=search&seid=17356731908733314243&spm_id_from=333.337.0.0)]
-  - [***Life in a Day***](https://www.youtube.com/watch?v=JaFVr_cJJIY) (a movie consistent of clips from all over the world in the same ordinary  day made by Youtube)
+  - [***Life in a Day (浮生一日)*** ](https://www.youtube.com/watch?v=JaFVr_cJJIY) (a movie consistent of clips from all over the world in the same ordinary  day made by Youtube)
   - ***钢的琴 (The Piano in a Factory)***  [[Bilibili](https://www.bilibili.com/bangumi/play/ss12415/?from=search&seid=6574871034134810189&spm_id_from=333.337.0.0)]
   - ***Before Sunrise (爱在黎明破晓前)*** [[YouTube](https://www.youtube.com/watch?v=IqX_AZL8Sl0), [Bilibili](https://www.bilibili.com/bangumi/play/ss32312/?from=search&seid=6180111107384972910&spm_id_from=333.337.0.0)]
   - ***The Last Emperor (末代皇帝)*** [[Bilibili](https://www.bilibili.com/bangumi/play/ss34165/?from=search&seid=5971606446261401507&spm_id_from=333.337.0.0)]
@@ -91,20 +100,22 @@ What I am excited about during leisure time:
   - ***无人区 (No Man's Land)***
   - Movies from ***Marvel Cinematic Universe*** and ***DC Extended Universe***
 
-- TV series: recalling ...
+- **TV series:** recalling ...
 
 - Games: 
 
   - ***Red Dead Redemption 2*** (the favorite one)
   - ***Life is Strange***
   - ***Plants VS. Zombies***, ***Plant VS. Zombies 2***
-  - ***Cytus II***, ***Deemo***, ***Lanota***  (all are music games)
+  - ***Cytus II*** > ***Deemo*** > ***Lanota***  (all are music games)
 
-- Instruments: Harmonica, (Piano, 10 years ago I can play it; now I can only love it)
+- **Instruments:** Harmonica, (Piano, 10 years ago I can play it; now I can only love it)
 
-- Music and Favorite Singers/bands:
+- **Music and Favorite Singers/bands:**
 
-  - Pop Music Singers/bands I was addicted to: 
+  - **[Treasures In My Life](https://music.163.com/#/playlist?id=3238413171)**
+
+  - **Pop Music Singers/bands** I was addicted to: 
 
     - Around 2019 ~ Now: *[Li Chen](https://music.apple.com/cn/artist/%E9%99%88%E7%B2%92/1138469250)* (95% of her albums and singles) and [Nightwish](https://www.nightwish.com/) (*Imaginaerum*, *Dark Passion Play* and *Endless Forms Most Beautiful* )
       - Have a taste: Updating ...
@@ -113,7 +124,7 @@ What I am excited about during leisure time:
     - Around 2012 ~ 2015: *[Britney Spears](https://music.apple.com/us/artist/britney-spears/217005)* and [Kesha](https://music.apple.com/us/artist/kesha/334854763)
     - Around 2011: *Jay Chou*, *Michael Jackson*, *Song Xu*,  etc.
 
-  - Classical Music (I was not an expert. In fact, I know nothing but just enjoy it.) :
+  - **Classical Music** (I was not an expert. In fact, I know nothing but just enjoy it.) :
 
     - *Sonata No.8 in C Minor, Op.13,  "Pathétique"*, I, II and III
     - *Sonata No.14 in C-Sharp Minor, Op. 27 No.2, "Moonlight"*, I , II and III
@@ -131,13 +142,13 @@ What I am excited about during leisure time:
     - *Habanera from Carmen*
     - *Swan Lake, Op. 20a: No.1*
 
-  - Traditional Chinese Music:
+  - **Traditional Chinese Music:**
 
     - [*赛马*](https://www.youtube.com/watch?v=jitJGaoGs-I)
 
   - **Related to politics/patriotism** (I hate politics, but I love music):
 
-    - *我的祖国 (My Homeland)*  \[ YouTube: [original version](https://www.youtube.com/watch?v=-pjriPXQC0o) from 1956; [a symphonic version](https://youtu.be/gL7am0SGO3s) \]
+    - *我的祖国 (My Homeland)*  \[ YouTube: [a symphonic version](https://youtu.be/gL7am0SGO3s) ; [original version](https://www.youtube.com/watch?v=-pjriPXQC0o) from 1956;\]
 
       This is a song that almost every one who came from China's mainland can sing	
 
@@ -151,7 +162,9 @@ What I am excited about during leisure time:
 
     - *Soviet March* (A joke song written by a US composer  苏维埃进行曲，美国作曲家编写的嘲讽苏联的歌曲😅) : D
 
-  - From Movies & Games: **updating**
+    - 
+
+  - **From Movies & Games:** 
 
     - ***Interstellar:*** 
     - ***Plant VS Zombies:***
@@ -166,10 +179,9 @@ What I am excited about during leisure time:
     - ***Sherlock Holmes:***
     - ***Suicide Squad:***
     - ***デジモンアドベンチャー (Digimon Adventure):*** *勝利〜善のテーマ〜*, *Butterfly*, *Brave Heart*
-    - ***ウルトラマンティガ (Ultraman Tiga):***
     - ***Attack on Titan***:
     - ***Game of Thrones:***
-
+    
   - Other songs I was addicted to and wish to share (categorized by language):
 
     - [Chinese] *千千厥歌 (Thousands of Songs)*, *认真地老去*, *杀死那个石家庄人*, *黑色也是值得被等待的*, *夜的第七章* , *下一站茶山刘*, *月牙湾*, *华阴老腔一声喊*, *万物生*
@@ -206,11 +218,26 @@ To be updated when I became a master of that ...
 
 - I usually mix up with "sophomore" and "semaphore" (This happens for at least 5 times ...)
 - The first day I arrived at my undergraduate college, I need to configure the internet in my dormitory. Since I had never got in touch any concept about computer system yet, when they asked me to provide the MAC address, I mistook for that I must have a *Mac* from apple to earn the accessibility to the Internet.
+  - However, this is a good lesson for what CS related people should concern when talking about concepts with non-CS people... 
 - ...
 
 
 
+
+
+---
+
+All the remaining are meaningless but funny pictures...
+
+
+
 ## **Jokes/Meme (all from internet)**
+
+- ![QQ20211231113305](16-miscellany.assets/QQ20211231113305.png)
+
+- <img src="16-miscellany.assets/QQ20211106225217.jpg" alt="QQ20211106225217" style="zoom: 67%;" />
+
+- <img src="16-miscellany.assets/QQ20220207042341.png" alt="QQ20220207042341" style="zoom:33%;" />
 
 - ![image-20211028014543612](4-miscellany.assets/image-20211028014543612-16354001001521.png)
 
