@@ -1,7 +1,7 @@
 title: Ziteng Yang
 author:
   name: Ziteng Yang
-  email: youngster@sjtu.edu.cn
+  # email:
 # description: > # this means to ignore newlines until "show_excerpts:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
@@ -16,7 +16,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: Ziteng__Yang
+    twitter: _ziteng_yang
     github:  Youngzt998
     # devto: jekyll
     # dribbble: jekyll
