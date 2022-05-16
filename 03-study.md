@@ -21,17 +21,6 @@ I'd like to share some useful materials (both undergraduate level and graduate l
 
 ### **a. Programming Languages (Research Oriented)**
 
-#### **Program Analysis**
-
-- **Static Analysis Foundations:**
-  - An introduction online book [***Static Program Analysis*** ](https://cs.au.dk/~amoeller/spa/) by A. Møller and M. Schwartzbach,2018
-  - Check this [course website](https://pascal-group.bitbucket.io/teaching.html) and [the course video uploaded by the professors](https://www.bilibili.com/video/BV1b7411K7P4?share_source=copy_web) from NJU 
-
-- **C**ontext**F**ree**L**anguage**-Reachability for Static Analysis**: 
-  - Check [**this paper**](https://dl.acm.org/doi/10.1145/199448.199462) from [POPL'95] to learn about **how some static analysis problem can be transferred into graph-reachability problem**
-  - Check the course website from NJU above
-  - Updating ...
-
 #### **Program Verification**
 
 - **Formal verification using proof assistant Coq:**
@@ -49,11 +38,30 @@ I'd like to share some useful materials (both undergraduate level and graduate l
 
 
 
+#### **Program Analysis**
+
+- **Static Analysis Foundations:**
+  - An introduction online book [***Static Program Analysis*** ](https://cs.au.dk/~amoeller/spa/) by A. Møller and M. Schwartzbach,2018
+  - Check this [course website](https://pascal-group.bitbucket.io/teaching.html) and [the course video uploaded by the professors](https://www.bilibili.com/video/BV1b7411K7P4?share_source=copy_web) from NJU 
+
+- **C**ontext**F**ree**L**anguage**-Reachability for Static Analysis**: 
+  - Check [**this paper**](https://dl.acm.org/doi/10.1145/199448.199462) from [POPL'95] to learn about **how some static analysis problem can be transferred into graph-reachability problem**
+  - Check the course website from NJU above
+  - Updating ...
+
+
+
+#### **Parallel Programming**
+
+- TODO
+
 
 
 
 
 ### **b. Theoretical Computer Science (Interests Oriented)**
+
+- TODO (Algorithm)
 
 - Prof. Ryan O'Donnell at CMU	 keeps uploading videos about basic theoretical computer science in [YouTube](https://www.youtube.com/channel/UCWnu2XymDtORV--qG2uG5eQ) and [Bilibili](https://space.bilibili.com/1198378855/?spm_id_from=333.999.0.0)
 
@@ -91,12 +99,12 @@ I'd like to share some useful materials (both undergraduate level and graduate l
 
 - Program Analysis:
 
-  - [Thomas W. Reps](http://pages.cs.wisc.edu/~reps/),  [QIrun Zhang](https://www.cc.gatech.edu/~qzhang414/),
+  - [Thomas W. Reps](http://pages.cs.wisc.edu/~reps/)
 
 - Program Verification 
 
   - The [*DeepSpec*](https://deepspec.org/main) project: [Andrew W. Appel](https://www.cs.princeton.edu/~appel/), [Benjamin C. Pierce](https://www.cis.upenn.edu/~bcpierce/), [Zhong Shao](http://www.cs.yale.edu/homes/shao-zhong/)
-  - Separation Logic:
+  - Separation Logic: 
   - ...
 
 - Software Testing: [Zhendong Su](https://people.inf.ethz.ch/suz/), [QIrun Zhang](https://www.cc.gatech.edu/~qzhang414/), [Lingming Zhang](http://lingming.cs.illinois.edu/index.html)
@@ -106,8 +114,4 @@ I'd like to share some useful materials (both undergraduate level and graduate l
 - Model Checking: ...
 
   
-
-## Algorithm, Complexity, etc.
-
-TBD
 

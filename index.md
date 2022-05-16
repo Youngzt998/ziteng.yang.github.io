@@ -6,7 +6,7 @@ layout: home
 title: ""
 ---
 
-# **About**
+# **About** 
 
 I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [Vivek Sarkar](https://vsarkar.cc.gatech.edu/).
 
@@ -30,13 +30,7 @@ Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao T
 
 **During PhD Time**
 
-<u>I will probably investigate a subset of researches around those general topics in the following  two years</u>:
-
 - **[actively working on]** Program analysis for parallel programs ;
-- Combining static analysis and formal verification;
-  - Formally verified static analysis
-  - Static analysis with extra information from formal verification 
-- Program verification for concurrent program;
 
 **During Undergraduate Time**
 
