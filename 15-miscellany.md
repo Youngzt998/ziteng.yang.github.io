@@ -2,7 +2,7 @@
 layout: home
 title: "Miscellany"
 permalink: /miscellany/
-published: false
+published: true
 ---
 
 
