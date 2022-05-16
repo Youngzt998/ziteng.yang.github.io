@@ -82,7 +82,7 @@ published: false
 
 What I am excited about during leisure time:
 
-- **Music and Favorite Singers/bands:** Too much, moved to [this post](https://youngzt998.github.io/publication/)
+- **Music and Favorite Singers/bands:** Too much, moved [here](https://youngzt998.github.io/publication/)
 
 - **Instruments:** Harmonica, (Piano, 10 years ago I can play it; now I can only love it)
 
