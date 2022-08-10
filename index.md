@@ -66,7 +66,7 @@ There should be some years later ...
 
 # **Teaching Experience**
 
-- [Incomming] **Teaching Assistant** for *CS4510@GeorgiaTech: Automata and Complexity*, 2022 fall, lectured by [Joseph Jaeger](https://faculty.cc.gatech.edu/~josephjaeger/)
+- **Teaching Assistant** for *CS4510@GeorgiaTech: Automata and Complexity*, 2022 fall, lectured by [Joseph Jaeger](https://faculty.cc.gatech.edu/~josephjaeger/)
 
 - **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
   
