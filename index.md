@@ -30,6 +30,7 @@ Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao T
 
 **During PhD Time**
 
+- **[actively working on]** Compiler Verification
 - **[actively working on]** Program analysis for parallel programs ;
 
 **During Undergraduate Time**
