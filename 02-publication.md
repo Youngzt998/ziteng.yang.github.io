@@ -2,7 +2,7 @@
 layout: home
 title: "Publications"
 permalink: /publication/
-published: true
+published: false
 ---
 
 ### **During PhD Program**
