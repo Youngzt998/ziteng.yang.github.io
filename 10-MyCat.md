@@ -15,8 +15,5 @@ Her full name is AL.Friday
 *Photo by C. Yuan 
 
 
-
-<img src="10-MyCat.assets/image-20221015013234876.png" alt="image-20221015013234876" style="zoom: 33%;" />
-
-
+![image-20221015014500022](10-MyCat.assets/image-20221015014500022.png)
 
