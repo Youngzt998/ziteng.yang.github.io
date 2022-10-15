@@ -36,15 +36,15 @@
 
 <h2 id="verification-aided-compiler-optimization"><strong>Verification-aided Compiler Optimization</strong></h2>
 
-<p>[Note: This project was now continued by  <a href="https://misaka.center/">Hanzhi Liu</a>, an undergraduate genius student (2019~2023, expected) and an experienced programmer at SJTU, also advised by Qinxiang Cao, to implement this optimization and framework in VST’s separation logic [VST = Verified Software Toolchain]]</p>
+<p>[Note: This project has an equally contributing co-author <a href="https://misaka.center/">Hanzhi Liu</a>, also advised by Qinxiang Cao, to implement this optimization and framework in a concrete separation logic based on VST [Verified Software Toolchain]</p>
 
-<p>We are designing a new method of program optimization for C programs with assertion annotated that contains verification information of the program. The new methods was being realized based on original <a href="http://compcert.inria.fr/">CompCert</a> compiler. New semantics framework was designed based on CompCert small step semantic framework.  A conditional definition of “forward simulation” and “backward simulation” diagram for compiler correctness was proposed with crucial properties proved.</p>
+<p>We are designing a new method of program optimization for C programs with assertion annotated that contains verification information of the program. The new methods was being realized based on original <a href="http://compcert.inria.fr/">CompCert</a> compiler. New semantics framework was designed based on CompCert small step semantic framework.  An extended framework of source/target program simulation diagram with “Virtual/Real Tags” for compiler correctness was proposed and implemented.</p>
 
 <p>This is an original work of our research group under exploration, so details are still not opened to the public.</p>
 
 <h2 id="finite-canonical-model-for-completeness-theory-in-coq-based-on-unifysl"><strong>Finite Canonical Model for Completeness Theory in Coq Based on UnifySL</strong>:</h2>
 
-<p><a href="https://github.com/QinxiangCao/UnifySL">UnifySL</a> is a library of the proof assistant <a href="https://coq.inria.fr/">Coq</a> designed for basic mathematical logic (e.g. Propositional Logics, Separation Logics etc.) under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs were abstractly described using Coq’s type classes and high-order features. The completeness proof of previous logics are all based on the framework of infinite canonical model.</p>
+<p><a href="https://github.com/QinxiangCao/UnifySL">UnifySL</a> is a library of the proof assistant <a href="https://coq.inria.fr/">Coq</a> designed for basic mathematical logic (e.g. Propositional Logics, Separation Logics etc.) under development (not open sourced for now). Formalized proof theories, semantic definitions, soundness proofs and completeness proofs were abstractly described using Coq’s type classes and high-order features. The completeness proof of previous various logic systems are all based on the framework of infinite canonical model.</p>
 
 <p>My work as a research assistant aimed to investigate the finite model methods, starting the exploration from the formalizing of propositional dynamic logic (PDL), including the proof theories, semantic definitions, the proof of its soundness and  the proof of its weak completeness, making the best of framework and tools in UnifySL. Currently the completeness proof was finished, and we expect to extract a new framework of high-order abstraction for finite model methods in the future.</p>
 
@@ -61,74 +61,6 @@ We also hope to investigate the non-blocking problem employing nondeterministic 
 
 <p>Here is our <a href="https://youtu.be/GtbxR_OKfXU">video report</a> at <a href="https://www.ifac2020.org/">IFAC2020</a> uploaded to YouTube.</p>
 
-<hr />
-
-<h1 id="projects-for-coursesfun"><strong>Projects for Courses/Fun</strong></h1>
-
-<p><a href="https://github.com/Youngzt998/Naive-Airdrop"><strong>Naive-Airdrop</strong></a></p>
-
-<ul>
-  <li>
-    <p>An application for encrypted file synchronization between PC and Android under the same wi-fi.</p>
-  </li>
-  <li>
-    <p>Features: auto connection, changes detecting of the observed files on client devices, encryption in transfer, both auto transmission and manual transmission etc.</p>
-  </li>
-  <li>
-    <p>My design of the working logic of this application</p>
-
-    <p><img src="./projects/airdrop/structure.png" alt="avatar" /></p>
-  </li>
-</ul>
-
-<hr />
-
-<p><a href="https://github.com/Youngzt998/SimPL-Interpreter"><strong>SimPL Interpreter</strong></a>: an interpreter for a simple programming language called <em>SimPL</em>,  a simplified dialect of <em>ML</em>, including <em>type checking</em> (including let-polymorphism) and <em>evaluation</em>.</p>
-
-<ul>
-  <li>
-    <p>Examples of  SimPL</p>
-
-    <ul>
-      <li>
-        <p>Recursive combinator:</p>
-
-        <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="n">gcd</span> <span class="o">=</span> <span class="k">rec</span> <span class="n">g</span> <span class="o">=&gt;</span> <span class="n">fn</span> <span class="n">a</span> <span class="o">=&gt;</span> <span class="n">fn</span> <span class="n">b</span> <span class="o">=&gt;</span>
-            <span class="k">if</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span> <span class="k">then</span> <span class="n">a</span> <span class="k">else</span> <span class="n">g</span> <span class="n">b</span> <span class="p">(</span><span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="p">)</span>
-<span class="k">in</span>  <span class="n">gcd</span> <span class="mi">34986</span> <span class="mi">3087</span>
-<span class="k">end</span>
-<span class="c">(* ==&gt; 1029 *)</span>
-</code></pre></div>        </div>
-      </li>
-      <li>
-        <p>Let-polymorphism:</p>
-
-        <div class="language-ocaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="n">a</span> <span class="o">=</span> <span class="n">fn</span> <span class="n">x</span> <span class="o">=&gt;</span> <span class="n">x</span> <span class="k">in</span> 
-    <span class="k">let</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span> <span class="mi">1</span> <span class="k">in</span> 
-        <span class="k">let</span> <span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="bp">false</span> <span class="k">in</span> 
-            <span class="k">if</span> <span class="n">c</span> <span class="k">then</span> <span class="n">b</span> <span class="k">else</span> <span class="mi">0</span>
-        <span class="k">end</span>
-    <span class="k">end</span>
-<span class="k">end</span>
-<span class="c">(* ==&gt; 0 *)</span>
-</code></pre></div>        </div>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<p><a href="https://github.com/Youngzt998/Operating-System-Projects/tree/master/2"><strong>Linux (Android) Memory Management</strong></a></p>
-
-<ul>
-  <li>Replacement of the original page replacement algorithm with a new one in a given specification.</li>
-  <li>See a detailed instruction (also a report) for beginner of (Linux) Operating System kernel investigation <a href="./projects/os-prj-linuxmm/Instruction.pdf">here</a>.</li>
-</ul>
-
-<hr />
-
-<p><a href="https://github.com/Youngzt998/Re-implementation-of-deque-and-map"><strong>Re-implementation of <em>deque</em> and <em>map</em> of  C++ Standard Template Library (STL)</strong>:</a> Re-implement the data structure <em>deque</em> (using Block List) and <em>map</em> (using AVL Tree) of C++ Standard Library, simulating most of their original designed functions.</p>
 
 
 
