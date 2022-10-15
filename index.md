@@ -36,11 +36,10 @@ Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao T
 **During Undergraduate Time**
 
 - [2020~2021, Compiler Verification] **Verification-aided Compiler Optimization** 
-  
   - This is an expedition to support compiler optimization aided by verification information carried by programs;
   - I proposed a verification framework based on *proof assistant Coq* and gave a trial on "toy logic";
   - This project was now continued by [Hanzhi Liu](https://misaka.center/) to implement this optimization and framework in VST's Separation Logic [VST := Verified Software Toolchain]; further detail should be secret now; *there should be a paper submission soon*
-
+  
 - [2019~2020, Proof Assistant & Mathematical Logic] **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
 
 - [2018~2019, Formal Control Theory] **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
@@ -55,9 +54,9 @@ There should be some years later ...
 
 <u>Program Verification:</u>
 
-- [There might be one later; co-first author ]
+- [There should might be one later; co-first author ]
   
-  [I designed the theory framework in this work; the implementation trial are done by my co-workers ; Cao is our advisor. ]
+  [I designed the theory framework and implemented it as a general framework in Coq; the implementation based on a concrete separation logic are done by my co-workers ; Cao is our advisor. ]
   
   
 
