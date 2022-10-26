@@ -57,8 +57,6 @@ There should be some years later ...
 - [There should might be one later; co-first author ]
   
   [I designed the theory framework and implemented it as a general framework in Coq; the implementation based on a concrete separation logic are done by my co-workers ; Cao is our advisor. ]
-  
-  
 
 <u>Formal Control Theory:</u> 
 
@@ -67,14 +65,14 @@ There should be some years later ...
 # **Teaching Experience**
 
 - **Teaching Assistant** for *CS4510@GeorgiaTech: Automata and Complexity*, 2022 fall, lectured by [Joseph Jaeger](https://faculty.cc.gatech.edu/~josephjaeger/)
+  - Intro to Compatibility: regular language and DFA/NFA, context-free language and PDA, Turning Machine, P/NP/co-NP., L/NL, co-NL 
 
 - **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
-  
-  - Courses for the *IEEE Honor Class & Artificial Intelligence Class at SJTU* 
 
+  - First-order Logic (proof, semantics and soundness), Set Theory and Foundation of Mathematics
 - **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Honor)*, 2020 fall, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
-  
-  - Courses for the  *[Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/index.php)  at SJTU*;
+
+  - Logic and deduction, Graph Theory, Set Theory
 
 # **Honors and Awards**
 
@@ -84,7 +82,7 @@ Wish I could have some in the future : )
 
 **During/Before Undergraduate Time**
 
-- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (30 persons school-wide each academic year; **10,000 CNY**) , Oct. 2020
+- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (30 persons school-wide each  year; **10,000 CNY**) , Oct. 2020
   
   **荣昶科技创新奖学金, 提名奖 (人民币壹万元)**
 
@@ -94,6 +92,3 @@ Wish I could have some in the future : )
 
 - **1st Prize in National High School Mathematics League in Provinces**, Sept. 2016
 
-# **Projects for Courses/Fun**
-
-See more details in [Projects](/project/) .
