@@ -25,13 +25,9 @@ published: true
 
    It surprised me they are not conflict concept (in music, and so probably in life) !!
   
-  - *Sonata No.8 in C Minor, Op.13,  "Pathétique"*, **II ** (not I or III)
+  - *Sonata No.8 in C Minor, Op.13,  "Pathétique"*, **II ** (not I or III) [ [YouTube](https://youtu.be/SrcOcKYQX3c) + [Bilibili](https://www.bilibili.com/video/BV19s411D7Jo/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f) by Barenboim ... ]
   
-    [ [YouTube](https://youtu.be/SrcOcKYQX3c) + [Bilibili](https://www.bilibili.com/video/BV19s411D7Jo/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f), by Barenboim |... ]
-  
-  - *Call of Silence* 
-  
-    [[YouTube (Original Vocal)](https://youtu.be/VtguFyOdj2g) | [Bilibili (Original Vocal)]( https://www.bilibili.com/video/BV1Zx411a7Xd/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f) | [Bilibili (Live Vocal)](https://www.bilibili.com/video/BV1rE411r7TL/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f) | [Bilibili (Piano)](https://www.bilibili.com/video/BV1VW4y1t7XU/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f) ]
+  - *Call of Silence*  [[YouTube (Original Vocal)](https://youtu.be/VtguFyOdj2g) , [Bilibili (Original Vocal)]( https://www.bilibili.com/video/BV1Zx411a7Xd/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f) , [Bilibili (Live Vocal)](https://www.bilibili.com/video/BV1rE411r7TL/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f) , [Bilibili (Piano)](https://www.bilibili.com/video/BV1VW4y1t7XU/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f) ]
   
   - ... ?
   
@@ -49,7 +45,7 @@ published: true
 
   (casually sorted by preference)
 
-  - *Sonata No.8 in C Minor, Op.13,  "Pathétique"*, I, **II**, and III  [ [YouTube](https://youtu.be/SrcOcKYQX3c) + [Bilibili](https://www.bilibili.com/video/BV19s411D7Jo/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f), by Barenboim |... ]
+  - *Sonata No.8 in C Minor, Op.13,  "Pathétique"*, I, **II**, and III  [ [YouTube](https://youtu.be/SrcOcKYQX3c) + [Bilibili](https://www.bilibili.com/video/BV19s411D7Jo/?share_source=copy_web&vd_source=b7b5804567321a8a3b5ee29993ad064f), by Barenboim ]
   - *Sonata No.14 in C-Sharp Minor, Op. 27 No.2, "Moonlight"*, I , II and III
   - *"Bolero"* [[YouTube](https://youtu.be/GJVWEstu_lM) + [Bilibili](https://www.bilibili.com/video/BV1ws411t79d/?spm_id_from=333.788.recommend_more_video.2&vd_source=d1349a55d9113288918197bfc804045c), by London Symphony Orchestra]
   - *Nocturnes Op. posth in C Minor* [[YouTube](https://www.youtube.com/watch?v=IVpuTD-2SEo&t=6666s)]
@@ -60,7 +56,7 @@ published: true
   - *Serenade* by *Schubert* 
   - *VI. Waltz 2 from Jazz Suite No.2* 
   - *"Modlitwa dziewicy" Op. 4 (A Maiden's Prayer)*
-  - *Vivaldi: The Four Seasons* [[YouTube](https://youtu.be/4rgSzQwe5DQ) | ]
+  - *Vivaldi: The Four Seasons* [[YouTube](https://youtu.be/4rgSzQwe5DQ) ]
     - *Concerto No. 1 in [E major](https://en.wikipedia.org/wiki/E_major), Op. 8, [RV](https://en.wikipedia.org/wiki/Ryom_Verzeichnis) 269, "Spring" (*La primavera*)*
     - *Concerto No. 2 in [G minor](https://en.wikipedia.org/wiki/G_minor), Op. 8, RV 315, "Summer" (*L'estate*)*
     - *Concerto No. 3 in [F major](https://en.wikipedia.org/wiki/F_major), Op. 8, RV 293, "Autumn" (*L'autunno*)*
@@ -79,7 +75,7 @@ published: true
     - [Erhu Version](https://youtu.be/tu5XohUR3Pg) by 新竹青年國樂團 at Taiwan;
     -  [Violin Concerto Version](https://youtu.be/h7KlnK39Up0) by Beijing Symphony Orchestra.  27 May 2009;
     -  [Piano Solo](https://youtu.be/c4YzLPXyV6w) by 巫漪丽 ]
-  - *彩云追月 (Colourful Clouds Chasing the Moon)*  [[Piano Solo by Gina Alice](https://youtu.be/y-6YKDfP5Ak) | ]
+  - *彩云追月 (Colourful Clouds Chasing the Moon)*  [[Piano Solo by Gina Alice](https://youtu.be/y-6YKDfP5Ak) ]
   - [*赛马*](https://www.youtube.com/watch?v=jitJGaoGs-I)
 
 - **Related to politics/patriotism**:
