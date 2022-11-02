@@ -57,10 +57,10 @@ published: true
   - *VI. Waltz 2 from Jazz Suite No.2* 
   - *"Modlitwa dziewicy" Op. 4 (A Maiden's Prayer)*
   - *Vivaldi: The Four Seasons* [[YouTube](https://youtu.be/4rgSzQwe5DQ) ]
-    - *Concerto No. 1 in [E major](https://en.wikipedia.org/wiki/E_major), Op. 8, [RV](https://en.wikipedia.org/wiki/Ryom_Verzeichnis) 269, "Spring" (*La primavera*)*
-    - *Concerto No. 2 in [G minor](https://en.wikipedia.org/wiki/G_minor), Op. 8, RV 315, "Summer" (*L'estate*)*
-    - *Concerto No. 3 in [F major](https://en.wikipedia.org/wiki/F_major), Op. 8, RV 293, "Autumn" (*L'autunno*)*
-    - *Concerto No. 4 in [F minor](https://en.wikipedia.org/wiki/F_minor), Op. 8, RV 297, "Winter" (*L'inverno*)*
+    - *Concerto No. 1 in E major, Op. 8, [RV](https://en.wikipedia.org/wiki/Ryom_Verzeichnis) 269, "Spring" (*La primavera*)*
+    - *Concerto No. 2 in G minor, Op. 8, RV 315, "Summer" (*L'estate*)*
+    - *Concerto No. 3 in F major, Op. 8, RV 293, "Autumn" (*L'autunno*)*
+    - *Concerto No. 4 in F minor, Op. 8, RV 297, "Winter" (*L'inverno*)*
   - *Habanera from Carmen*
   - *Swan Lake, Op. 20a: No.1*
 
@@ -74,7 +74,7 @@ published: true
   - *梁祝 (Butterfly Lovers)*  [[wiki](https://en.wikipedia.org/wiki/Butterfly_Lovers)]
     - [Erhu Version](https://youtu.be/tu5XohUR3Pg) by 新竹青年國樂團 at Taiwan;
     -  [Violin Concerto Version](https://youtu.be/h7KlnK39Up0) by Beijing Symphony Orchestra.  27 May 2009;
-    -  [Piano Solo](https://youtu.be/c4YzLPXyV6w) by 巫漪丽 ]
+    -  [Piano Solo](https://youtu.be/c4YzLPXyV6w) by 巫漪丽
   - *彩云追月 (Colourful Clouds Chasing the Moon)*  [[Piano Solo by Gina Alice](https://youtu.be/y-6YKDfP5Ak) ]
   - [*赛马*](https://www.youtube.com/watch?v=jitJGaoGs-I)
 
@@ -84,7 +84,7 @@ published: true
 
   - *钢铁洪流进行曲 (March of Steel Torrent)* [[YouTube](https://www.youtube.com/watch?v=gFBwXdguRrY)]
 
-    This is a new Chinese Military Song written in 2019
+    Note: this is a (new) Chinese Military Song written in 2019
 
   - *La Marseillaise* (the national anthem of France; 中文译名*马赛曲*，法国国歌) [[YouTube](https://www.youtube.com/watch?v=SIxOl1EraXA)]
 
