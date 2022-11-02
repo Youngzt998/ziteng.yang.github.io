@@ -98,7 +98,6 @@ published: true
 
   - ***Interstellar:*** First Step, Day One, No Time for Caution, ...
   - ***Red Dead Redemption 2:***  *That's the Way it is*, *Cruel Cruel World*, *See The Fire in Your Eyes*, *May I* 
-  - ***Plant VS Zombies:***
   - ***Plant VS Zombies 2:***
   - ***Life is Strange***
   - ***Cytus II & Deemo***
@@ -111,7 +110,7 @@ published: true
   - ***デジモンアドベンチャー (Digimon Adventure):*** *勝利〜善のテーマ〜*, *Butterfly*, *Brave Heart*
   - ***Attack on Titan***:
   - ***Game of Thrones:***
-
+  
 - Any other songs I wish to share (categorized by language):
 
   - [Chinese] *千千厥歌 (Thousands of Songs)*, *认真地老去*, *杀死那个石家庄人*, *黑色也是值得被等待的*, *夜的第七章* , *下一站茶山刘*, *月牙湾*, *华阴老腔一声喊*, *万物生*
