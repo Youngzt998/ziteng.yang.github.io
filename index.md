@@ -10,7 +10,7 @@ title: ""
 
 I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [Vivek Sarkar](https://vsarkar.cc.gatech.edu/).
 
-My current research interests lies in ***Programming Languages (PL)*** and ***Formal Methods***. 
+My current research interests are in ***Programming Languages (PL)*** and ***Formal Methods***. 
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
@@ -26,11 +26,11 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/).  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *mathematical logic* in the *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
 
-# **Research Projects**
+# **Research**
 
 **During PhD Time**
 
-- **[actively working on]** Compiler Verification
+- **[actively working on]** Compiler Verification (e.g. improving CompCert)
 - **[actively working on]** Program analysis for parallel programs ;
 
 **During Undergraduate Time**

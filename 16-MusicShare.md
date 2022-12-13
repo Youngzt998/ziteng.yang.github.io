@@ -18,7 +18,7 @@ published: true
     - Have a taste:   , Updating ...
   - Teenager: *[Ellie Goulding](https://music.apple.com/us/artist/ellie-goulding/338264227)* (98% of her albums and singles) and [*Bea Miller*](https://music.apple.com/us/artist/bea-miller/706171903) (*Fire N Gold*, etc.)
     - Have a taste: Updating ...
-  - Child:  *[Britney Spears](https://music.apple.com/us/artist/britney-spears/217005)* and [Kesha](https://music.apple.com/us/artist/kesha/334854763)
+  - Child:  *[Britney Spears](https://music.apple.com/us/artist/britney-spears/217005)* and [*Kesha*](https://music.apple.com/us/artist/kesha/334854763)
   - Younger-child: *Jay Chou*, *Michael Jackson*, *Song Xu*,  etc. 
 
 - **"Gentle, but Mighty"**
