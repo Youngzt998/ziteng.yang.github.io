@@ -10,7 +10,7 @@ title: ""
 
 I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [Vivek Sarkar](https://vsarkar.cc.gatech.edu/).
 
-My current research interests are in ***Programming Languages (PL)*** and ***Formal Methods***. 
+My current research interests are ***Programming Languages (PL)*** , specifically, program logic & verification, parallelism&concurrency, and their application in compiler. 
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
