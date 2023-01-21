@@ -28,10 +28,10 @@ Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao T
 
 # **Research**
 
-**During PhD Time**
+**Currently**
 
-- **[actively working on]** Program Logic & Certified Compilation (e.g. improving CompCert, computability aspect of verification)
-- **[actively working on]** Parallel programs (e.g. verification of parallelizing compilers, analysis of parallel program)
+- **Program Logic & Certified Compilation** (e.g. improving CompCert, computability aspect of verification)
+- **Parallel programs** (e.g. verification of parallelizing compilers, analysis of parallel program)
 
 **During Undergraduate Time**
 
