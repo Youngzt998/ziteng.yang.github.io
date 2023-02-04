@@ -6,25 +6,19 @@ layout: home
 title: ""
 ---
 
-# **About** 
+# **About & Biography** 
 
-I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [Vivek Sarkar](https://vsarkar.cc.gatech.edu/).
+I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [Vivek Sarkar](https://vsarkar.cc.gatech.edu/). My current research interests are ***Programming Languages (PL)*** , specifically, program logic & verification, parallelism&concurrency, and their application in compiler. 
 
-My current research interests are ***Programming Languages (PL)*** , specifically, program logic & verification, parallelism&concurrency, and their application in compiler. 
+Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/).  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *mathematical logic* in the *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
 - **Email Address (Institution):**  (fun x y => x dot y @gatech.edu) firstname lastname  
-
 - **Physical Address:** ~~0C-DD-24-F6-DE-9C~~ [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319
-
 - [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
-
-# **Biography**
-
-Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/).  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *mathematical logic* in the *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research life.
 
 # **Research**
 
