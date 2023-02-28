@@ -8,9 +8,9 @@ title: ""
 
 # **About & Biography** 
 
-I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [Vivek Sarkar](https://vsarkar.cc.gatech.edu/). My current research interests are ***Programming Languages (PL)*** , specifically, program logic & verification, parallelism&concurrency, and their application in compiler. 
+I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/). My current research interests are ***Programming Languages (PL)*** , specifically, **program logic & verification**, **parallelism&concurrency**, and their application in compiler. 
 
-Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/).  I was advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on *compiler correctness* and *mathematical logic* in the *Coq proof assistant* from junior to senior year . Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on Automata Theory (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research
+Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/).  I worked as a research assistant advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on **Automata Theory** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research.
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
@@ -25,12 +25,12 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 **Currently**
 
 - **Program Logic & Certified Compilation** (e.g. improving CompCert, computability aspect of verification)
-- **Parallel programs** (e.g. verification of parallelizing compilers, analysis of parallel program)
+- **Parallelism & Concurrency** (e.g. verification of parallelizing compilers, prediction of data-race)
 
 **During Undergraduate Time**
 
 - [2020~2021, Compiler Verification] **Verification-aided Compiler Optimization** 
-  - This is an expedition to support compiler optimization aided by verification information carried by programs;
+  - Project to support certified compiler optimization aided by verification information as a hint carried by programs;
   - I proposed a verification framework based on *proof assistant Coq* and gave a trial on "toy logic";
   - This project was now continued by [Hanzhi Liu](https://misaka.center/) to implement this optimization and framework in VST's Separation Logic [VST := Verified Software Toolchain]; further detail should be secret now; *there should be a paper submission soon*
   
@@ -52,7 +52,7 @@ There should be some years later ...
   
   [I designed the theory framework and implemented it as a general framework in Coq; the implementation based on a concrete separation logic are done by my co-workers ; Cao is our advisor. ]
 
-<u>Formal Control Theory:</u> 
+<u>Automata Theory:</u> 
 
 - **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [  **Conference Paper** l [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
 
