@@ -8,9 +8,9 @@ title: ""
 
 # **About & Biography** 
 
-I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/). My current research interests are ***Programming Languages (PL)*** , specifically, **program logic & verification**, **parallelism&concurrency**, and their application in compiler. 
+I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/). My current research area are ***Programming Languages (PL)*** , specifically, **program logic & verification**, **parallelism&concurrency**, and their application in compiler. 
 
-Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/).  I worked as a research assistant advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on **Automata Theory** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year. They are the persons who taught me a huge number of things during undergraduate life and gave me a great start of research.
+Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science and Technology](http://www.cs.sjtu.edu.cn/en/).  I worked as a research assistant advised by **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on **Automata Theory** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
 
 Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
@@ -48,9 +48,7 @@ There should be some years later ...
 
 <u>Program Verification:</u>
 
-- [There should might be one later; co-first author ]
-  
-  [I designed the theory framework and implemented it as a general framework in Coq; the implementation based on a concrete separation logic are done by my co-workers ; Cao is our advisor. ]
+- [There should might be one later; co-first author; I designed the theory framework and implemented it as a general framework in Coq; the implementation based on a concrete separation logic are done by my co-workers ; Cao is our advisor. ]
 
 <u>Automata Theory:</u> 
 
@@ -61,12 +59,10 @@ There should be some years later ...
 - **Teaching Assistant** for *CS4510@GeorgiaTech: Automata and Complexity*, 2022 fall, lectured by [Joseph Jaeger](https://faculty.cc.gatech.edu/~josephjaeger/)
   - Intro to Compatibility: regular language and DFA/NFA, context-free language and PDA, Turning Machine, P/NP/co-NP., L/NL, co-NL 
 
-- **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
-
-  - First-order Logic (proof, semantics and soundness), Set Theory and Foundation of Mathematics
-- **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Honor)*, 2020 fall, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
-
-  - Logic and deduction, Graph Theory, Set Theory
+- **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics (IEEE/AI Honor Class)*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
+- First-order Logic (proof, semantics and soundness), Set Theory as foundation of Mathematics
+- **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Zhiyuan Honor Class)*, 2020 fall, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
+- Logic and deduction, Graph Theory, Set Theory
 
 # **Honors and Awards**
 
