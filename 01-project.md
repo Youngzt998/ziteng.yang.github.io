@@ -2,6 +2,7 @@
 layout: home
 title: "Projects"
 permalink: /project/
+published: false
 ---
 
 # **Research Projects**
