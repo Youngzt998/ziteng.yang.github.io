@@ -6,7 +6,7 @@ permalink: /mycat/
 
 
 
-Her full name is AL.Friday
+Her full name is α.Friday
 
 中文小名：小福（快成大福了）
 
