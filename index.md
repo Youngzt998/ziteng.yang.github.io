@@ -18,51 +18,48 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 - **Email Address (Institution):**  (fun x y => x dot y @gatech.edu) firstname lastname  
 - **Physical Address:** ~~0C-DD-24-F6-DE-9C~~ [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319
-- [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/Ziteng__Yang)
+- [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/_ziteng_yang_)
 
 # **Research**
 
 **Currently**
 
-- **Program Logic & Certified Compilation** (e.g. improving CompCert, computability aspect of verification)
+- **Program Logic & Certified Compilation** (e.g. improving CompCert)
 - **Parallelism & Concurrency** (e.g. verification of parallelizing compilers, prediction of data-race)
 
 **During Undergraduate Time**
 
-- [2020~2021, Compiler Verification] **Verification-aided Compiler Optimization** 
-  - Project to support certified compiler optimization aided by verification information as a hint carried by programs;
-  - I proposed a verification framework based on *proof assistant Coq* and gave a trial on "toy logic";
-  - This project was now continued by [Hanzhi Liu](https://misaka.center/) to implement this optimization and framework in VST's Separation Logic [VST := Verified Software Toolchain]; further detail should be secret now; *there should be a paper submission soon*
+- [Compiler Verification] **Verification-aided Compiler Optimization**: 
   
-- [2019~2020, Proof Assistant & Mathematical Logic] **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
+  An expedition to support certified compiler optimization aided by verification information as a hint carried by programs. I proposed a verification framework based on *proof assistant Coq* and gave a trial on "toy logic". This project was now continued by [Hanzhi Liu](https://misaka.center/) to implement this optimization and framework in VST's Separation Logic [VST := Verified Software Toolchain]; 
+  
+- [Proof Assistant & Mathematical Logic] **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
 
-- [2018~2019, Formal Control Theory] **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
+- [Formal Control Theory] **Supervisor Control of Timed Discrete-Event Systems**: Investigating the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
 
 # **Publications**
 
-### **During PhD Program**
-
-There should be some years later ...
-
-### **During Undergraduate Time**
-
 <u>Program Verification:</u>
 
-- [There should might be one later; co-first author; I designed the theory framework and implemented it as a general framework in Coq; the implementation based on a concrete separation logic are done by my co-workers ; Cao is our advisor. ]
+- **Ziteng Yang**, Jun Shirako, Vivek Sarkar, Fully Verified Instruction Scheduling, OOPSLA’24
+- [There might be a co-first author publication later on compiler verification work during my undergraduate ]
 
 <u>Automata Theory:</u> 
 
-- **Ziteng Yang**, X. Yin and S. Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [  **Conference Paper** l [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
+- **Ziteng Yang**, Xiang Yin and Shaoyuan Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [  **Conference Paper** l [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]. 
 
 # **Teaching Experience**
 
-- **Teaching Assistant** for *CS4510@GeorgiaTech: Automata and Complexity*, 2022 fall, lectured by [Joseph Jaeger](https://faculty.cc.gatech.edu/~josephjaeger/)
-  - Intro to Compatibility: regular language and DFA/NFA, context-free language and PDA, Turning Machine, P/NP/co-NP., L/NL, co-NL 
+- **Teaching Assistant** for *CS6390@GT Programming Languages*, 2023 spring, taught by [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/)
+  - The foundational principles of programming languages
 
-- **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics (IEEE/AI Honor Class)*, 2020 fall, lectured by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
-- First-order Logic (proof, semantics and soundness), Set Theory as foundation of Mathematics
-- **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Zhiyuan Honor Class)*, 2020 fall, lectured by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
-- Logic and deduction, Graph Theory, Set Theory
+- **Teaching Assistant** for *CS4510@GT: Automata and Complexity*, 2022 fall, taught by [Joseph Jaeger](https://faculty.cc.gatech.edu/~josephjaeger/)
+  - Intro to Compatibility: regular language and DFA/NFA, context-free language and PDA, Turning Machine, P/NP/co-NP., L/NL, co-NL 
+- **Teaching Assistant**  for *MA208@SJTU: Discrete Mathematics (IEEE/AI Honor Class)*, 2020 fall, taught by [Qinxiang Cao](http://jhc.sjtu.edu.cn/people/members/qinxiang-cao.html) .
+  - First-order Logic (proof, semantics and soundness), Set Theory as foundation of Mathematics
+
+- **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Zhiyuan Honor Class)*, 2020 fall, taught by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
+  - Logic and deduction, Graph Theory, Set Theory
 
 # **Honors and Awards**
 
@@ -70,9 +67,9 @@ There should be some years later ...
 
 Wish I could have some in the future : )
 
-**During/Before Undergraduate Time**
+**During Undergraduate Time**
 
-- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (30 persons school-wide each  year; **10,000 CNY**) , Oct. 2020
+- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (20 persons school-wide each  year; **10,000 CNY**) , Oct. 2020
   
   **荣昶科技创新奖学金, 提名奖 (人民币壹万元)**
 
@@ -80,5 +77,5 @@ Wish I could have some in the future : )
   
   **上海交通大学校优奖学金, C等 (人民币伍佰元)**
 
-- **1st Prize in National High School Mathematics League in Provinces**, Sept. 2016
+  
 
