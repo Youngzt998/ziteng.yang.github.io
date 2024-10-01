@@ -139,9 +139,7 @@ TBD
 ### **Computer System (Courses Oriented)**
 
 - Operating System
-  - Course [MIT 6.S081](https://pdos.csail.mit.edu/6.S081/2020/schedule.html) and Labs from it
-  -  [Xv6 Reference Book](https://pdos.csail.mit.edu/6.S081/2020/xv6/book-riscv-rev1.pdf) from 6.S081may be a better textbook for beginner's (than those famous books)
-  - A Chinese Textbook: 上海交大软院的*[IPADS实验室](https://ipads.se.sjtu.edu.cn/)*实验室撰写的这本中文教材 [*《现代操作系统：原理与实现》*](https://ipads.se.sjtu.edu.cn/mospi/) 是计算机类中文教材中难得的写得较好的一本（个人阅读过大部分内容，认为不适合初学；但如果初学过一遍操作系统导论课程仍然觉得不知所云，可以解决很多的疑惑）
+  - A Chinese Textbook: [*《现代操作系统：原理与实现》*](https://ipads.se.sjtu.edu.cn/mospi/) 是计算机类中文教材中难得的写得较好的一本（阅读过大部分内容，认为不适合初学；但如果初学过一遍操作系统导论课程仍然觉得不知所云，可以解决很多的疑惑）
 
 
 - Computer Architecture: TODO
