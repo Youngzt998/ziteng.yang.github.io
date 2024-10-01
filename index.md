@@ -12,7 +12,7 @@ I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programm
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on **Automata Theory** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
 
-Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
+I'm open to internship. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
@@ -68,7 +68,7 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 # **Teaching Experience**
 
-- **Teaching Assistant** for *CS6390@GT Programming Languages*, 2023 spring, taught by [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/)
+- **Teaching Assistant** for *CS6390@GT: Programming Languages*, 2023 spring, taught by [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/)
   - The foundational principles of programming languages
 
 - **Teaching Assistant** for *CS4510@GT: Automata and Complexity*, 2022 fall, taught by [Joseph Jaeger](https://faculty.cc.gatech.edu/~josephjaeger/)
@@ -79,11 +79,11 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 - **Teaching Assistant** for  *MA239@SJTU: Discrete Mathematics (Zhiyuan Honor Class)*, 2020 fall, taught by [Xiang Yin](http://xiangyin.sjtu.edu.cn/).
   - Logic and deduction, Graph Theory, Set Theory
 
-# **Honors and Awards**
+# **Honors and Scholarships**
 
 **During PhD Program**
 
-- **Conference Travel Grant** by PLMW@PLDI’22, San Diego, Jun. 2022
+- **Conference Travel Grant** by scholarship of PLMW@PLDI’22, San Diego, Jun. 2022
 
 **During Undergraduate Time**
 
@@ -96,4 +96,10 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
   **上海交通大学校优奖学金, C等 (人民币伍佰元)**
 
   
+
+# **Misc**
+
+- My hometown is [Chongqinq](https://youtu.be/yzl4jc9E5GU?si=DSd5Imm1ZIIlUgCE), the [Night City](https://cyberpunk.fandom.com/wiki/Night_City) of China. Do pay a visit.
+- I'm a cat person. Here's [my cat](https://youngzt998.github.io/mycat/).
+- I love tennis so much that it hurts hurts my scaphoid bone in an accident : (
 
