@@ -16,9 +16,9 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
-- **Email Address (Institution):**  (fun x y => x dot y @gatech.edu) firstname lastname  
+- **Email Address (Institution):**  (fun x y => x dot y @gatech.edu) ziteng yang
 - **Physical Address:** ~~0C-DD-24-F6-DE-9C~~ [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319
-- [GitHub](https://github.com/Youngzt998), [Twitter](https://twitter.com/_ziteng_yang_)
+- [Twitter](https://twitter.com/_ziteng_yang_), [LinkedIn](https://www.linkedin.com/in/ziteng-yang-a149181b5/)
 
 # **Research**
 
