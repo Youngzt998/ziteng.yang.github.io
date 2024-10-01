@@ -17,8 +17,6 @@ published: false
 
 - *"Talk is cheap. Show me the code."* --- Linus Torvalds
 
-- *"Talk is cheap. Show me the proof."* --- Qinxiang Cao
-
 - *"Talk is not cheap"* --- Some Cyber-stranger
 
 - *“闻道有先后，术业有专攻”*  --- 韩愈
@@ -72,9 +70,7 @@ published: false
 
 ## **Life**
 
-- I was born and raised up in *Chongqing*, China. This is a magical city built on several mountains. You should pay a visit if you'd like to see how such thing could exist. Besides, my father comes from *Hebei* Province in China and worked there in a small city named *Zhuozhou* for a very long time, which is only 1-hour-drive to *Beijing* . Therefore, I was also familiar with those cities. 
-- Although I lived in Shanghai for 4 years during my undergraduate life, I know nothing about Shanghai at all because I spend most of my time on campus : (  The fact is, you will spend even less (a half) time to go to the downtown area in Shanghai from Hangzhou, Zhejiang Province than going there from Shanghai Jiao Tong University.
-- ...
+- 
 
 
 

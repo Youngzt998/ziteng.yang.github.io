@@ -101,5 +101,5 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 - My hometown is [Chongqinq](https://youtu.be/yzl4jc9E5GU?si=DSd5Imm1ZIIlUgCE), the [Night City](https://cyberpunk.fandom.com/wiki/Night_City) of China. Do pay a visit.
 - I'm a cat person. Here's [my cat](https://youngzt998.github.io/mycat/).
-- I love tennis so much that it hurts hurts my scaphoid bone in an accident : (
+- I love playing tennis so much that it hurts my scaphoid bone accidentally : (
 
