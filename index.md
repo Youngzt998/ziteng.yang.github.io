@@ -10,7 +10,7 @@ title: ""
 
 I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/). My current research area are **program logic & verification**, **parallelism & concurrency**, and their application in compilers. 
 
-Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin's](http://xiangyin.sjtu.edu.cn/)** group and worked on **Automata Theory** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
+Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on **Automata Theory** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
 
 I'm open to internship. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
@@ -27,8 +27,8 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 **Program Logic & Certified Compilation** (major)
 
 - **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm that has both lightweight time complexity and verification burden.
-- **[Ongoing] Improving the Correctness theory of certified compiler**: Fixing a "missing correctness specification" of in the correctness of CompCert framework.
-- **[Published] Verified Instruction Scheduling**: Achieved the first ever fully verified instruction scheduling passes in a formally verified compiler
+- **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Fixing a "missing correctness specification" of in the correctness of CompCert framework.
+- **[[Published](./papers/oopsla24/oopslab24-final.pdf)] Verified Instruction Scheduling**: Achieved the first ever fully verified instruction scheduling passes in a formally verified compiler
 - Q: How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
 - Q: How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) is correct w.r.t. their language design?
 - Q: How could equality saturation be used to improve a certified compiler optimization?
@@ -46,21 +46,19 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 **Undergraduate Researches**
 
-- **Compiler Correctness for Annotation Verifier**: 
+- **Compiler Correctness for Annotation Verifier** [Advised by [Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)]: 
   
   I worked on investigating correctness theory of compiling programs annotated with verification information ([*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911)) and using them as optimization hints. I proposed an extended semantic and verification framework and gave a trial on toy language/logic. 
   
-  This expedition was continued by [Hanzhi Liu](https://misaka.center/), Yanning Chen, etc. to go beyond toy language using my framework. 
+  This expedition was continued by [Hanzhi Liu](https://scholar.google.com/citations?user=hEUk48QAAAAJ), [Yanning Chen](https://lightquantum.me/), etc. to go beyond toy language using my framework.
   
-- **Finite Canonical Model for Completeness Theory in Coq Based on UnifySL**: An extension from framework of infinite model for completeness theorem proof to finite model in a logic library  [*UnifySL*](https://github.com/QinxiangCao/UnifySL) for [*Coq*](https://coq.inria.fr/) proof assistant.
-
-- **Supervisor Control of Timed Discrete-Event Systems** [Formal Control Theory]: Investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
+- **Supervisor Control of Timed Discrete-Event Systems** [Advised by [Xiang Yin](http://xiangyin.sjtu.edu.cn/)]: Investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
 
 # **Publications**
 
 <u>Program Verification:</u>
 
-- **Ziteng Yang**, Jun Shirako, Vivek Sarkar, Fully Verified Instruction Scheduling, OOPSLA’24
+- **Ziteng Yang**, Jun Shirako, Vivek Sarkar, Fully Verified Instruction Scheduling, OOPSLA’24 [[PDF](./papers/oopsla24/oopslab24-final.pdf)]
 
 <u>Automata Theory:</u> 
 
