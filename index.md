@@ -28,7 +28,7 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 - **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm that has both lightweight time complexity and verification burden.
 - **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Fixing a "missing correctness specification" of in the correctness of CompCert framework.
-- **[[Published](./papers/oopsla24/oopslab24-final.pdf)] Verified Instruction Scheduling**: Achieved the first ever fully verified instruction scheduling passes in a formally verified compiler
+- **[[OOPSLA'24](./papers/oopsla24/oopslab24-final.pdf)] Verified Instruction Scheduling**: Achieved the first ever fully verified instruction scheduling passes in a formally verified compiler
 - Q: How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
 - Q: How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) is correct w.r.t. their language design?
 - Q: How could equality saturation be used to improve a certified compiler optimization?
