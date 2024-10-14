@@ -58,7 +58,7 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 <u>Program Verification:</u>
 
-- **Ziteng Yang**, Jun Shirako, Vivek Sarkar, Fully Verified Instruction Scheduling, OOPSLA’24. [[  [DOI](https://doi.org/10.1145/3689739) | [PDF](./papers/oopsla24/oopslab24-final.pdf) ]]
+- **Ziteng Yang**, Jun Shirako, Vivek Sarkar, Fully Verified Instruction Scheduling, OOPSLA’24. [  [DOI](https://doi.org/10.1145/3689739) l [PDF](./papers/oopsla24/oopslab24-final.pdf) l [Slide]() ]
 
 <u>Automata Theory:</u> 
 
