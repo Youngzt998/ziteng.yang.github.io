@@ -2,7 +2,7 @@
 layout: home
 title: "PL&CS.Materials"
 permalink: /study/
-published: true
+published: false
 ---
 
 
