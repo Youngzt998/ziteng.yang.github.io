@@ -58,11 +58,15 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 <u>Program Verification:</u>
 
-- **Ziteng Yang**, Jun Shirako, Vivek Sarkar, Fully Verified Instruction Scheduling, OOPSLA’24. [  [DOI](https://doi.org/10.1145/3689739) l [PDF](./papers/oopsla24/oopslab24-final.pdf) l [Slide]() ]
+- **Ziteng Yang**, Jun Shirako, Vivek Sarkar, Fully Verified Instruction Scheduling, OOPSLA’24. 
+
+  [ [DOI](https://doi.org/10.1145/3689739) l [PDF](./papers/oopsla24/oopslab24-final.pdf) l [Slide]() ]
 
 <u>Automata Theory:</u> 
 
-- **Ziteng Yang**, Xiang Yin and Shaoyuan Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  [ [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report (Youtube)](https://youtu.be/GtbxR_OKfXU) ]
+- **Ziteng Yang**, Xiang Yin and Shaoyuan Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  
+
+  [ [DOI](https://doi.org/10.1016/j.ifacol.2020.12.2318) l [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report](https://youtu.be/GtbxR_OKfXU) ]
 
 # **Teaching Experience**
 
@@ -99,5 +103,5 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 - My hometown is [Chongqing](https://youtu.be/yzl4jc9E5GU?si=DSd5Imm1ZIIlUgCE), the [Night City](https://cyberpunk.fandom.com/wiki/Night_City) of China. Do pay a visit.
 - I'm a cat person. Here's [my cat](https://youngzt998.github.io/mycat/).
-- I love playing tennis so much that it hurts my scaphoid bone accidentally : (
+- I love tennis. (But it hurt my bone...)
 
