@@ -22,9 +22,9 @@ I'm open to internship. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 # **Research**
 
-My current major focus (PhD Thesis) is on improving certified compilation. In the mean time, I also pay attention to the area of parallelism & concurrency, computability theory etc. See the detailed problems I'm investigating below:
+My current major focus (PhD Thesis) is on improving certified compilation. In the meantime, I also pay attention to the area of parallelism & concurrency, computability theory etc. See the detailed problems I'm investigating below:
 
-**Program Logic & Certified Compilation** (major)
+**Program Logic & Certified Compilation** (Primary)
 
 - **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm that has both lightweight time complexity and verification burden.
 - **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Fixing a "missing correctness specification" of in the correctness of CompCert framework.
@@ -58,9 +58,9 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 <u>Program Verification:</u>
 
-- **Ziteng Yang**, Jun Shirako, Vivek Sarkar, Fully Verified Instruction Scheduling, OOPSLA’24. 
+- **Ziteng Yang**, Jun Shirako, and Vivek Sarkar. 2024. Fully Verified Instruction Scheduling. Proc. ACM Program. Lang. 8, OOPSLA2, Article 299 (October 2024), 26 pages.
 
-  [ [DOI](https://doi.org/10.1145/3689739) l [PDF](./papers/oopsla24/oopslab24-final.pdf) l [Slide]() ]
+  [ [DOI](https://doi.org/10.1145/3689739) l [PDF](./papers/oopsla24/oopsla24-final.pdf) l [Slide](./papers/oopsla24/oopsla24-slides.pdf) ]
 
 <u>Automata Theory:</u> 
 
