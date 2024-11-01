@@ -8,7 +8,7 @@ title: ""
 
 # **Biography** 
 
-I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/). My current research area are **program logic & verification**, **parallelism & concurrency**, and their application in compilers. 
+I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/). My current research area are **program logic & verification**, **parallelism & concurrency**, and their application in **compilers**.
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on **Automata Theory** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
 
@@ -36,7 +36,7 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 **Parallelism & Concurrency** (secondary)
 
-- **[Ongoing] Program Analysis on Data-race problems**: Investigating some better approaches on both static prediction and dynamic detection of data-races.
+- **[Reading] Program Analysis on Data-race problems**: Investigating some better approaches on both static prediction and dynamic detection of data-races.
 
 **Computability view of Program Verification and Analysis** (in spare time)
 
