@@ -8,11 +8,11 @@ title: ""
 
 # **Biography** 
 
-I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar**](https://vsarkar.cc.gatech.edu/). My current research area are **program logic & verification**, **parallelism & concurrency**, and their application in **compilers**.
+I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research area are **program logic & verification**, **parallelism & concurrency**, and their application in **compilers**.
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on **Automata Theory** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
 
-I'm open to internship. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
+I'm open to internship and general research collaborations. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
@@ -27,7 +27,7 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 **Program Logic & Certified Compilation** (Primary)
 
 - **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm that has both lightweight time complexity and verification burden.
-- **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Fixing a "missing correctness specification" of in the correctness of CompCert framework.
+- **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Investigating a "missing correctness specification" of CompCert framework.
 - **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] Verified Instruction Scheduling**: Achieved the first ever fully verified instruction scheduling passes in a formally verified compiler
 - Q: How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
 - Q: How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) is correct w.r.t. their language design?
