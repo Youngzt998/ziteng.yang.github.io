@@ -8,9 +8,9 @@ title: ""
 
 # **Biography** 
 
-I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research area are **program logic & verification**, **parallelism & concurrency**, and their application in **compilers**.
+I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research area **formal verification**, **proof assistant**, **compilers** and their applications for anything.
 
-Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on **Automata Theory** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
+Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
 
 I'm open to internship and general research collaborations. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
@@ -22,13 +22,13 @@ I'm open to internship and general research collaborations. Here is my **[CV](./
 
 # **Research**
 
-My current major focus (PhD Thesis) is on improving certified compilation. In the meantime, I also pay attention to the area of parallelism & concurrency, computability theory etc. See the detailed problems I'm investigating below:
+My current major focus (PhD Thesis) is on improving certified compilation. In the meantime, I also pay attention to the area of parallelism & concurrency, general PL theory etc. See the detailed problems I'm investigating below:
 
-**Program Logic & Certified Compilation** (Primary)
+**Formal Verification (Proof Assistant) & Certified Compilation** (Primary)
 
 - **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm that has both lightweight time complexity and verification burden.
 - **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Investigating a "missing correctness specification" of CompCert framework.
-- **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] Verified Instruction Scheduling**: Achieved the first ever fully verified instruction scheduling passes in a formally verified compiler
+- **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] Verified Instruction Scheduling**: Achieved the first ever fully verified instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling.
 - Q: How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
 - Q: How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) is correct w.r.t. their language design?
 - Q: How could equality saturation be used to improve a certified compiler optimization?
@@ -38,9 +38,9 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 - **[Reading] Program Analysis on Data-race problems**: Investigating some better approaches on both static prediction and dynamic detection of data-races.
 
-**Computability view of Program Verification and Analysis** (in spare time)
+**General Theory** (slowly, only in spare time)
 
-- Q: How do we establish a theory in computability view for [*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911) (programs annotated with its verification)
+- **Computability view of Program Verification and Analysis**: How do we establish a theory in computability view for [*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911) (programs annotated with its verification)?
 
 
 
