@@ -8,7 +8,7 @@ title: ""
 
 # **Biography** 
 
-I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research area **formal verification**, **proof assistant**, **compilers** and their applications for anything.
+I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research interests are **formal verification**, **proof assistant**, **compilers** and their applications for anything.
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
 
@@ -89,7 +89,7 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 **During Undergraduate Time**
 
-- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (20 persons school-wide each  year; **10,000 CNY**) , Oct. 2020
+- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (20 persons university-wide each  year; **10,000 CNY**) , Oct. 2020
   
   **荣昶科技创新奖学金, 提名奖 (人民币壹万元)**
 
