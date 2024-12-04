@@ -31,7 +31,7 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 - **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm that has both lightweight time complexity and verification burden.
 
-- **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling.
+- **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling.  
 
 - **Q:** How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
 
@@ -42,6 +42,8 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 - **Q:** How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) is correct w.r.t. their language design?
 
   A: Testing the reference [C interpreter](https://compcert.org/doc/html/compcert.cfrontend.Cexec.html) (verified to follow the semantics) and may also implement an assembly interpreter (not one yet).
+
+- **Q:** Correct-by-construction verification using proof assistant guarantees total correctness but requires heavy proof work and much harder to scale, while translation validation of compiler passes like [Alive2](https://dl.acm.org/doi/10.1145/3453483.3454030) is automatic, algorithm independent and works on real-world scenario. Should we desire both advantages in one method?
 
 **Parallelism & Concurrency** (slowly, secondary)
 
