@@ -55,13 +55,13 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 
 
-**Undergraduate Researches**
+**Undergraduate Research at SJTU**
 
 - **Compiler Correctness for Annotation Verifier** [Advised by [Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)]: 
   
   I worked on investigating correctness theory of compiling programs annotated with verification information ([*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911)) and using them as possible optimization hints. I proposed an extended semantic and verification framework and gave a trial on toy language/logic.
   
-  This expedition was continued by [Hanzhi Liu](https://scholar.google.com/citations?user=hEUk48QAAAAJ), [Yanning Chen](https://lightquantum.me/), etc. to go beyond toy language using my framework.
+  After I graduated, this expedition was continued by [Hanzhi Liu](https://scholar.google.com/citations?user=hEUk48QAAAAJ), [Yanning Chen](https://lightquantum.me/), etc. to go beyond toy language using my framework. Expecting some publication(s) later.
   
 - **[[IFAC'20](./papers/IFAC2020/IFAC2020-Final-Full.pdf)] Formal Control Theory (Automata Theory)** [Advised by [Xiang Yin](http://xiangyin.sjtu.edu.cn/)]: Investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
 
