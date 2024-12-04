@@ -12,9 +12,9 @@ I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programm
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
 
-I'm always open to general research collaboration. Feel free to reach out if you'd like to work on the problems I listed below or your ideas together.
+I'm always open to general research collaboration. <u>Feel free to reach out if you'd like to work on the problems I listed below or your ideas together.</u>
 
-I'm open to internship. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
+I'm <u>open to internship</u>. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
