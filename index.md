@@ -8,39 +8,50 @@ title: ""
 
 # **Biography** 
 
-I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research interests are **formal verification**, **proof assistant**, **compilers** and their applications for anything.
+I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research interests are **formal verification (proof assistant, especially)**, **compilers** and their applications for anything.
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
 
-I'm open to internship and general research collaborations. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
+I'm always open to general research collaboration. Feel free to reach out if you'd like to work on the problems I listed below or your ideas together.
+
+I'm open to internship. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
-- **Email Address (Institution):**  (fun x y => x dot y @gatech.edu) ziteng yang
-- **Physical Address:** ~~0C-DD-24-F6-DE-9C~~ [Klaus Advanced Computing Building](https://www.scs.gatech.edu/content/building-facilities), room 2319
-- [Twitter](https://twitter.com/_ziteng_yang_), [LinkedIn](https://www.linkedin.com/in/ziteng-yang-a149181b5/)
+- **Email:**  (fun x y z =>x dot y dot z @gatech.edu) cs ziteng yang
+- [LinkedIn](https://www.linkedin.com/in/ziteng-yang-a149181b5/), [Twitter](https://twitter.com/_ziteng_yang_)
 
 # **Research**
 
-My current major focus (PhD Thesis) is on improving certified compilation. In the meantime, I also pay attention to the area of parallelism & concurrency, general PL theory etc. See the detailed problems I'm investigating below:
+My current major focus (PhD Thesis) is on improving certified compilation. In the meantime, I also pay attention to the area of parallelism & concurrency, general theory etc. See the detailed problems I'm investigating below:
 
-**Formal Verification (Proof Assistant) & Certified Compilation** (Primary)
+**Formal Verification & Certified Compilation (Primary & Thesis Topic)** 
+
+- **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Investigating a "missing correctness specification" of CompCert framework.
 
 - **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm that has both lightweight time complexity and verification burden.
-- **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Investigating a "missing correctness specification" of CompCert framework.
-- **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] Verified Instruction Scheduling**: Achieved the first ever fully verified instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling.
-- Q: How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
-- Q: How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) is correct w.r.t. their language design?
-- Q: How could equality saturation be used to improve a certified compiler optimization?
-- Q: How to implement inter-procedural optimizations in a certified compiler? Is current general framework enough?
 
-**Parallelism & Concurrency** (secondary)
+- **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling.
 
-- **[Reading] Program Analysis on Data-race problems**: Investigating some better approaches on both static prediction and dynamic detection of data-races.
+- **Q:** How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
 
-**General Theory** (slowly, only in spare time)
+- **Q:** How could equality saturation be used to improve a certified compiler optimization?
 
-- **Computability view of Program Verification and Analysis**: How do we establish a theory in computability view for [*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911) (programs annotated with its verification)?
+- **Q:** How to implement inter-procedural optimizations in a certified compiler? Is current general framework enough?
+
+- **Q:** How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) is correct w.r.t. their language design?
+
+  A: Testing the reference [C interpreter](https://compcert.org/doc/html/compcert.cfrontend.Cexec.html) (verified to follow the semantics) and may also implement an assembly interpreter (not one yet).
+
+**Parallelism & Concurrency** (slowly, secondary)
+
+- **[Reading] Data-race problems**: Investigating possible new approaches on both static prediction and dynamic detection of data-races.
+- **[Reading] Program Verification with Concurrency**: concurrent separation logic, etc.
+- **[Reading] GPU Programming, Cuda, OpenMP, MLIR, etc.**
+
+**General Theory** (only in spare time, only for pleasure)
+
+- **Computability view of Program Verification and Analysis**: How do we establish a theory in computability view for certified programs annotated with its correctness information like [*Dafny*](https://dafny.org/), *[Viper](https://www.pm.inf.ethz.ch/research/viper.html)*, [*VST-A*](https://dl.acm.org/doi/10.1145/3632911), etc. ? 
 
 
 
@@ -48,11 +59,11 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 - **Compiler Correctness for Annotation Verifier** [Advised by [Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)]: 
   
-  I worked on investigating correctness theory of compiling programs annotated with verification information ([*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911)) and using them as optimization hints. I proposed an extended semantic and verification framework and gave a trial on toy language/logic. 
+  I worked on investigating correctness theory of compiling programs annotated with verification information ([*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911)) and using them as possible optimization hints. I proposed an extended semantic and verification framework and gave a trial on toy language/logic.
   
   This expedition was continued by [Hanzhi Liu](https://scholar.google.com/citations?user=hEUk48QAAAAJ), [Yanning Chen](https://lightquantum.me/), etc. to go beyond toy language using my framework.
   
-- **Supervisor Control of Timed Discrete-Event Systems** [Advised by [Xiang Yin](http://xiangyin.sjtu.edu.cn/)]: Investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
+- **[[IFAC'20](./papers/IFAC2020/IFAC2020-Final-Full.pdf)] Formal Control Theory (Automata Theory)** [Advised by [Xiang Yin](http://xiangyin.sjtu.edu.cn/)]: Investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
 
 # **Publications**
 
