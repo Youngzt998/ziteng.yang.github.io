@@ -39,9 +39,9 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 - **Q:** How to implement inter-procedural optimizations in a certified compiler? Is current general framework enough?
 
-- **Q:** How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) is correct w.r.t. their language design?
+- **Q:** How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) in CompCert is correct w.r.t. their language design?
 
-  A: Testing the reference [C interpreter](https://compcert.org/doc/html/compcert.cfrontend.Cexec.html) (verified to follow the semantics) and may also implement an assembly interpreter (not one yet).
+  A: Testing the reference [C interpreter](https://compcert.org/doc/html/compcert.cfrontend.Cexec.html) (verified to follow the semantics) is all we need (existing work can be found). The assembly semantics is already proved to simulate the C semantics.
 
 - **Q:** Correct-by-construction verification using proof assistant guarantees total correctness but requires heavy proof work and much harder to scale, while translation validation of compiler passes like [Alive2](https://dl.acm.org/doi/10.1145/3453483.3454030) is automatic, algorithm independent and works on real-world scenario, but only find false cases. Should we desire both advantages in one method?
 
