@@ -8,9 +8,9 @@ title: ""
 
 # **Biography** 
 
-I am a PhD student in the [PLSE Lab](https://www.scs.gatech.edu/content/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research interests are **formal verification (proof assistant, especially)**, **compilers** and their applications for anything.
+I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research interests are **formal method (proof assistant, especially)**, **compilers** and their applications for anything.
 
-Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** (specifically, *supervisory control* of *Discrete Event System*) during sophomore year.
+Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** for control problems during sophomore year.
 
 I'm always open to general research collaboration. <u>Feel free to reach out if you'd like to work on the problems I listed below or your ideas together.</u>
 
@@ -23,13 +23,13 @@ I'm <u>open to internship</u>. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 # **Research**
 
-My current major focus (PhD Thesis) is on improving certified compilation. In the meantime, I also pay attention to the area of parallelism & concurrency, general theory etc. See the detailed problems I'm investigating below:
+My current major focus (PhD Thesis) is improving methods for **<u>compiler correctness</u>** in different angle, especially using *[formal verification](https://en.wikipedia.org/wiki/Formal_verification)* through *[proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)*. See the detailed problems including other areas I'm investigating or interested below:
 
 **Formal Verification & Certified Compilation (Primary & Thesis Topic)** 
 
-- **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Investigating a "missing correctness specification" of CompCert framework.
+- **[Ongoing] Improving the Correctness Theory of Certified Compiler**: Investigating a "missing correctness specification" of CompCert framework through both testing and formal proofs.
 
-- **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm that has both lightweight time complexity and verification burden.
+- **[Ongoing] Verified Linear Scan Register Allocation**: Implementing an alternative register allocation algorithm in a formally verified compiler instead of graph-coloring algorithm to reduce both compile-time complexity and verification burden.
 
 - **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling.  
 
@@ -45,39 +45,39 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
 
 - **Q:** Correct-by-construction verification using proof assistant guarantees total correctness but requires heavy proof work and much harder to scale, while translation validation of compiler passes like [Alive2](https://dl.acm.org/doi/10.1145/3453483.3454030) is automatic, algorithm independent and works on real-world scenario, but only find false cases. Should we desire both advantages in one method?
 
-**Parallelism & Concurrency** (slowly, secondary)
+**Parallelism & Concurrency** (secondary, trying to find good methods for important problems)
 
 - **[Reading] Data-race problems**: Investigating possible new approaches on both static prediction and dynamic detection of data-races.
-- **[Reading] Program Verification with Concurrency**: concurrent separation logic, etc.
 - **[Reading] GPU Programming, Cuda, OpenMP, MLIR, etc.**
+- **[Reading] Program Verification with Concurrency**: concurrent separation logic, etc.
 
 **General Theory** (only in spare time, only for pleasure)
 
-- **Computability view of Program Verification and Analysis**: How do we establish a theory in computability view for certified programs annotated with its correctness information like [*Dafny*](https://dafny.org/), *[Viper](https://www.pm.inf.ethz.ch/research/viper.html)*, [*VST-A*](https://dl.acm.org/doi/10.1145/3632911), etc. ? 
+- **Computability view of Program Verification and Analysis**: How do we establish a theory in computability view for certified programs annotated with its correctness information like [*Dafny*](https://dafny.org/), *[Viper](https://www.pm.inf.ethz.ch/research/viper.html)*, [*VST-A*](https://dl.acm.org/doi/10.1145/3632911), etc. ? Can we prove non-trivial new theorems based on such model?
 
 
 
 **Undergraduate Research at SJTU**
 
-- **Compiler Correctness for Annotation Verifier** [Advised by [Qinxiang Cao](https://jhc.sjtu.edu.cn/people/members/faculty/qinxiang-cao.html)]: 
+- **Compiler Correctness for Annotation Verifier** [Corresponding author is [Dr. Qinxiang Cao](https://dblp.org/pid/141/1017.html)]: 
   
-  I worked on investigating correctness theory of compiling programs annotated with verification information ([*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911)) and using them as possible optimization hints. I proposed an extended semantic and verification framework and gave a trial on toy language/logic.
+  I worked on investigating correctness theory of a new idea: compiling programs annotated with verification information ([*annotation verifier*](https://dl.acm.org/doi/10.1145/3632911)) and using them as possible optimization hints. I proposed an extended semantic and verification framework and gave a trial on toy language/logic.
   
   After I graduated, this expedition was continued by [Hanzhi Liu](https://scholar.google.com/citations?user=hEUk48QAAAAJ), [Yanning Chen](https://lightquantum.me/), etc. to go beyond toy language using my framework. Expecting some publication(s) later.
   
-- **[[IFAC'20](./papers/IFAC2020/IFAC2020-Final-Full.pdf)] Formal Control Theory (Automata Theory)** [Advised by [Xiang Yin](http://xiangyin.sjtu.edu.cn/)]: Investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event.
+- **[[IFAC'20](./papers/IFAC2020/IFAC2020-Final-Full.pdf)] Formal Control Theory (Automata Theory)** [Advised by [Xiang Yin](http://xiangyin.sjtu.edu.cn/)]: Investigated the supervisory control problem for timed discrete-event systems (TDES) under partial observation where time was considered as a special event of an automata.
 
 # **Publications**
 
 <u>Program Verification:</u>
 
-- **Ziteng Yang**, Jun Shirako, and Vivek Sarkar. 2024. Fully Verified Instruction Scheduling. Proc. ACM Program. Lang. 8, OOPSLA2, Article 299 (October 2024), 26 pages.
+- **Ziteng Yang**, Jun Shirako, and Vivek Sarkar. 2024. Fully Verified Instruction Scheduling. Proc. ACM Program. Lang. 8, **OOPSLA**2, Article 299 (October 2024), 26 pages.
 
   [ [DOI](https://doi.org/10.1145/3689739) l [PDF](./papers/oopsla24/oopsla24-final.pdf) l [Slide](./papers/oopsla24/oopsla24-slides.pdf) ]
 
 <u>Automata Theory:</u> 
 
-- **Ziteng Yang**, Xiang Yin and Shaoyuan Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st IFAC World Congress, 2020.  
+- **Ziteng Yang**, Xiang Yin and Shaoyuan Li. “Maximally permissive supervisor control of timed discrete-event systems under partial observation,” in 21st **IFAC** World Congress, 2020.  
 
   [ [DOI](https://doi.org/10.1016/j.ifacol.2020.12.2318) l [PDF](./papers/IFAC2020/IFAC2020-Final-Full.pdf)  l  [Slide](./papers/IFAC2020/IFAC2020-Slides.pdf) l  [Video Report](https://youtu.be/GtbxR_OKfXU) ]
 
@@ -110,7 +110,7 @@ My current major focus (PhD Thesis) is on improving certified compilation. In th
   
   **上海交通大学校优奖学金, C等 (人民币伍佰元)**
 
-  
+
 
 # **Misc**
 
