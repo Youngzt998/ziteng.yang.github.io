@@ -8,13 +8,13 @@ title: ""
 
 # **Biography** 
 
-I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research interests are **formal method (proof assistant, especially)**, **compilers** and their applications for anything.
+I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research interests are **formal method (proof assistant, especially)**, **compilers** and their applications for anything. **[News: I'll be taking Applied Scientist Internship at Amazon's [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) during Spring 2025]**
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** for control problems during sophomore year.
 
 I'm always open to general research collaboration. <u>Feel free to reach out if you'd like to work on the problems I listed below or your ideas together.</u>
 
-I'm <u>open to internship</u>. Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
+Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
@@ -34,8 +34,6 @@ My current major focus (PhD Thesis) is improving methods for **<u>compiler corre
 - **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling.  
 
 - **Q:** How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
-
-- **Q:** How could equality saturation be used to improve a certified compiler optimization?
 
 - **Q:** How to implement inter-procedural optimizations in a certified compiler? Is current general framework enough?
 
@@ -102,7 +100,7 @@ My current major focus (PhD Thesis) is improving methods for **<u>compiler corre
 
 **During Undergraduate Time**
 
-- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (20 persons university-wide each  year; **10,000 CNY**) , Oct. 2020
+- **Rongchang Scholarship for Science and Technology Innovation, Finalist** (**10,000 CNY**; 10 winners and 10 finalists among university each year) , Oct. 2020
   
   **荣昶科技创新奖学金, 提名奖 (人民币壹万元)**
 
