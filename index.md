@@ -8,9 +8,9 @@ title: ""
 
 # **Biography** 
 
-I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021, advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/). My current research interests are **formal method (proof assistant, especially)**, **compilers** and their applications for anything. 
+My name is pronounced [Tzi-Teng Young]. I am a PhD student in the [PLSE Group](https://scs.gatech.edu/programming-languages-software-engineering) at **[Georgia Institute of Technology (GT)](https://www.gatech.edu/)** since 2021. I'm fortunate to be advised by Prof. [**Vivek Sarkar** ](https://vsarkar.cc.gatech.edu/), John P. Imlay, Jr. Dean of the College of Computing. My current research interests are **formal method (proof assistant, especially)**, **compilers** and their applications for anything.
 
-**[News: I'll be taking Applied Scientist Internship at [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning)@Amazon Web Services (AWS), working on correctness for ML Compilers starting Jan. 2025.]**
+**News: I'm taking a small gap-year in tech company in 2025 for practical training on research and engineering around compiler technology and formal methods. I'll take Applied Scientist Internship at [Automated Reasoning Group](https://www.amazon.science/research-areas/automated-reasoning) at Amazon Web Services (AWS) starting Jan. 2025, lead by Dr. [Daniel Kröning](https://www.kroening.com/), working on a research project about formal correctness of ML Compilers .**
 
 Before joining Georgia Tech, I spent my undergraduate time at **[Shanghai Jiao Tong University (SJTU)](https://www.sjtu.edu.cn/)**, major in [Computer Science](http://www.cs.sjtu.edu.cn/en/).  I was advised by Prof. **[Qinxiang Cao](https://dblp.org/pid/141/1017.html)** and worked on ***compiler correctness*** and ***mathematical logic*** in the ***Coq proof assistant*** from junior to senior year. Prior to that I studied in Prof. **[Xiang Yin](http://xiangyin.sjtu.edu.cn/)**'s' group and worked on ***automata theory*** for control problems during sophomore year.
 
@@ -20,7 +20,7 @@ Here is my **[CV](./cv/CV_ZitengYang.pdf)**.
 
 **Contact Information:**
 
-- **Email:**  (fun x y z =>x dot y dot z @gatech.edu) cs ziteng yang
+- **Email:**  (fun x y z =>x dot y dot z @gmail.com) cs ziteng yang
 - [LinkedIn](https://www.linkedin.com/in/ziteng-yang-a149181b5/), [Twitter](https://twitter.com/_ziteng_yang_)
 
 # **Research**
@@ -35,9 +35,13 @@ My current major focus (PhD Thesis) is improving methods for **<u>compiler corre
 
 - **[[OOPSLA'24](./papers/oopsla24/oopsla24-final.pdf)] [Improving] Verified Instruction Scheduling**: Achieved **<u>the first ever</u>** <u>fully verified</u> instruction scheduling passes in a formally verified compiler. Further exploration are into verified inter-block scheduling.  
 
+- **[Intern@Amazon] Correctness for ML Compilers** 
+
 - **Q:** How do we improve the general framework for CompCert to make a parallelizing compilation (e.g. Parallelizing loops in GCC -O3 optimization)
 
 - **Q:** How to implement inter-procedural optimizations in a certified compiler? Is current general framework enough?
+
+- **Q:** How can undefined behavior (UB) be exploit in a certified compiler [like LLVM did](https://dl.acm.org/doi/10.1145/3062341.3062343)?
 
 - **Q:** How do we ensure that the formal semantics specification of C (source language) and assembly/machine language (target language) in CompCert is correct w.r.t. their language design?
 
@@ -53,7 +57,7 @@ My current major focus (PhD Thesis) is improving methods for **<u>compiler corre
 
 **General Theory** (only in spare time, only for pleasure)
 
-- **Computability view of Program Verification and Analysis**: How do we establish a theory in computability view for certified programs annotated with its correctness information like [*Dafny*](https://dafny.org/), *[Viper](https://www.pm.inf.ethz.ch/research/viper.html)*, [*VST-A*](https://dl.acm.org/doi/10.1145/3632911), etc. ? Can we prove non-trivial new theorems based on such model?
+- **Computability view of Program Verification and Analysis**: How do we establish a theory in computability view for certified programs annotated with its correctness information like [*Dafny*](https://dafny.org/), *[Viper](https://www.pm.inf.ethz.ch/research/viper.html)*, [*VST-A*](https://dl.acm.org/doi/10.1145/3632911), etc. ? Can we conclude any non-trivial new theorems based on such model?
 
 
 
